@@ -1,0 +1,105 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "badd0a5e-60aa-44ef-b0df-de1487971df6": {
+      "type": "new-announcement-bar",
+      "blocks": {
+        "sections--16101594202273__badd0a5e-60aa-44ef-b0df-de1487971df6-16871788883fe502cc-0": {
+          "type": "message",
+          "settings": {
+            "message_text": "Kostenloser Versand",
+            "message_icon": "shopify:\/\/shop_images\/versand_icon_weiss.png"
+          }
+        },
+        "sections--16101594202273__badd0a5e-60aa-44ef-b0df-de1487971df6-16871788883fe502cc-1": {
+          "type": "message",
+          "settings": {
+            "message_text": "Bequeme Ratenzahlung",
+            "message_icon": "shopify:\/\/shop_images\/Icon_Smart_Weiss.png"
+          }
+        },
+        "sections--16101594202273__badd0a5e-60aa-44ef-b0df-de1487971df6-16871788883fe502cc-2": {
+          "type": "message",
+          "settings": {
+            "message_text": "Über 3.500 zufriedene Kunden",
+            "message_icon": "shopify:\/\/shop_images\/sterne_1_44cfe9b7-a826-42fc-adba-46f11c828ed4.png"
+          }
+        },
+        "sections--16101594202273__badd0a5e-60aa-44ef-b0df-de1487971df6-16871788883fe502cc-3": {
+          "type": "message",
+          "settings": {
+            "message_text": "Kontakt: support@bru-tea.com",
+            "message_icon": "shopify:\/\/shop_images\/Kontakt_Icon_weiss.png"
+          }
+        }
+      },
+      "block_order": [
+        "sections--16101594202273__badd0a5e-60aa-44ef-b0df-de1487971df6-16871788883fe502cc-0",
+        "sections--16101594202273__badd0a5e-60aa-44ef-b0df-de1487971df6-16871788883fe502cc-1",
+        "sections--16101594202273__badd0a5e-60aa-44ef-b0df-de1487971df6-16871788883fe502cc-2",
+        "sections--16101594202273__badd0a5e-60aa-44ef-b0df-de1487971df6-16871788883fe502cc-3"
+      ],
+      "settings": {
+        "background_color": "#8ba473",
+        "text_color": "#ffffff"
+      }
+    },
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "disabled": true,
+      "blocks": {
+        "message": {
+          "type": "message",
+          "settings": {
+            "text": "Wir führen derzeit einige Änderungen an unserer Website durch. Daher können einige Seiten vorübergehend unvollständig oder seltsam aussehen.",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "message"
+      ],
+      "settings": {
+        "enable_sticky": false,
+        "text_size": "text-xs",
+        "navigation_mode": "scrolling",
+        "scrolling_speed": 10,
+        "background": "#aaa9c4",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "enable_sticky": true,
+        "hide_on_scroll": false,
+        "logo": "shopify:\/\/shop_images\/BRU_name_logo_color_mini_without_background_PNG_5bdb8f37-2420-4737-95e7-e076623af366.png",
+        "logo_max_width": 105,
+        "logo_mobile_max_width": 100,
+        "menu": "main-menu",
+        "sidebar_menu": "",
+        "secondary_menu": "",
+        "menu_open_trigger": "hover",
+        "opening_from": "left",
+        "layout": "logo_center_navigation_inline",
+        "show_social_media": true,
+        "show_locale_selector": true,
+        "show_country_selector": false,
+        "show_country_flag": true,
+        "show_country_name": false,
+        "transparent_header_text_color": "#1a2f33",
+        "transparent_logo": "shopify:\/\/shop_images\/BRU_name_logo_color_mini_without_background_PNG_5bdb8f37-2420-4737-95e7-e076623af366.png",
+        "reduce_padding": true,
+        "background_opacity": 100,
+        "background_blur_radius": 0
+      }
+    }
+  },
+  "order": [
+    "badd0a5e-60aa-44ef-b0df-de1487971df6",
+    "announcement-bar",
+    "header"
+  ]
+}

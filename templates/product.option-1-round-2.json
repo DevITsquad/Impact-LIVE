@@ -1,0 +1,600 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": true
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "7c9cb172-51ac-4b48-960a-0f5472883037": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ONLY for backers who backed multiple machines: select the amount<\/p>"
+          }
+        },
+        "1f638467-3840-4809-95f8-d3314fed9c28": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "allowed_iso": "",
+            "allowed_iso2": "",
+            "button_text": "",
+            "button_link": "",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "show_payment_button": true,
+            "atc_button_background": "#1a2f33",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "#8ba473",
+            "payment_button_text_color": "#ffffff"
+          }
+        },
+        "9a1c695d-98f2-4612-a21b-47c76f47aef8": {
+          "type": "collapsible_text",
+          "disabled": true,
+          "settings": {
+            "title": "Was ist eine Teemaschine?",
+            "content": "<p>Noch nie war es so einfach, eine köstliche Tasse Tee zuzubereiten. Die BRU Maker One Teemaschine funktioniert mit <strong>allen Arten von losem Tee oder Teebeuteln.<\/strong> <\/p><p>Die intuitive Benutzeroberfläche ermöglicht es dir, Tee auf Knopfdruck zuzubereiten. Du kannst die <strong>Wassertemperatur, die Wassermenge und die Brühzeit <\/strong>präzise einstellen und steuern. <\/p><p>Auf diese Weise wird dein Tee immer genau so schmecken wie du es magst.<\/p><p>Die patentierte Reinigungstechnologie verhindert Ablagerungen<strong> <\/strong>und garantiert, dass <strong>kein Nachgeschmack <\/strong>zwischen verschiedenen Teesorten entsteht.<\/p><p>Falls du einfach mal heisses Wasser brauchst, kannst du gerne die Heisswasserspender-Funktion verwenden. Dadurch wird der <strong>Wasserkocher überflüssig.<\/strong><\/p>"
+          }
+        },
+        "e3a8a020-a236-484a-b03d-522e2ea6c63e": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Technische details",
+            "content": "<p>Breite: 14,4 cm<br\/>Tiefe: 32,5 cm<br\/>Höhe: 34 cm<br\/>Max. Tassenhöhe: 16cm<br\/>Gewicht: 3,2 kg<br\/>Wassertankvolumen: 3 L<br\/>Gesamtleistung: 2000 Watt<br\/>Stand-By Leistung: &lt;1 Watt<\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/7008\/3745\/files\/BRU_Maker_One_EU_Produkspezifikationen-komprimiert.pdf?v=1678006542\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0412\/7008\/3745\/files\/BRU_Maker_One_EU_Produkspezifikationen-komprimiert.pdf?v=1678006542\"><strong>Produktspezifikationen herunterladen<\/strong><\/a><\/p>"
+          }
+        },
+        "690b007f-775f-4db6-b4ed-0db4dec8889f": {
+          "type": "collapsible_text",
+          "disabled": true,
+          "settings": {
+            "title": "Versand und Garantie",
+            "content": "<p><strong>Kostenloser Versand<\/strong> innerhalb Deutschlands und der Schweiz. <\/p><p><\/p><p>Es entstehen <strong>keine Zoll- oder Importgebühren. <\/strong>Versand erfolgt ab deutschem bzw. schweizer Lager<\/p><p><strong>2 Jahre Garantie<\/strong> mit kostenlosem Umtausch im Falle eines Defektes.<br\/><br\/>Unser <strong>Kundensupport<\/strong> ist rund um die Uhr für dich da auf support@bru-tea.com<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "description",
+        "payment_terms",
+        "price",
+        "separator",
+        "variant_picker",
+        "7c9cb172-51ac-4b48-960a-0f5472883037",
+        "1f638467-3840-4809-95f8-d3314fed9c28",
+        "buy_buttons",
+        "9a1c695d-98f2-4612-a21b-47c76f47aef8",
+        "e3a8a020-a236-484a-b03d-522e2ea6c63e",
+        "690b007f-775f-4db6-b4ed-0db4dec8889f"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": false,
+        "desktop_media_width": 50,
+        "desktop_media_layout": "grid_highlight",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 4,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "4da0fcdd-893b-46f0-b213-ef03713587f6": {
+      "type": "faq",
+      "blocks": {
+        "template--16040932081825__4da0fcdd-893b-46f0-b213-ef03713587f6-16788696475d6ea8d4-0": {
+          "type": "item",
+          "settings": {
+            "title": "What is the timeline for Option 1 - Round 2?",
+            "content": "<p>Putting everything together, this is the<strong> predicted timeline for Option 1 – Round 2<\/strong><\/p><p><\/p><ul><li><strong>Mid-End of April:<\/strong> we will place the order for the machines.<\/li><\/ul><p><\/p><ul><li><strong>8 –10 weeks after placing the order <\/strong>is the time needed to produce the machines (so  June-July)<\/li><\/ul><p><\/p><ul><li><strong>4-6 weeks shipping<\/strong> time after production is done (so July-August) The BRU Maker One will arrive at your doorstep.<\/li><\/ul><p><strong>DISCLAIMER for all Backers: this timeline is an estimation, not a guarantee. <\/strong><\/p><p><strong>DISCLAIMER for 120V Backers: The certification is still in progress. Until the certification documents are not released by the authorities, additional delays can occur.<\/strong><\/p><p><strong>Delays can always occur and are not a reason for a refund.<\/strong><\/p><p>For the <strong>German and Swiss <\/strong>backers that choose Option 1: the timeline is the same as for all other Option 1 backers, as it looks like we don't have the possibility to ship from our Swiss and German partner's warehouses anymore.<\/p>"
+          }
+        },
+        "template--16040932081825__4da0fcdd-893b-46f0-b213-ef03713587f6-16788696475d6ea8d4-1": {
+          "type": "item",
+          "settings": {
+            "title": "What plug will my machine have?",
+            "content": "<p>We will determine your plug type based on the country your delivery address is in. <\/p>"
+          }
+        },
+        "template--16040932081825__4da0fcdd-893b-46f0-b213-ef03713587f6-16788696475d6ea8d4-2": {
+          "type": "item",
+          "settings": {
+            "title": "If I backed multiple machines, can I get all of them delivered under option 1 - round 2?",
+            "content": "<p>Yes, you can. If you backed multiple machines, you can select the amount of machines that you want to receive under option 1 - round 2 (you can also select different colors for every machine). The amount of machines that you did not select, will be considered as option 2. <\/p><p>So, as an example: If a backer backed 3 machines, and they would select 2 to be delivered under option 1 - round 2, they will pay 2x the amount (unfortunately we can not lower the price with multiple machines because we can only ship in single packages), and they will get their 2 machines as option 1, and the 3rd machine as option 2.<\/p><p>IMPORTANT: you can NOT get more machines than you backed. So if you backed 1 machine and select 2 now, you will still only get 1 machine. We will check every order with the original backers list.<\/p>"
+          }
+        },
+        "2a7ed51f-0512-4934-a76b-9934000214c3": {
+          "type": "item",
+          "settings": {
+            "title": "Should I choose 120V or 220V?",
+            "content": "<p>The choice should be based upon  the country you want to use the machine in. In general, the distribution is as follows:<\/p><p><strong>120V (for countries between 110 -140V)<\/strong><\/p><p>Aruba<br\/>Bahamas<br\/>Barbados<br\/>Belize (Br.Hond.)<br\/>Bermuda<br\/>Cambodia<br\/>Canada<br\/>Cayman Islands<br\/>Costa Rica<br\/>Cuba<br\/>Dominican Rep.<br\/>Ecuador<br\/>El Salvador<br\/>Guam<br\/>Guatemala<br\/>Guyana<br\/>Haiti<br\/>Honduras<br\/>Jamaica<br\/>Japan<br\/>Liberia<br\/>Mexico<br\/>Nicaragua<br\/>North Mariana Island<br\/>Okinawa<br\/>Panama<br\/>Philippines<br\/>Puerto Rico<br\/>Somalia<br\/>Surinam<br\/>Taiwan<br\/>Tonga<br\/>United States<br\/>Venezuela<\/p><p>Virgin Islands<\/p><p><strong>220V (for countries between 210 -240V)<\/strong><\/p><p>Afghanistan<br\/>Algeria<br\/>American Samoa<br\/>Andorra<br\/>Angola<br\/>Anquilla<br\/>Antigua<br\/>Argentina<br\/>Australia<br\/>Austria<br\/>Azores<br\/>Bahrain<br\/>Bangladesh<br\/>Belgium<br\/>Belarus<br\/>Benin<br\/>Bolivia<br\/>Bosnia-Herzegovina<br\/>Botswana<br\/>Brazil (!can also be 120V, please research thourougly based on your region before ordering)<br\/>Bulgaria<br\/>Burkina Faso<br\/>Burma (now Myanmar)<br\/>Burundi<br\/>Cameroon<br\/>Canary Islands (Spain)<br\/>Cape Verde, Rep. Of<br\/>Central African Rep.<br\/>Chad<br\/>Channel Islands<br\/>Chile<br\/>China, People's Rep.of<br\/>Colombia<br\/>Congo,Rep. Of<br\/>Cook Is. (N.Z.)<br\/>Croatia<br\/>Cyprus<br\/>Czech. Rep of<br\/>Denmark<br\/>Djibouti, Rep. Of<br\/>Dominica<br\/>Egypt<br\/>England<br\/>Equatorial Guinea<br\/>Estonia<br\/>Ethiopia<br\/>Fiji<br\/>Finland<br\/>France<br\/>French Guyana<br\/>Gabon<br\/>Gambia<br\/>Germany<br\/>Ghana<br\/>Gibraltar<br\/>Greece<br\/>Greenland<br\/>Grenada<br\/>Guadeloupe<br\/>Guinea<br\/>Guinea-Bissau<br\/>Hong Kong<br\/>Hungary<br\/>Iceland<br\/>India<br\/>Indonesia<br\/>Iran<br\/>Iraq<br\/>Ireland, Rep.of (S.)<br\/>Isle of Man<br\/>Israel<br\/>Italy<br\/>Ivory Coast<br\/>Jordan<br\/>Kenya<br\/>Korea, S.<br\/>Kuwait<br\/>Laos<br\/>Latvia<br\/>Lebanon<br\/>Lesotho<br\/>Lettonia<br\/>Libya<br\/>Liechtenstein<br\/>Lithuania<br\/>Luxembourg<br\/>Macao<br\/>Madagascar<br\/>Madeira (Portugal)<br\/>Majorca<br\/>Malawi<br\/>Malaysia<br\/>Maldives<br\/>Mali, Rep. Of<br\/>Malta<br\/>Martinique<br\/>Mauritania<br\/>Mauritius<br\/>Moldova<br\/>Monaco<br\/>Mongolia<br\/>Montserrat<br\/>Morocco<br\/>Mozambique<br\/>Namibia (W.S. Africa)<br\/>Nepal<br\/>Neth. Antilles<br\/>Netherlands<br\/>New Caledonia<br\/>New Guinea<br\/>New Zealand<br\/>Niger<br\/>Nigeria<br\/>Northern Ireland<br\/>Norfolk Island (Aust)<br\/>Norway<br\/>Oman<br\/>Pakistan<br\/>Papua New Guinea<br\/>Paraguay<br\/>Peru<br\/>Pitcairn Islands (UK)<br\/>Poland<br\/>Portugal<br\/>Qatar<br\/>Romania<br\/>Russia<br\/>Rwanda<br\/>Saudi Arabia<br\/>Scotland<br\/>Senegal<br\/>Serbia<br\/>Seychelles<br\/>Sierra Leone<br\/>Singapore<br\/>Slovakia<br\/>South Africa<br\/>Spain<br\/>Sri Lanka<br\/>St. Kitts & Nevis<br\/>St. Lucia<br\/>St. Pierre & Miquelon (Fr.)<br\/>St. Vincent<br\/>Sudan<br\/>Svalbard (Norway)<br\/>Swaziland<br\/>Sweden<br\/>Switzerland<br\/>Syria<br\/>Tahiti<br\/>Tanzania<br\/>Thailand<br\/>Togo<br\/>Trinidad Tobago<br\/>Tunisia<br\/>Turkey<br\/>Uganda<br\/>Ukraine<br\/>United Arab Emir.<br\/>United Kingdom\/Ireland<br\/>Uruguay<br\/>Vietnam<br\/>Wales<br\/>Western Samoa<br\/>Yemen<br\/>Zaire, Rep.of<br\/>Zambia<\/p><p>Please note that this is just a general division based on the information we have, and that your siuation can vary locally so if you are unsure we advise to do your own research.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16040932081825__4da0fcdd-893b-46f0-b213-ef03713587f6-16788696475d6ea8d4-0",
+        "template--16040932081825__4da0fcdd-893b-46f0-b213-ef03713587f6-16788696475d6ea8d4-1",
+        "template--16040932081825__4da0fcdd-893b-46f0-b213-ef03713587f6-16788696475d6ea8d4-2",
+        "2a7ed51f-0512-4934-a76b-9934000214c3"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Your questions about option 1 - round 2 answered<\/p>",
+        "team_avatar_width": 160,
+        "support_hours": "Any questions that we did not answer? Send us an email!",
+        "answer_time": "support@bru-tea.com",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "167939736239fd313a": {
+      "type": "apps",
+      "blocks": {
+        "60542054-2d75-4eba-8cfd-e6a139b075ef": {
+          "type": "shopify:\/\/apps\/fera-product-reviews-app\/blocks\/product_reviews\/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
+          "settings": {
+            "heading": "Product Reviews",
+            "layout": "list",
+            "star_color": "#ffd84f",
+            "when_no_reviews": "show_from_related"
+          }
+        }
+      },
+      "block_order": [
+        "60542054-2d75-4eba-8cfd-e6a139b075ef"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "2d9f5012-f1b1-4a1f-8a55-120711be2f48": {
+      "type": "tabs",
+      "disabled": true,
+      "blocks": {
+        "template--16021927919777__2d9f5012-f1b1-4a1f-8a55-120711be2f48-1676904062e2dacbfc-0": {
+          "type": "tab",
+          "settings": {
+            "title": "Beschreibung",
+            "content": "<p>Noch nie war es so einfach, eineköstliche Tasse Tee zuzubereiten. Die BRU Maker One TeemaschinefunktioniertmitallenArten von losem Tee oderTeebeuteln. Die intuitive Benutzeroberflächeermöglicht es Ihnen, Tee auf Knopfdruckzuzubereiten. Siekönnen die Wassertemperatur, die Wassermenge und die Ziehzeitgenausteuern. Auf diese Weise können Sieimmer die gleiche Tasse Tee zubereiten, ohneKompromissebei der Qualitäteinzugehen.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16021927919777__2d9f5012-f1b1-4a1f-8a55-120711be2f48-1676904062e2dacbfc-1": {
+          "type": "tab",
+          "settings": {
+            "title": "Technische details",
+            "content": "<p>Breite:  14,4 cm<br\/>Tiefe: 32,5 cm<br\/>Höhe: 34 cm<br\/>Max. Tassenhöhe: 16cm<br\/>Gewicht: 3,2 kg<br\/>Wassertankvolumen: 3 L<br\/>Gesamtleistung: 2000 Watt<br\/>Stand-By Leistung: &lt;1 Watt<\/p><p><\/p>",
+            "page": ""
+          }
+        },
+        "template--16021927919777__2d9f5012-f1b1-4a1f-8a55-120711be2f48-1676904062e2dacbfc-2": {
+          "type": "tab",
+          "settings": {
+            "title": "Was Kunden sagen",
+            "content": "",
+            "page": ""
+          }
+        },
+        "0532235b-ec6c-4db3-ab56-55a3b529a380": {
+          "type": "tab",
+          "settings": {
+            "title": "Versand und Garantie",
+            "content": "<p>ee<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16021927919777__2d9f5012-f1b1-4a1f-8a55-120711be2f48-1676904062e2dacbfc-0",
+        "template--16021927919777__2d9f5012-f1b1-4a1f-8a55-120711be2f48-1676904062e2dacbfc-1",
+        "template--16021927919777__2d9f5012-f1b1-4a1f-8a55-120711be2f48-1676904062e2dacbfc-2",
+        "0532235b-ec6c-4db3-ab56-55a3b529a380"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "full_width": false,
+        "content_size": "medium",
+        "subheading": "",
+        "title": "",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "554e92ce-baa1-44c9-8267-3c507f441f19": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--16021927919777__554e92ce-baa1-44c9-8267-3c507f441f19-167692475089a5d378-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BRU_use_any_type_of_tea_in_your_tea_machine.jpg",
+            "media_width": 35,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "picto-love",
+            "custom_icon": "shopify:\/\/shop_images\/pdp_icon_2.png",
+            "icon_width": 84,
+            "subheading": "",
+            "title": "Du entscheidest, was gebrüht werden soll",
+            "content": "<p>Der BRU Maker One funktioniert mit jeder Art von losem Tee, Teebeuteln sowie jeder Art von Kräuteren oder Früchten. <\/p><p>Du benötigst keine verschwenderischen Teekapseln oder Pads.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a2f33",
+            "text_gradient": "",
+            "button_background": "rgba(0,0,0,0)",
+            "button_text_color": "{{ shop.brand.colors.primary[0].foreground }}"
+          }
+        },
+        "afa66c6a-c236-49ef-8924-d8b140186fd6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BRU_Maker_temperature_controlled_tea_maker_replaces_electric_kettle-01_1.jpg",
+            "media_width": 60,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/pdp_icon_1.png",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Tschüss Wasserkocher",
+            "content": "<p><strong>Teeautomat und Heisswasserspender<\/strong><br\/><br\/>Kein Platz in der Küche? Kein Problem! <\/p><p>Die Heisswasserfunktion macht den Wasserkocher in deiner Küche überflüssig.<br\/><br\/>Einfach heisses Wasser auf Knopfdruck in der gewünschten Temperatur und Menge. <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a2f33",
+            "text_gradient": "",
+            "button_background": "{{ shop.brand.colors.primary[0].foreground }}",
+            "button_text_color": "{{ shop.brand.colors.primary[0].foreground }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--16021927919777__554e92ce-baa1-44c9-8267-3c507f441f19-167692475089a5d378-0",
+        "afa66c6a-c236-49ef-8924-d8b140186fd6"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "20bdf6fa-663e-4203-af58-44fda94f3c8f": {
+      "type": "video",
+      "blocks": {
+        "template--16021927919777__20bdf6fa-663e-4203-af58-44fda94f3c8f-1676906865eacbaf0a-0": {
+          "type": "play",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "template--16021927919777__20bdf6fa-663e-4203-af58-44fda94f3c8f-1676906865eacbaf0a-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Der BRU Maker One in Aktion!",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16021927919777__20bdf6fa-663e-4203-af58-44fda94f3c8f-1676906865eacbaf0a-0",
+        "template--16021927919777__20bdf6fa-663e-4203-af58-44fda94f3c8f-1676906865eacbaf0a-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/MVI_2516_1.mp4",
+        "external_video_url": "",
+        "text_color": "#ffffff",
+        "overlay_color": "#1a1a1a",
+        "overlay_opacity": 0
+      }
+    },
+    "6be2b4bb-8373-474a-93ea-518abb2c2453": {
+      "type": "before-after-image",
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "Mehr als eine Tasse Tee? Kein Problem!",
+        "content": "<p>Der BRU Maker One kann auch problemlos eine grössere Menge an Tee zubereiten. Der automatische Mehrfachaufguss führt mehrere Brühvorgänge nacheinander durch, sodass du bis zu 1.4 Liter Tee auf Knopfdruck zubereiten kannst.<\/p>",
+        "before_image": "shopify:\/\/shop_images\/BRU_Maker_One_white_chrome_automatic_tea_machine_1.jpg",
+        "after_image": "shopify:\/\/shop_images\/BRU_Maker_One_white_chrome_hot_tea_brewer_tea_pot_1.jpg",
+        "expand_image": false,
+        "text_position": "center",
+        "before_after_text_position": "top",
+        "before_text": "",
+        "after_text": "",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
+    "2f841e20-4c14-4e5f-b022-553d7d94cb45": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--16021927919777__2f841e20-4c14-4e5f-b022-553d7d94cb45-1677059288fe404236-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/pdp_icon_4.png",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "einzigartig und praktisch  ",
+            "content": "<p>Bereite deine Tasse auf Knopfdruck zu, mit der perfekten Temperatur, Brühzeit und Wassermenge, aber ohne den ganzen Aufwand. Die Reinigung ist dank der patentierten Spülfunktion ein Kinderspiel. <\/p>"
+          }
+        },
+        "template--16021927919777__2f841e20-4c14-4e5f-b022-553d7d94cb45-1677059288fe404236-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/pdp_icon_10.png",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "konstanter Geschmack  ",
+            "content": "<p>Verwende deine eigenen Parameter, oder wähle eine Voreinstellung für grünen, schwarzen oder Kräutertee, um immer den gleichen Teegeschmack zu erhalten! <\/p>"
+          }
+        },
+        "template--16021927919777__2f841e20-4c14-4e5f-b022-553d7d94cb45-1677059288fe404236-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/pdp_icon_5.png",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Nachhaltig  ",
+            "content": "<p>Der BRU Maker One erhitzt nur die benötigte Wassermenge und spart so Wasser und Energie. Schluss mit Verschwendung von Energie durch überfüllte Wasserkocher!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16021927919777__2f841e20-4c14-4e5f-b022-553d7d94cb45-1677059288fe404236-0",
+        "template--16021927919777__2f841e20-4c14-4e5f-b022-553d7d94cb45-1677059288fe404236-1",
+        "template--16021927919777__2f841e20-4c14-4e5f-b022-553d7d94cb45-1677059288fe404236-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "f13cddca-b485-4511-b100-268a9594b809": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--16021927919777__f13cddca-b485-4511-b100-268a9594b809-1677227727a2884dbe-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/pdp_icon_7.png",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "überlasse uns die Reinigung",
+            "content": "<p>Dank der patentierten Reinigungsfunktion wird die Brühkammer nach jedem Brühvorgang gespült, wodurch eine manuelle Reinigung der Maschine überflüssig wird. Wir garantieren, dass beim Wechsel zwischen Teesorten kein Nachgeschmack bleibt.<\/p>"
+          }
+        },
+        "template--16021927919777__f13cddca-b485-4511-b100-268a9594b809-1677227727a2884dbe-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/pdp_icon_8.png",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "wann ist deine Tee-Zeit?",
+            "content": "<p>Stelle eine Zeit ein, zu der das Gerät mit dem Aufbrühen beginnen soll. So kannst du z.B. am Vorabend einen Timer einstellen, um zu einer frischen Tasse Tee aufzuwachen. <\/p>"
+          }
+        },
+        "template--16021927919777__f13cddca-b485-4511-b100-268a9594b809-1677227727a2884dbe-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/cool_down_function_product_page-01_3bff18cf-6c7c-4816-8ab6-180e3d081074.png",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "ist der Tee zu heiss?",
+            "content": "<p>Falls du keinen sehr heissen Tee magst, fügt der BRU Maker One automatisch etwas kaltes Wasser aus dem Wassertank hinzu, sodass der Tee auf eine trinkbereite Temperatur runtergekühlt wird.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16021927919777__f13cddca-b485-4511-b100-268a9594b809-1677227727a2884dbe-0",
+        "template--16021927919777__f13cddca-b485-4511-b100-268a9594b809-1677227727a2884dbe-1",
+        "template--16021927919777__f13cddca-b485-4511-b100-268a9594b809-1677227727a2884dbe-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "16785312918dadf497": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "167853137485e8f502": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "43c3ea3f-0a90-4545-861d-307b784a3a31": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--16021927919777__43c3ea3f-0a90-4545-861d-307b784a3a31-16785315760bd326f7-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BRU_tea_maker_founders_Bogdan_Krinitchko_and_Filip_Carlberg_cheers_2.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Weil wir Tee lieben",
+            "content": "<p>Hi, wir sind BRU! Ein Zürcher Startup welches das Ziel verfolgt die Teezubereitung zu vereinfach, sodass mehr Menschen in den Genuss eines leckeren und frischen Tees kommen können. Entstanden durch unsere Leidenschaft für Tee und auf der unsere Suche nach einer qualitativen aber einfachen Art der Teezubereitung glauben wir dass jeder in der Lage sein sollte, den perfekten Tee auf Knopfdruck zubereiten zu können ohne dabei Kapseln oder Pods  verwenden zu müssen.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#1a2f33",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16021927919777__43c3ea3f-0a90-4545-861d-307b784a3a31-16785315760bd326f7-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4da0fcdd-893b-46f0-b213-ef03713587f6",
+    "167939736239fd313a",
+    "2d9f5012-f1b1-4a1f-8a55-120711be2f48",
+    "554e92ce-baa1-44c9-8267-3c507f441f19",
+    "20bdf6fa-663e-4203-af58-44fda94f3c8f",
+    "6be2b4bb-8373-474a-93ea-518abb2c2453",
+    "2f841e20-4c14-4e5f-b022-553d7d94cb45",
+    "f13cddca-b485-4511-b100-268a9594b809",
+    "16785312918dadf497",
+    "167853137485e8f502",
+    "43c3ea3f-0a90-4545-861d-307b784a3a31"
+  ]
+}

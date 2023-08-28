@@ -1,0 +1,997 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image-1_2800x1000_1f617b1a-655c-4f49-abd9-90b09c3ce249.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Snag_c1ea6bf.png",
+            "content_max_width": 420,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading_1": "BRU MAKER ONE",
+            "allowed_iso_subheading_1": "",
+            "subheading_2": "",
+            "allowed_iso_subheading_2": "",
+            "content": "<p>Die erste All-in-1 Lösung für<br\/>authentischen Tee-Genuss <br\/>– so wie Tee wirklich schmecken soll<\/p>",
+            "caption": "unverbindlich 30 Tage ausprobieren",
+            "advantage": "Brühparameter individuell einstellbar",
+            "advantage2": "frischer Tee ob heiss oder kalt",
+            "advantage3": "für jeden Tee geeignet",
+            "button_text_1": "JETZT ENTDECKEN",
+            "button_link_1": "shopify:\/\/products\/bru-maker-one",
+            "text_color": "{{ shop.brand.colors.primary[0].foreground }}",
+            "button_background": "#8ba473",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#757a71",
+            "overlay_opacity": 0,
+            "background": "#ffffff",
+            "background_gradient": ""
+          }
+        },
+        "554653f3-e1d3-4ca9-a342-5f21d5335297": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BRU_automated_electric_tea_makers_website_banners-01_1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/BRU_automated_electric_tea_makers_website_banners-01_1.jpg",
+            "content_max_width": 520,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "subheading_1": "BRU Maker One Teemaschine",
+            "allowed_iso_subheading_1": "",
+            "subheading_2": "",
+            "allowed_iso_subheading_2": "",
+            "content": "",
+            "caption": "",
+            "advantage": "",
+            "advantage2": "",
+            "advantage3": "",
+            "button_text_1": "JETZT KAUFEN",
+            "button_link_1": "shopify:\/\/products\/bru-maker-one",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#1a2f33",
+            "overlay_color": "#000000",
+            "overlay_opacity": 12,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "bc58a49f-ac36-4a32-8207-3ed63213fa7f": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BRU_automated_electric_tea_makers_website_banners-02_1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/BRU_automated_electric_tea_makers_website_banners-02_1.jpg",
+            "content_max_width": 500,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading_1": "BRU Maker One Teemaschine",
+            "allowed_iso_subheading_1": "",
+            "subheading_2": "",
+            "allowed_iso_subheading_2": "",
+            "content": "",
+            "caption": "",
+            "advantage": "",
+            "advantage2": "",
+            "advantage3": "",
+            "button_text_1": "JETZT KAUFEN",
+            "button_link_1": "shopify:\/\/products\/bru-maker-one",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#1a2f33",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 2,
+            "background": "#aaa9c4",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide-2",
+        "554653f3-e1d3-4ca9-a342-5f21d5335297",
+        "bc58a49f-ac36-4a32-8207-3ed63213fa7f"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "outline_arrows",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "background": "#1a2f33",
+        "background_gradient": ""
+      }
+    },
+    "ade3bab1-9c72-4c9f-914e-539650db0017": {
+      "type": "text-with-icons",
+      "blocks": {
+        "aca0f9d4-64f0-4c64-bbdf-2100ef7c1602": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/Bekannt_aus.svg",
+            "mobile_icon_width": 60,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "",
+            "content": ""
+          }
+        },
+        "template--16021927723169__ade3bab1-9c72-4c9f-914e-539650db0017-1676908957fbf4324b-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-shield",
+            "custom_icon": "shopify:\/\/shop_images\/merkur_logo_1.svg",
+            "mobile_icon_width": 60,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "#8ba473",
+            "title": "",
+            "content": ""
+          }
+        },
+        "template--16021927723169__ade3bab1-9c72-4c9f-914e-539650db0017-1676908957fbf4324b-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-star",
+            "custom_icon": "shopify:\/\/shop_images\/Mask_group.svg",
+            "mobile_icon_width": 60,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "#8ba473",
+            "title": "",
+            "content": ""
+          }
+        },
+        "template--16021927723169__ade3bab1-9c72-4c9f-914e-539650db0017-1676908957fbf4324b-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-validation",
+            "custom_icon": "shopify:\/\/shop_images\/logo_world_of_tea_1.svg",
+            "mobile_icon_width": 60,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "#8ba473",
+            "title": "",
+            "content": ""
+          }
+        },
+        "49bc13e8-ae0d-4a25-919d-fcf0053c60cd": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/Mask_group_1.svg",
+            "mobile_icon_width": 24,
+            "icon_width": 76,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "",
+            "content": ""
+          }
+        },
+        "ff57d12b-fd55-45d6-94c0-9f413dc81a8a": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/BIZ_LOGO_1_34d2d231-5db9-4e3e-9c77-e5909516f9e2.svg",
+            "mobile_icon_width": 24,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "aca0f9d4-64f0-4c64-bbdf-2100ef7c1602",
+        "template--16021927723169__ade3bab1-9c72-4c9f-914e-539650db0017-1676908957fbf4324b-0",
+        "template--16021927723169__ade3bab1-9c72-4c9f-914e-539650db0017-1676908957fbf4324b-1",
+        "template--16021927723169__ade3bab1-9c72-4c9f-914e-539650db0017-1676908957fbf4324b-2",
+        "49bc13e8-ae0d-4a25-919d-fcf0053c60cd",
+        "ff57d12b-fd55-45d6-94c0-9f413dc81a8a"
+      ],
+      "settings": {
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "full_width": true,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "77b637d9-a475-4930-aa23-6f2dff622b9f": {
+      "type": "video",
+      "blocks": {
+        "template--16101598265505__77b637d9-a475-4930-aa23-6f2dff622b9f-1688395869d7dd34a1-0": {
+          "type": "play",
+          "settings": {
+          }
+        },
+        "template--16101598265505__77b637d9-a475-4930-aa23-6f2dff622b9f-1688395869d7dd34a1-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16101598265505__77b637d9-a475-4930-aa23-6f2dff622b9f-1688395869d7dd34a1-0",
+        "template--16101598265505__77b637d9-a475-4930-aa23-6f2dff622b9f-1688395869d7dd34a1-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "md",
+        "max-width": 1400,
+        "video": "shopify:\/\/files\/videos\/MVI_2516_1.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "7c8440c5-258c-453b-9fcb-a9da0ef456ef": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--16101598265505__7c8440c5-258c-453b-9fcb-a9da0ef456ef-1687532839db846a14-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/icon2_1_e60a3abc-eb0b-4f6b-bfae-073b42904106.svg",
+            "mobile_icon_width": 24,
+            "icon_width": 80,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Platzsparend",
+            "content": "<p>Passt auf ein A4 Blatt<\/p>"
+          }
+        },
+        "template--16101598265505__7c8440c5-258c-453b-9fcb-a9da0ef456ef-1687532839db846a14-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/icon4_1_9725024e-93c9-4d78-83db-c49d374685be.svg",
+            "mobile_icon_width": 24,
+            "icon_width": 80,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Nachhaltig",
+            "content": "<p>Teemaschine & Wasserspender <\/p>"
+          }
+        },
+        "template--16101598265505__7c8440c5-258c-453b-9fcb-a9da0ef456ef-1687532839db846a14-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/icon1_1_99e4097f-08f6-4290-b77d-36d10dc25bf4.svg",
+            "mobile_icon_width": 24,
+            "icon_width": 80,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Flexibel",
+            "content": "<p>Für Eistee & Heißtee<\/p>"
+          }
+        },
+        "3c365055-15eb-45f6-b110-0299a5609700": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/icon3_1_87f54020-99f9-43bf-80d8-8d395737cd63.svg",
+            "mobile_icon_width": 24,
+            "icon_width": 80,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Sauber",
+            "content": "<p>Automatische Reinigung<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16101598265505__7c8440c5-258c-453b-9fcb-a9da0ef456ef-1687532839db846a14-0",
+        "template--16101598265505__7c8440c5-258c-453b-9fcb-a9da0ef456ef-1687532839db846a14-1",
+        "template--16101598265505__7c8440c5-258c-453b-9fcb-a9da0ef456ef-1687532839db846a14-2",
+        "3c365055-15eb-45f6-b110-0299a5609700"
+      ],
+      "settings": {
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "full_width": true,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "b70a9cf2-b9e4-45cf-9613-68cc939195d2": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--16101598265505__b70a9cf2-b9e4-45cf-9613-68cc939195d2-168795838893f9b057-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BRU_tea_machine_black_chrome_website_exploded_view_1.png",
+            "image_rotation_degrees": 1.5,
+            "subheading": "1\/5",
+            "title": "Automatische Reinigung",
+            "content": "<p>Mit unserer patentierten Selbstspülfunktion reinigt das Gerät die Brühkammer nach jeder Tasse Tee. Damit garantieren wir, dass beim Wechsel zwischen Teesorten kein Nachgeschmack bleibt.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "2dc5f9a2-46ca-42a4-bd93-8e50aeb67151": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Front_White_Chrome_Composition-01.jpg",
+            "image_rotation_degrees": 0,
+            "subheading": "2\/5",
+            "title": "Eine Kanne voll Tee",
+            "content": "<p>Während die Brühkammer 350 ml fasst, ermöglicht die Mehrfach-Brüh-Funktion bis zu 4 aufeinanderfolgende Brühvorgänge. So kannst du bis zu 1,4 Liter Tee in einem Durchgang automatisch zubereiten – genug, um mehrere Tee-Genießer zu erfreuen!<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "08ee8d03-59aa-433d-8e86-cd8ada96fa98": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snag_13cc283.png",
+            "image_rotation_degrees": 0,
+            "subheading": "3\/5",
+            "title": "Kein Platz? Kein Problem!",
+            "content": "<p>Der BRU Maker One kann auch als Heißwasserspender genutzt werden. Er liefert heißes Wasser in der von dir gewünschten Temperatur und Menge. <strong>Wir sagen “Tschüss Wasserkocher”<\/strong><\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "template--16101598265505__b70a9cf2-b9e4-45cf-9613-68cc939195d2-168795838893f9b057-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kopie_von_Bru_Shop_Produkbilder_1_acd8b131-f3bd-4adf-89a6-770dd5547bc5.png",
+            "image_rotation_degrees": -2,
+            "subheading": "4\/5",
+            "title": "Die BRU App - für noch personalisierten Tee-Genuss",
+            "content": "<p>Mit unserer App kannst du den BRU Maker One noch mehr personalisieren und zusätzliche Funktionen freischalten.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "fdb21d4e-1a4d-4a2d-bac7-3b86e89ad299": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nature-gf07aec046_19201.png",
+            "image_rotation_degrees": 0,
+            "subheading": "5\/5",
+            "title": "Technologie für Nachhaltigkeit",
+            "content": "<p>Der BRU Maker spart Plastik, Energie und Wasser. Neben dem Verzicht auf Kapseln erhitzt unsere intelligente Teemaschine nur die benötigte Wassermenge. Jedes Jahr werden Tonnen von CO₂ verschwendet, weil mit Wasserkochern viel mehr Wasser aufgeheizt wird, als eigentlich nötig!<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16101598265505__b70a9cf2-b9e4-45cf-9613-68cc939195d2-168795838893f9b057-1",
+        "2dc5f9a2-46ca-42a4-bd93-8e50aeb67151",
+        "08ee8d03-59aa-433d-8e86-cd8ada96fa98",
+        "template--16101598265505__b70a9cf2-b9e4-45cf-9613-68cc939195d2-168795838893f9b057-0",
+        "fdb21d4e-1a4d-4a2d-bac7-3b86e89ad299"
+      ],
+      "settings": {
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "main_heading": "DIE 5 PRODUKTHIGHLIGHTS DES BRU MAKER ONE",
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "5f94176c-c189-443a-a60f-a8773b69f98f": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--16101598265505__5f94176c-c189-443a-a60f-a8773b69f98f-16879589270c5e346d-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/founders.png",
+            "media_width": 40,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Gemacht von Teetrinkern  für Teetrinker",
+            "title": "",
+            "content": "<p>Hi, wir sind Filip und Bogdan! Gemeinsam haben wir vor 3 Jahren BRU gegründet. Als Züricher StartUp verfolgen wir das Ziel, die heimische Teezubereitung für jeden Tee-Liebhaber zu vereinfachen.<br\/><br\/>Entstanden ist der BRU Maker One <strong>aus unserer Leidenschaft für wirklich leckeren Tee.<\/strong> Auf der unsere Suche nach einer qualitativen und authentischen, aber gleichzeitig einfachen Art der Teezubereitung sind wir enttäuscht worden. Also haben wir uns mit dem BRU Maker unseren ganz persönlichen Genießer-Traum erfüllt.<br\/><br\/>Er ermöglicht hochwertigsten Teegenuss ganz nach deinem Geschmack ohne dabei Kapseln oder Pads verwenden zu müssen. <br\/><br\/>Als innovative Tee-Maschine <strong>ermöglicht der BRU Maker One jetzt den perfekten Tee auf Knopfdruck <\/strong>– und wir sind stolz sagen zu können, dass er bereits über 3500 Tee-Liebhaber erfreut.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16101598265505__5f94176c-c189-443a-a60f-a8773b69f98f-16879589270c5e346d-0"
+      ],
+      "settings": {
+        "main_heading": "",
+        "full_width": false,
+        "enable_parallax": true,
+        "padding_bottom": true,
+        "spacing": "small"
+      }
+    },
+    "38a475b9-f5db-480b-a1a8-a396c088fc8e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16101598265505__38a475b9-f5db-480b-a1a8-a396c088fc8e-1687959472f573bf19-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Unsere Garantie für deine Zufriedenheit",
+            "heading_tag": "h2"
+          }
+        },
+        "template--16101598265505__38a475b9-f5db-480b-a1a8-a396c088fc8e-1687959472f573bf19-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Da uns deine volle Zufriedenheit am Herzen liegt, bieten wir <strong>neben der 2-jährigen Garantie auch eine 30 Tage Zufriedenheitsgarantie<\/strong>.<br\/>Wenn du innerhalb der ersten 30 Tage merkst, dass der BRU Maker nicht zu dir passt (was wir stark bezweifeln) kannst du ihn uns ganz einfach zurücksenden.<\/p>"
+          }
+        },
+        "47b85b97-920b-4396-9257-a9be26c6e94c": {
+          "type": "image",
+          "settings": {
+            "banner_img": "shopify:\/\/shop_images\/siegel2.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--16101598265505__38a475b9-f5db-480b-a1a8-a396c088fc8e-1687959472f573bf19-1",
+        "template--16101598265505__38a475b9-f5db-480b-a1a8-a396c088fc8e-1687959472f573bf19-2",
+        "47b85b97-920b-4396-9257-a9be26c6e94c"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/tg_image_2480510092.png",
+        "mobile_image": "shopify:\/\/shop_images\/tg_image_627899131.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#000000",
+        "overlay_color": "#ffffff",
+        "background_text_color": "",
+        "overlay_opacity": 20
+      }
+    },
+    "33be4ab0-0aaf-414d-a7a1-d173b5d3e051": {
+      "type": "custom-liquid",
+      "settings": {
+        "allowed_iso": "",
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div data-fera-container=\"553212\"><\/div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "dd6b0a39-7d77-4456-8aa8-59bf0c3b524c": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "",
+        "text_size": "large",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
+    },
+    "861f1e62-6f07-42c1-b6fc-b95b17c9143e": {
+      "type": "video-stories",
+      "blocks": {
+        "template--16101598265505__861f1e62-6f07-42c1-b6fc-b95b17c9143e-16880468922587817a-0": {
+          "type": "video",
+          "settings": {
+            "preview_img": "shopify:\/\/shop_images\/Frau_Blau.jpg",
+            "footer_arrow": "shopify:\/\/shop_images\/Icons_Schmidt-Uberdachungen_1.svg",
+            "video": "shopify:\/\/files\/videos\/Frau Blau.mp4",
+            "video_text_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c1ca67924326488d87c17a23eb2e0790.mp4",
+            "story_quote": "Ich bin begeistert😍",
+            "story_tag": "@bru_company",
+            "footer_text": "Immer frisch aufgebrüht"
+          }
+        },
+        "template--16101598265505__861f1e62-6f07-42c1-b6fc-b95b17c9143e-16880468922587817a-1": {
+          "type": "video",
+          "settings": {
+            "preview_img": "shopify:\/\/shop_images\/Mann_Grau.jpg",
+            "footer_arrow": "shopify:\/\/shop_images\/Pfeil_3.svg",
+            "video": "shopify:\/\/files\/videos\/mann grau.mp4",
+            "video_text_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9980264d4947422f8e403fb64fbc1c6b.mp4",
+            "story_quote": "Die beste Teemaschine",
+            "story_tag": "@bru_company",
+            "footer_text": "Egal ob Kalt oder Heiß"
+          }
+        },
+        "template--16101598265505__861f1e62-6f07-42c1-b6fc-b95b17c9143e-16880468922587817a-2": {
+          "type": "video",
+          "settings": {
+            "preview_img": "shopify:\/\/shop_images\/Frau_Weiss.jpg",
+            "footer_arrow": "shopify:\/\/shop_images\/Icons_Schmidt-Uberdachungen_1_12ed3586-0cc8-4b9b-a86d-fdc15799db58.svg",
+            "video": "shopify:\/\/files\/videos\/Frau Weiss  Video.mp4",
+            "video_text_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4f1cb773607b410886c9581087697266.mp4",
+            "story_quote": "Tee wie ich ihn will",
+            "story_tag": "@bru_company",
+            "footer_text": "Superleichte Bedienung"
+          }
+        },
+        "template--16101598265505__861f1e62-6f07-42c1-b6fc-b95b17c9143e-16880468922587817a-3": {
+          "type": "video",
+          "settings": {
+            "preview_img": "shopify:\/\/shop_images\/Frau3.png",
+            "footer_arrow": "shopify:\/\/shop_images\/Pfeil_3_89dcd49a-8ded-4b11-9806-e25b199ccf52.svg",
+            "video": "shopify:\/\/files\/videos\/Frau 3.mp4",
+            "video_text_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2a41f26b7be24160a7e66451b0888535.mp4",
+            "story_quote": "Einfach lecker 🚀🙌",
+            "story_tag": "@bru_company",
+            "footer_text": "Perfekter Teegenuss"
+          }
+        }
+      },
+      "block_order": [
+        "template--16101598265505__861f1e62-6f07-42c1-b6fc-b95b17c9143e-16880468922587817a-0",
+        "template--16101598265505__861f1e62-6f07-42c1-b6fc-b95b17c9143e-16880468922587817a-1",
+        "template--16101598265505__861f1e62-6f07-42c1-b6fc-b95b17c9143e-16880468922587817a-2",
+        "template--16101598265505__861f1e62-6f07-42c1-b6fc-b95b17c9143e-16880468922587817a-3"
+      ],
+      "settings": {
+        "heading": "UNSERE KUNDEN SIND BEGEISTERT",
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "448d0ecd-2cb2-4d14-b9d6-073ef3a2e46d": {
+      "type": "press",
+      "blocks": {
+        "template--16101598265505__448d0ecd-2cb2-4d14-b9d6-073ef3a2e46d-1687960149f0de19c7-0": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Mask_group.png",
+            "logo_width": 300,
+            "author": "",
+            "content": "Diese Teemaschine wird wirklich allen Erwartungen gerecht, es war noch nie so einfach den perfekten Tee zuzubereiten",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "template--16101598265505__448d0ecd-2cb2-4d14-b9d6-073ef3a2e46d-1687960149f0de19c7-1": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "GALAXUS",
+            "content": "Der BRU Maker One ist eine ausgeklügelte Teemaschine. Füllen kann ich sie mit losen Kräutern oder Beuteln. Im Test überzeugt sie mich ab der ersten Tasse...",
+            "show_rating": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "template--16101598265505__448d0ecd-2cb2-4d14-b9d6-073ef3a2e46d-1687960149f0de19c7-0",
+        "template--16101598265505__448d0ecd-2cb2-4d14-b9d6-073ef3a2e46d-1687960149f0de19c7-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/Rectangle_82_f4318b9d-21ec-474c-a84d-e9a6fe4cefb1.png",
+        "full_width": true,
+        "content_size": "medium",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "rgba(0,0,0,0)",
+        "heading_color": "#ffffff",
+        "heading_gradient": "",
+        "logo_item_background": "rgba(0,0,0,0)",
+        "logo_item_border": "rgba(0,0,0,0)"
+      }
+    },
+    "c85fb50e-d8f7-4152-a398-7aff183e2c33": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--16101598265505__c85fb50e-d8f7-4152-a398-7aff183e2c33-16879589270c5e346d-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_16.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Tradition und Innovation vereint",
+            "title": "BRU Maker One –  Ein Muss für wahre Tee-Liebhaber",
+            "content": "<p>Bei BRU schätzen wir die Tradition, jeden Tee mit der optimalen Temperatur und Zeit aufzubrühen und haben diesen Vorgang ganz einfach automatisiert. <br\/><br\/>Die <strong>individuell einstellbare Wassertemperatur und Brühzeit<\/strong> ermöglichen dir authentischen und geschmackvollen Teegenuss.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "4afd7a13-8947-4b9d-a4e1-96df6a7c6255": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_17.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/pdp_icon_7_1.svg",
+            "icon_width": 64,
+            "second_custom_icon": "shopify:\/\/shop_images\/pdp_icon_1_1_1.svg",
+            "subheading": "Teevielfalt statt Kapsel-Geschmack",
+            "title": "Das Nachhaltige Plus in deiner Küche",
+            "content": "<p>Der BRU Maker passt sich deinem individuellen Geschmack an. <br\/>Er funktioniert mit losem Blatt-Tee, Teebeuteln oder jeglicher Art von Kräutern. So bist du nie wieder an teure Marken oder Teekapseln aus Plastik gebunden.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "ff1ba2e9-eeaf-4562-b210-54d8ae300be7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_18.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Tee - heiss oder kalt",
+            "title": "Jederzeit perfekte Erfrischung",
+            "content": "<p>Gerade <strong>im Sommer<\/strong> ist <strong>ein frischer Eistee<\/strong> eine echte Bereicherung. Diesen jedoch selbst zu brühen, ist mit einigem Aufwand verbunden. Mit dem Bru Maker One wird dieser Luxus kinderleicht möglich. <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "09a2f637-2b5f-451b-876a-a01dd5204b60": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_89.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Gesund und Fit mit Tee",
+            "title": "Wohltuend für Körper und Geist-",
+            "content": "<p>Doch es kommt auf die richtige Zubereitung an. Je nach Sorte kann er den morgendlichen Kaffee ersetzen, das Immunsystem stärken oder vor dem zu Bett gehen beruhigend wirken.<br\/><br\/>Dazu kommt es jedoch auf die richtige <strong>Temperatur und Brühzeit <\/strong>an – nur dann entfalten sich gesundheitsfördernde Wirkstoffe und Aromen im vollen Ausmaß. Und genau das ermöglicht dir der BRU Maker One ganz automatisch.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16101598265505__c85fb50e-d8f7-4152-a398-7aff183e2c33-16879589270c5e346d-0",
+        "4afd7a13-8947-4b9d-a4e1-96df6a7c6255",
+        "ff1ba2e9-eeaf-4562-b210-54d8ae300be7",
+        "09a2f637-2b5f-451b-876a-a01dd5204b60"
+      ],
+      "settings": {
+        "main_heading": "DER BRU MAKER ONE - VIEL MEHR ALS EINE TEEMASCHINE",
+        "full_width": false,
+        "enable_parallax": true,
+        "padding_bottom": false,
+        "spacing": "medium"
+      }
+    },
+    "7dc88c7a-3c08-4129-a11f-17f34f4cebb6": {
+      "type": "single-button",
+      "settings": {
+        "button__link": "shopify:\/\/products\/bru-maker-one",
+        "button__label": "JETZT TESTEN",
+        "margin__bottom": 0,
+        "margin__top": 40
+      }
+    },
+    "46a6c679-4fb5-493b-91bb-86dad40ac7a4": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--16101598265505__46a6c679-4fb5-493b-91bb-86dad40ac7a4-1687960879c80a1989-0": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich das Gerät vor dem Kauf testen?",
+            "content": "<p><strong>Ja, wir bieten eine Testphase von 30 Tagen an, während der du das Gerät unverbindlich zuhause testen kannst. <\/strong><\/p><p>Solltest du während dieser Zeit feststellen, dass das Gerät nicht deinen Erwartungen entspricht oder dir nicht gefällt, kannst du es an uns zurücksenden. Für eine Rücksendung während des Testzeitraums gelten folgende Bedingungen:<\/p><ul><li>Das Gerät muss sich in einem einwandfreien Zustand befinden <\/li><li>Alle mitgelieferten Zubehörteile müssen vollständig und unbeschädigt sein<\/li><li>Die Originalverpackung muss vorhanden sein<\/li><li>Die Versandkosten für die Rücksendung von dir getragen werden müssen<\/li><\/ul><p><strong>Bevor du das Gerät zurücksendest, kontaktiere unbedingt unseren Kundendienst auf support@bru-tea.com<\/strong><\/p>"
+          }
+        },
+        "template--16101598265505__46a6c679-4fb5-493b-91bb-86dad40ac7a4-1687960879c80a1989-1": {
+          "type": "item",
+          "settings": {
+            "title": "Welche Zeiteinstellungen kann ich für die Brühzeit verwenden?",
+            "content": ""
+          }
+        },
+        "template--16101598265505__46a6c679-4fb5-493b-91bb-86dad40ac7a4-1687960879c80a1989-2": {
+          "type": "item",
+          "settings": {
+            "title": "Welche Teemenge kann ich zubereiten?",
+            "content": "<p>Du kannst verschiedene Teemengen in deinem BRU Maker One zubereiten. Die kleinste zubereitbare Teemenge<br\/>beträgt 50 ml und kann in Schritten von 50 ml erhöht werden. Die maximale Teemenge, die du direkt zubereiten kannst, beträgt 350 ml. <\/p><p>Du kannst auch größere Teemengen zubereiten, indem du den Multi-Brühmodus verwendest. Mit diesem Modus hast du die Möglichkeit, bis zu 1,4 Liter Tee zuzubereiten. Dabei wird der Tee in mehreren Aufgüssen hintereinander aufgebrüht und serviert.<\/p>"
+          }
+        },
+        "3bf70e08-4ffd-4b47-8653-8d25739aebf3": {
+          "type": "item",
+          "settings": {
+            "title": "Welche Temperaturparameter kann ich einstellen?",
+            "content": "<p>Du kannst die Temperaturparameter in deinem Gerät entsprechend deinen Bedürfnissen und der Teesorte anpassen. Die Einstellungen reichen von Raumtemperatur (ungeheiztes Wasser) bis zu kochendem Wasser. Die Temperaturschritte betragen 5°C. Du kannst die gewünschte Temperatur in 5°C-Schritten von 40°C bis zum Siedepunkt einstellen.<br\/><\/p><p>Zusammengefasst also: Raumtemperatur (ungeheizt), 40°C, 45°C, …. 95°C und 100°C<\/p>"
+          }
+        },
+        "a306bd08-5f76-4e9f-91b0-0219f931f51d": {
+          "type": "item",
+          "settings": {
+            "title": "Welche Brühzeit kann ich einstellen?",
+            "content": "<p>Du kannst verschiedene Zeiteinstellungen in deinem BRU Maker One verwenden. Die kürzeste einstellbare Zeit beträgt 10 Sekunden, und du kannst sie in Schritten von 10 Sekunden erhöhen bis 10 Minuten. Ab 10 Minuten kannst du die Zeit in 1-Minuten-Schritten bis zu einer maximalen Einstellung von 60 Minuten erhöhen.<\/p>"
+          }
+        },
+        "5c475c91-f9a5-4881-abae-7c1a62b92b3a": {
+          "type": "item",
+          "settings": {
+            "title": "Welchen Wasserfilter soll ich verwenden?",
+            "content": "<p>Wir empfehlen dir, nur die originalen Brita Intenza+ CA6702\/00, CA6702\/10-Filter zu verwenden.<\/p><p><strong>Wir empfehlen zwingend immer einen Wasserfilter zu verwenden. <\/strong><\/p>"
+          }
+        },
+        "a0b371fd-3f1b-459c-bfa7-f1c3dc12211d": {
+          "type": "item",
+          "settings": {
+            "title": "Ist der BRU Maker ein Ersatz für meinen Wasserkocher?",
+            "content": "<p>Ja, absolut! Mit dem BRU Maker kannst du auch ganz einfach heisses oder filtriertes Wasser auf Knopfdruck entnehmen. Du kannst dabei die Wassermenge vordefinieren, oder den Prozess manuell starten und wider stoppen. Dabei kannst du bis zu 3L heisses Wasser auf Knopfdruck der Maschine entnehmen. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16101598265505__46a6c679-4fb5-493b-91bb-86dad40ac7a4-1687960879c80a1989-0",
+        "template--16101598265505__46a6c679-4fb5-493b-91bb-86dad40ac7a4-1687960879c80a1989-1",
+        "template--16101598265505__46a6c679-4fb5-493b-91bb-86dad40ac7a4-1687960879c80a1989-2",
+        "3bf70e08-4ffd-4b47-8653-8d25739aebf3",
+        "a306bd08-5f76-4e9f-91b0-0219f931f51d",
+        "5c475c91-f9a5-4881-abae-7c1a62b92b3a",
+        "a0b371fd-3f1b-459c-bfa7-f1c3dc12211d"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "Wir beantworten deine Fragen - FAQ",
+        "content": "<h3><strong>Produkt und Anwendung<\/strong><\/h3>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "626e30c5-a13a-418d-a5ee-ba05d801fa7d": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--16101598265505__626e30c5-a13a-418d-a5ee-ba05d801fa7d-1687960879c80a1989-0": {
+          "type": "item",
+          "settings": {
+            "title": "Wie lange dauert die Lieferung meiner Bestellung?",
+            "content": "<p>Die Lieferzeit deiner Bestellung hängt von deinem Standort ab. In der Regel beträgt die Lieferzeit innerhalb Deutschlands und der Schweiz nur 1-2 Werktage. Bei internationalen Bestellungen kann es etwas länger dauern, normalerweise zwischen 3 und 7 Werktagen.<\/p>"
+          }
+        },
+        "template--16101598265505__626e30c5-a13a-418d-a5ee-ba05d801fa7d-1687960879c80a1989-1": {
+          "type": "item",
+          "settings": {
+            "title": "Wie kann ich Ersatzteile bestellen?",
+            "content": "<p>Du kannst Ersatzteile über unseren Kundenservice bestellen. Kontaktiere uns bitte mit den genauen Details der benötigten Teile, wie Modellnummer oder Teilenummer, damit wir dir weiterhelfen können. Unser Kundenservice wird dir dann Informationen zur Verfügbarkeit, Preisen und Bestellabwicklung geben.<\/p>"
+          }
+        },
+        "template--16101598265505__626e30c5-a13a-418d-a5ee-ba05d801fa7d-1687960879c80a1989-2": {
+          "type": "item",
+          "settings": {
+            "title": "Wie kann ich den Kundensupport erreichen?",
+            "content": "<p>Du kannst unseren Kundensupport auf verschiedene Weisen kontaktieren. <\/p><p>Wir bieten Live-Support hier auf der Seite an oder über WhatsApp auf der Nummer  +41 79 793 41 71, wo du direkt mit einem unserer Support-Mitarbeiter chatten oder telefonieren kannst. <\/p><p>Alternativ kannst du uns auch per E-Mail unter <a href=\"mailto:support@bru-tea.com\" target=\"_blank\">support@bru-tea.com<\/a> erreichen und wir antworten in der Regel innerhalb von 24h Stunden. <\/p><p><\/p><p>Wir sind bemüht, dir so schnell wie möglich zu antworten und dir bei deinen Anliegen zu helfen. Neben unserem<br\/>direkten Kundensupport haben wir eine Sammlung von Hilfevideos, die dir bei häufig gestellten Fragen und Problemen weiterhelfen können. Du findest diese Videos auf unserer Website unter dem folgenden Link: <a href=\"https:\/\/bru.shop\/pages\/help\" title=\"https:\/\/bru.shop\/pages\/help\">https:\/\/bru.shop\/pages\/help<\/a><\/p>"
+          }
+        },
+        "785602fe-8375-4a18-840c-d9b7cb32d2b3": {
+          "type": "item",
+          "settings": {
+            "title": "Welche Zahlungsmethoden akzeptiert ihr?",
+            "content": "<p>Wir akzeptieren verschiedene Zahlungsmethoden, darunter Kreditkarten (Visa, Mastercard, American Express), PayPal und Banküberweisungen. Ausserdem hast du die Möglichkeit ganz bequem auf Rechnung zu kaufen oder in Raten zu bezahlen.<\/p>"
+          }
+        },
+        "05f0f689-490e-484a-9c42-07e30ea33c06": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich meine Bestellung stornieren oder ändern?",
+            "content": "<p>Wenn du deine Bestellung stornieren oder ändern möchtest, kontaktiere uns bitte so schnell wie möglich.<br\/>Wir werden unser Bestes tun, um deine Anfrage zu bearbeiten. Bitte beachte jedoch, dass Änderungen oder Stornierungen möglicherweise nicht möglich sind, wenn deine Bestellung bereits versandt wurde. In diesem Fall solltest du die Annahme vom Paket verweigern.<\/p>"
+          }
+        },
+        "95647a9f-6324-44ee-b9cb-716076754e2c": {
+          "type": "item",
+          "settings": {
+            "title": "Gibt es eine Möglichkeit, den Status meiner Bestellung zu überprüfen?",
+            "content": "<p>Ja, du kannst den Status deiner Bestellung jederzeit über dein Benutzerkonto auf unserer Website überprüfen. Dort findest du Informationen zur Bearbeitung, Versand und Lieferung deiner Bestellung.<\/p>"
+          }
+        },
+        "bd045cdb-7c3c-4120-9fe2-63aa3d8086ac": {
+          "type": "item",
+          "settings": {
+            "title": "Bietet ihr internationalen Versand an?",
+            "content": "<p>Ja, wir bieten internationalen Versand an. Bitte beachte jedoch, dass zusätzliche Versandkosten und Zollgebühren anfallen können, abhängig von deinem Standort. Diese Kosten variieren je nach Land und sollten beim Checkout  angezeigt werden.<\/p>"
+          }
+        },
+        "7183661f-486b-4787-b154-9dac504cd26b": {
+          "type": "item",
+          "settings": {
+            "title": "Was ist eure Rückgaberichtlinie?",
+            "content": "<p>Wir bieten eine 30-tägige Rückgabegarantie. <\/p><p>Wenn du mit deinem gekauften Artikel nicht zufrieden bist, kannst du ihn innerhalb von 30 Tagen nach Erhalt zurücksenden. <strong>Bitte kontaktiere unseren Kundendienst, um eine Rücksendung anzufordern und weitere Anweisungen zu erhalten. <\/strong>Bitte beachte dazu unsere Richtlinien bei beschädigten oder unvollständigen Rücksendungen: <a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\"><strong>Unsere AGB's<\/strong><\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16101598265505__626e30c5-a13a-418d-a5ee-ba05d801fa7d-1687960879c80a1989-0",
+        "template--16101598265505__626e30c5-a13a-418d-a5ee-ba05d801fa7d-1687960879c80a1989-1",
+        "template--16101598265505__626e30c5-a13a-418d-a5ee-ba05d801fa7d-1687960879c80a1989-2",
+        "785602fe-8375-4a18-840c-d9b7cb32d2b3",
+        "05f0f689-490e-484a-9c42-07e30ea33c06",
+        "95647a9f-6324-44ee-b9cb-716076754e2c",
+        "bd045cdb-7c3c-4120-9fe2-63aa3d8086ac",
+        "7183661f-486b-4787-b154-9dac504cd26b"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "",
+        "content": "<h3><strong>Bestellung und Versand<\/strong><\/h3>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "5f9c7a64-2ab0-4b5c-b4da-ab08c10605e0": {
+      "type": "single-button",
+      "settings": {
+        "button__link": "shopify:\/\/pages\/help",
+        "button__label": "ALLE FRAGEN",
+        "margin__bottom": 40,
+        "margin__top": 0
+      }
+    },
+    "fc3626ae-f131-486a-8746-90b7185db28d": {
+      "type": "image-grid",
+      "blocks": {
+        "template--16101598265505__fc3626ae-f131-486a-8746-90b7185db28d-1687961100e0b63ec7-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/before_after_4.png",
+            "image_link": ""
+          }
+        },
+        "template--16101598265505__fc3626ae-f131-486a-8746-90b7185db28d-1687961100e0b63ec7-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AEAABD4D-4AB6-4385-A8C5-1A66B33AADDE_1_105_c_6fd5e770-9b74-4133-a3ab-7144bde0fb0d.jpg",
+            "image_link": ""
+          }
+        },
+        "template--16101598265505__fc3626ae-f131-486a-8746-90b7185db28d-1687961100e0b63ec7-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20D0AD82-9226-4D96-9516-AC0E5D19C60E_1_105_c_08809c53-cdff-45d3-b482-b39285d2f6e9.jpg",
+            "image_link": ""
+          }
+        },
+        "template--16101598265505__fc3626ae-f131-486a-8746-90b7185db28d-1687961100e0b63ec7-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_80_9806b764-2ad2-4467-8680-4f8f2e09e56f.png",
+            "image_link": ""
+          }
+        },
+        "template--16101598265505__fc3626ae-f131-486a-8746-90b7185db28d-1687961100e0b63ec7-4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/before_after_3.png",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16101598265505__fc3626ae-f131-486a-8746-90b7185db28d-1687961100e0b63ec7-0",
+        "template--16101598265505__fc3626ae-f131-486a-8746-90b7185db28d-1687961100e0b63ec7-1",
+        "template--16101598265505__fc3626ae-f131-486a-8746-90b7185db28d-1687961100e0b63ec7-2",
+        "template--16101598265505__fc3626ae-f131-486a-8746-90b7185db28d-1687961100e0b63ec7-3",
+        "template--16101598265505__fc3626ae-f131-486a-8746-90b7185db28d-1687961100e0b63ec7-4"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "ade3bab1-9c72-4c9f-914e-539650db0017",
+    "77b637d9-a475-4930-aa23-6f2dff622b9f",
+    "7c8440c5-258c-453b-9fcb-a9da0ef456ef",
+    "b70a9cf2-b9e4-45cf-9613-68cc939195d2",
+    "5f94176c-c189-443a-a60f-a8773b69f98f",
+    "38a475b9-f5db-480b-a1a8-a396c088fc8e",
+    "33be4ab0-0aaf-414d-a7a1-d173b5d3e051",
+    "dd6b0a39-7d77-4456-8aa8-59bf0c3b524c",
+    "861f1e62-6f07-42c1-b6fc-b95b17c9143e",
+    "448d0ecd-2cb2-4d14-b9d6-073ef3a2e46d",
+    "c85fb50e-d8f7-4152-a398-7aff183e2c33",
+    "7dc88c7a-3c08-4129-a11f-17f34f4cebb6",
+    "46a6c679-4fb5-493b-91bb-86dad40ac7a4",
+    "626e30c5-a13a-418d-a5ee-ba05d801fa7d",
+    "5f9c7a64-2ab0-4b5c-b4da-ab08c10605e0",
+    "fc3626ae-f131-486a-8746-90b7185db28d"
+  ]
+}

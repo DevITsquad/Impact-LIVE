@@ -1,0 +1,69 @@
+<style>
+  .single__button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: {{ section.settings.margin__bottom }}px;
+    margin-top: {{ section.settings.margin__top}}px;
+  }
+  .single__button {
+    width: 20%;
+  }
+
+  @media(max-width: 999px) {
+
+    .single__button-wrapper {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .single__button {
+      width: 100%;
+    }
+  }
+</style>
+
+<div class="single__button-wrapper">
+  <div class="single__button button">
+    <a href="{{ section.settings.button__link }}">{{ section.settings.button__label }}</a>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Single button",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "url",
+        "id": "button__link",
+        "label": "Button link"
+      }, {
+        "type": "text",
+        "id": "button__label",
+        "label": "Button label"
+      }, {
+        "type": "range",
+        "id": "margin__bottom",
+        "min": 0,
+        "max": 40,
+        "step": 5,
+        "unit": "px",
+        "label": "Margin bottom",
+        "default": 0
+      }, {
+        "type": "range",
+        "id": "margin__top",
+        "min": 0,
+        "max": 40,
+        "step": 5,
+        "unit": "px",
+        "label": "Margin top",
+        "default": 0
+      }
+    ],
+    "presets": [
+      {
+        "name": "Single button"
+      }
+    ]
+  }
+{% endschema %}

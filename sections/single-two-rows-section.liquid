@@ -1,0 +1,76 @@
+{{ 'single-two-rows.css' | asset_url | stylesheet_tag }}
+{%- render 'section-spacing-collapsing' -%}
+
+{% assign count = 0 %}
+{% for block in section.blocks %}
+       {% assign count = count | plus: 1 %}
+{% endfor %}
+<style>
+    .shopify-section--single-two-rows {
+        padding-block-start: 0!important;
+        padding-block-end: 0!important;
+    }
+</style>
+
+<div {% render 'section-properties', narrow: true, tight: true %}>
+    <div class="two-rows__wrapper">
+        {% for block in section.blocks %}
+            <div class="two-rows__item">
+                <div class="item__img"><img src="{{ block.settings.item_img | img_url }}" alt="item_img"></div>
+                <div class="item__title bold">{{ block.settings.item_title }}</div>
+                <div class="item__text">{{ block.settings.item_text }}</div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+{% schema %}
+    {
+        "name": "DEV 2 rows section",
+        "class": "shopify-section--single-two-rows",
+        "tag": "section",
+        "settings": [
+            {
+                "type": "color",
+                "id": "background_color",
+                "label": "Background color"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "item",
+                "name": "Row item",
+                "limit": 6,
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "item_img",
+                        "label": "Image"
+                    },
+                    {
+                        "type": "text",
+                        "id": "item_title",
+                        "label": "Item title",
+                        "default": "Item"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "item_text",
+                        "label": "Content"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "DEV 2 rows section",
+                "blocks": [
+                    {
+                        "type": "item"
+                    }
+                ]
+            }
+        ]
+    }
+{% endschema %}

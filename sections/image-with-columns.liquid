@@ -1,0 +1,595 @@
+{{ 'image-with-columns.css' | asset_url | stylesheet_tag }}
+
+<div
+  class="element-wrapper"
+  style="{% if section.settings.background_color != blank %}background-color: {{ section.settings.background_color }};{% endif %} justify-content:{{section.settings.align_columns}};"
+>
+  {%- if section.settings.image -%}
+    <div class="main-img">
+      <img src="{{ section.settings.image | img_url: '430x580' }}" alt="main-img">
+    </div>
+  {%- endif -%}
+
+  <div class="content-element">
+    {% for block in section.blocks %}
+      <div class="element_item">
+        <div style="display:flex;justify-content:{{block.settings.align_icon}};" class="element-icon">
+          {%- if block.settings.custom_icon != blank -%}
+            {%- capture sizes -%}{{ block.settings.icon_width }}px{%- endcapture -%}
+            {%- capture widths -%}{{ block.settings.icon_width }}, {{ block.settings.icon_width | times: 2 | at_most: block.settings.custom_icon.width }}{%- endcapture -%}
+            {%- capture style -%}--mobile-icon-max-width: {{ block.settings.mobile_icon_width }}px; --icon-max-width: {{ block.settings.icon_width }}px{%- endcapture -%}
+            {{-
+              block.settings.custom_icon
+              | image_url: width: block.settings.custom_icon.width
+              | image_tag: loading: 'lazy', sizes: sizes, widths: widths, style: style, class: 'image-icon'
+            -}}
+          {%- else -%}
+            {%- render 'icon' with block.settings.icon,
+              width: block.settings.mobile_icon_width,
+              height: block.settings.mobile_icon_width,
+              class: 'sm:hidden'
+            -%}
+            {%- render 'icon' with block.settings.icon,
+              width: block.settings.icon_width,
+              height: block.settings.icon_width,
+              class: 'hidden sm:block'
+            -%}
+          {%- endif -%}
+        </div>
+
+       <style>
+        .block--id--{{block.id}}.element-title.h4{
+          font-size:{{block.settings.size_title}}px !important;
+          
+        }
+        .block--id--{{block.id}}.element-content{
+          font-size:{{block.settings.size_content}}px !important;
+        }
+
+          @media screen and (max-width:768px){
+            .block--id--{{block.id}}.element-title.h4{
+              font-size:{{block.settings.size_title_tablet}}px !important;
+              
+            }
+            .block--id--{{block.id}}.element-content{
+              font-size:{{block.settings.size_content_tablet}}px !important;
+            }
+          }
+          @media screen and (max-width:480px){
+            .block--id--{{block.id}}.element-title.h4{
+              font-size:{{block.settings.size_title_mobile}}px !important;
+              
+            }
+            .block--id--{{block.id}}.element-content{
+              font-size:{{block.settings.size_content_mobile}}px !important;
+            }
+          }
+      
+        </style>
+
+        <div
+          style="text-align:{{block.settings.align_title}}; color:{{block.settings.color_title}};"
+          class="block--id--{{block.id}} element-title h4"
+        >
+          {{ block.settings.title }}
+        </div>
+        <div
+          style="text-align:{{block.settings.align_content}}; color:{{block.settings.color_content}};"
+          class="block--id--{{block.id}} element-content"
+        >
+          {{ block.settings.content }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "DEV Image with columns",
+  "class": "section",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color"
+    },
+    {
+      "type": "select",
+      "id": "align_columns",
+      "label": "Align Columns",
+      "options": [
+        {
+          "value": "start",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "end",
+          "label": "Right"
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "Element",
+      "limit": 4,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Element title",
+          "default": "Element 1"
+        },
+        {
+          "type": "select",
+          "id": "align_title",
+          "label": "Align Element title",
+          "options": [
+            {
+              "value": "start",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "end",
+              "label": "Right"
+            }
+          ]
+        }, 
+        {
+          "type": "color",
+          "id": "color_title",
+          "label": "color title"
+        },
+        {
+          "type": "range",
+          "id": "size_title",
+          "min": 1,
+          "max": 60,
+          "step": 1,
+          "unit": "px",
+          "label": "text size title",
+          "default": 23
+        },
+        {
+          "type": "range",
+          "id": "size_title_mobile",
+          "min": 1,
+          "max": 60,
+          "step": 1,
+          "unit": "px",
+          "label": "text size title mobile",
+          "default": 18
+        },
+         {
+          "type": "range",
+          "id": "size_title_tablet",
+          "min": 1,
+          "max": 60,
+          "step": 1,
+          "unit": "px",
+          "label": "text size title tablet",
+          "default": 16
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content",
+          "default": "<p>Use this text to share information about your brand with your customers.</p>"
+        },
+        {
+          "type": "select",
+          "id": "align_content",
+          "label": "Align content",
+          "options": [
+            {
+              "value": "start",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "end",
+              "label": "Right"
+            }
+          ]
+        },
+        {
+          "type": "color",
+          "id": "color_content",
+          "label": "color content"
+        }, 
+        {
+          "type": "range",
+          "id": "size_content",
+          "min": 1,
+          "max": 60,
+          "step": 1,
+          "unit": "px",
+          "label": "text size content",
+          "default": 16
+        },
+        {
+          "type": "range",
+          "id": "size_content_tablet",
+          "min": 1,
+          "max": 60,
+          "step": 1,
+          "unit": "px",
+          "label": "text size content tablet",
+          "default": 15
+        },
+        {
+          "type": "range",
+          "id": "size_content_mobile",
+          "min": 1,
+          "max": 60,
+          "step": 1,
+          "unit": "px",
+          "label": "text size content mobile",
+          "default": 13
+        },
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "Icon",
+          "options": [
+            {
+              "value": "picto-coupon",
+              "label": "Coupon",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-percent",
+              "label": "Percent",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-gift",
+              "label": "Gift",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-star",
+              "label": "Star",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-like",
+              "label": "Like",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-building",
+              "label": "Building",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-love",
+              "label": "Love",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-award-gift",
+              "label": "Award gift",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-happy",
+              "label": "Happy",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-box",
+              "label": "Box",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-pin",
+              "label": "Pin",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-timer",
+              "label": "Timer",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-validation",
+              "label": "Validation",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-truck",
+              "label": "Truck",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-return",
+              "label": "Return",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-earth",
+              "label": "Earth",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-plane",
+              "label": "Plane",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-credit-card",
+              "label": "Credit card",
+              "group": "Payment & Security"
+            },
+            {
+              "value": "picto-lock",
+              "label": "Lock",
+              "group": "Payment & Security"
+            },
+            {
+              "value": "picto-shield",
+              "label": "Shield",
+              "group": "Payment & Security"
+            },
+            {
+              "value": "picto-secure-profile",
+              "label": "Secure profile",
+              "group": "Payment & Security"
+            },
+            {
+              "value": "picto-money",
+              "label": "Money",
+              "group": "Payment & Security"
+            },
+            {
+              "value": "picto-recycle",
+              "label": "Recycle",
+              "group": "Ecology"
+            },
+            {
+              "value": "picto-leaf",
+              "label": "Leaf",
+              "group": "Ecology"
+            },
+            {
+              "value": "picto-tree",
+              "label": "Tree",
+              "group": "Ecology"
+            },
+            {
+              "value": "picto-mobile-phone",
+              "label": "Mobile phone",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-phone",
+              "label": "Phone",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-chat",
+              "label": "Chat",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-customer-support",
+              "label": "Customer support",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-operator",
+              "label": "Operator",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-mailbox",
+              "label": "Mailbox",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-envelope",
+              "label": "Envelope",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-comment",
+              "label": "Comment",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-question",
+              "label": "Question",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-send",
+              "label": "Send",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-at-sign",
+              "label": "At sign",
+              "group": "Tech"
+            },
+            {
+              "value": "picto-camera",
+              "label": "Camera",
+              "group": "Tech"
+            },
+            {
+              "value": "picto-wifi",
+              "label": "WiFi",
+              "group": "Tech"
+            },
+            {
+              "value": "picto-bluetooth",
+              "label": "Bluetooth",
+              "group": "Tech"
+            },
+            {
+              "value": "picto-printer",
+              "label": "Printer",
+              "group": "Tech"
+            },
+            {
+              "value": "picto-smart-watch",
+              "label": "Smart watch",
+              "group": "Tech"
+            },
+            {
+              "value": "picto-coffee",
+              "label": "Coffee",
+              "group": "Food & Drink"
+            },
+            {
+              "value": "picto-burger",
+              "label": "Burger",
+              "group": "Food & Drink"
+            },
+            {
+              "value": "picto-beer",
+              "label": "Beer",
+              "group": "Food & Drink"
+            },
+            {
+              "value": "picto-target",
+              "label": "Target",
+              "group": "Other"
+            },
+            {
+              "value": "picto-document",
+              "label": "Document",
+              "group": "Other"
+            },
+            {
+              "value": "picto-jewelry",
+              "label": "Jewelry",
+              "group": "Other"
+            },
+            {
+              "value": "picto-music",
+              "label": "Music",
+              "group": "Other"
+            },
+            {
+              "value": "picto-file",
+              "label": "File",
+              "group": "Other"
+            },
+            {
+              "value": "picto-mask",
+              "label": "Mask",
+              "group": "Other"
+            },
+            {
+              "value": "picto-stop",
+              "label": "Stop",
+              "group": "Other"
+            }
+          ]
+        },
+        {
+          "type": "image_picker",
+          "id": "custom_icon",
+          "label": "Custom icon",
+          "info": "240 x 240px .png recommended"
+        },
+        {
+          "type": "select",
+          "id": "align_icon",
+          "label": "Align icon",
+          "options": [
+            {
+              "value": "start",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "end",
+              "label": "Right"
+            }
+          ]
+        },
+        {
+          "type": "range",
+          "id": "mobile_icon_width",
+          "min": 24,
+          "max": 120,
+          "step": 4,
+          "unit": "px",
+          "label": "Mobile icon width",
+          "default": 24
+        },
+        {
+          "type": "range",
+          "id": "icon_width",
+          "min": 24,
+          "max": 120,
+          "step": 4,
+          "unit": "px",
+          "label": "Icon width",
+          "default": 32
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "DEV Image with columns",
+      "blocks": [
+        {
+          "type": "tab",
+          "settings": {
+            "title": "Element 1",
+            "content": "<p>Use this text to share information about your brand with your customers.</p>"
+          }
+        },
+        {
+          "type": "tab",
+          "settings": {
+            "title": "Element 2",
+            "content": "<p>Use this text to share information about your brand with your customers.</p>"
+          }
+        },
+        {
+          "type": "tab",
+          "settings": {
+            "title": "Element 3",
+            "content": "<p>Use this text to share information about your brand with your customers.</p>"
+          }
+        },
+        {
+          "type": "tab",
+          "settings": {
+            "title": "Element 4",
+            "content": "<p>Use this text to share information about your brand with your customers.</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

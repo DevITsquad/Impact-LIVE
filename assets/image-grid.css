@@ -1,0 +1,11 @@
+.image-wrapper {
+	width: 100%;
+	display: flex;
+}
+
+.image-wrapper__item img {
+	width: 100%;
+	max-width: 100%;
+	display: block;
+	height: auto;
+}

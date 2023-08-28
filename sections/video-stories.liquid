@@ -1,0 +1,177 @@
+{{ 'video-stories.css' | asset_url | stylesheet_tag }}
+
+
+
+<style>
+    .{{ section.id }}{
+        margin-top: {{ section.settings.margin_top }}px;
+        margin-bottom: {{ section.settings.margin_bottom }}px;
+    }
+    @media screen and (max-width: 989px) {
+        .{{ section.id }}{
+            margin-top: {{ section.settings.margin_top | times: 0.5 }}px;
+            margin-bottom: {{ section.settings.margin_bottom | times: 0.5 }}px;
+        }
+    }
+</style>
+<section class="{{ section.id }} section">
+    <div class="video-stories__wrapper">
+        <div class="video-stories__heading">{{ section.settings.heading }}</div>
+        <div class="video-stories__content">
+            {% for block in section.blocks %}
+                <div class="content__item" data-video-src="{% if block.settings.video_text_url != blank %}{{  block.settings.video_text_url }}{% else %}{{ block.settings.video.sources[1].url }} {% endif %}">
+                    <div class="content__preview-img">
+                        <img width="auto" height="auto" src="{{ block.settings.preview_img | img_url: 'large'}}" alt="preview_image" loading="lazy">        
+                        <div class="story__button">{% render 'play-button' %}</div>
+                        <div class="story__content">
+                            <div class="story__quote">{{ block.settings.story_quote }}</div>
+                            <div class="story__tag">{{ block.settings.story_tag }}</div>
+                        </div>
+                    </div>
+                    <div class="content__info_wrapper">
+                        <div class="content__svg"><img src="{{ block.settings.footer_arrow | img_url: 'small'}}" alt="arrow"></div>
+                        <div class="content__footer-text">{{ block.settings.footer_text }}</div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<div class="video-stories__modal">
+    <div class="video-stories__modal-container">
+        <div class="video-stories__modal-close">
+            <svg class="icon-close" width="60" height="70" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.4944 25C10.0238 24.9977 7.60929 24.2627 5.55614 22.8878C3.503 21.5129 1.90337 19.5598 0.959484 17.2756C0.0155936 14.9913 -0.230189 12.4783 0.253205 10.0543C0.7366 7.6303 1.92747 5.4041 3.67528 3.65709C5.42308 1.91009 7.64936 0.720728 10.0727 0.239347C12.496 -0.242034 15.0076 0.00618064 17.29 0.952614C19.5723 1.89905 21.523 3.50121 22.8953 5.55657C24.2677 7.61194 25.0002 10.0282 25.0002 12.5C24.9961 15.816 23.6769 18.9948 21.3321 21.3384C18.9874 23.6821 15.8088 24.999 12.4944 25ZM12.4944 0.769231C10.1759 0.771513 7.91002 1.46145 5.98331 2.75183C4.0566 4.04221 2.55553 5.8751 1.66983 8.01882C0.784137 10.1625 0.553581 12.5208 1.00731 14.7956C1.46103 17.0704 2.57867 19.1596 4.21895 20.799C5.85923 22.4384 7.94851 23.5545 10.2227 24.0062C12.4969 24.4579 14.8539 24.2249 16.9957 23.3367C19.1376 22.4485 20.9681 20.9449 22.256 19.0161C23.5439 17.0872 24.2313 14.8196 24.2313 12.5C24.2272 9.38806 22.989 6.40491 20.7885 4.20552C18.5879 2.00612 15.6049 0.770247 12.4944 0.769231Z" fill="#fff"></path>
+                <path d="M16.9917 16.4548L13.0397 12.5009L16.9456 8.59322L17.2185 8.32014C17.2901 8.24808 17.3303 8.15059 17.3303 8.04898C17.3303 7.94737 17.2901 7.84989 17.2185 7.77783C17.1828 7.74178 17.1403 7.71317 17.0934 7.69364C17.0466 7.67412 16.9963 7.66406 16.9456 7.66406C16.8948 7.66406 16.8446 7.67412 16.7977 7.69364C16.7509 7.71317 16.7084 7.74178 16.6726 7.77783L16.4458 8.00475L12.4938 11.9586L8.5533 8.01245L8.31495 7.77783C8.24141 7.71482 8.14681 7.68189 8.05005 7.68563C7.9533 7.68937 7.86152 7.7295 7.79305 7.798C7.72459 7.8665 7.68448 7.95832 7.68074 8.05512C7.677 8.15192 7.70992 8.24656 7.7729 8.32014L8.042 8.59322L11.9517 12.5009L8.0074 16.4471L7.7729 16.6817C7.73686 16.7174 7.70826 16.76 7.68875 16.8068C7.66923 16.8537 7.65918 16.904 7.65918 16.9548C7.65918 17.0055 7.66923 17.0558 7.68875 17.1027C7.70826 17.1495 7.73686 17.1921 7.7729 17.2278C7.84493 17.2995 7.94236 17.3397 8.04392 17.3397C8.14549 17.3397 8.24292 17.2995 8.31495 17.2278L8.5879 16.9548L12.4938 13.0355L16.4035 16.9548L16.6726 17.2278C16.745 17.3003 16.8432 17.3409 16.9456 17.3409C17.048 17.3409 17.1461 17.3003 17.2185 17.2278C17.2909 17.1554 17.3316 17.0572 17.3316 16.9548C17.3316 16.8523 17.2909 16.7541 17.2185 16.6817L16.9917 16.4548Z" fill="#fff"></path>
+            </svg>
+        </div> 
+        <video src="https://cdn.shopify.com/videos/c/o/v/e855caa4d72e4297a43b37322ff2d105.mp4" type="video/mp4" controls
+        class="modal__video">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+
+<script>
+    let close_btn = document.querySelector('.video-stories__modal-close');
+    let main_video = document.querySelector('.modal__video');
+    let video_modal = document.querySelector('.video-stories__modal');
+    let stories = document.querySelectorAll('.content__item');
+
+    const toggleModal = e => {
+        if (e.target.closest('.video-stories__modal-close') || e.which == '27' || e.target.closest('.video-stories__modal')) {
+            console.log('click')
+            main_video && main_video.pause();
+            video_modal.classList.remove('active');
+            document.body.style.overflow = 'unset';
+        }else{
+            let video_src = e.target.closest('.content__item')?.dataset.videoSrc;
+            video_modal.classList.add('active');
+            main_video.src = video_src;
+            //block scroll
+            document.body.style.overflow = 'hidden';
+        }
+    }
+
+    close_btn.addEventListener('click', toggleModal);
+    stories.forEach(el => el.addEventListener('click', toggleModal));
+    document.querySelectorAll('.video-stories__modal')?.forEach(modal => {
+        modal.addEventListener('click', (event) => !event.target.closest('.modal__video') && toggleModal(event));
+    })
+</script>
+{% schema %}
+    {
+        "name": "DEV Video stories section",
+        "settings": [
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Section heading"
+            },
+            {
+                "type": "range",
+                "id": "margin_top",
+                "label": "Margin top",
+                "min": 0,
+                "max": 120,
+                "step": 2,
+                "default": 0,
+                "unit": "px"
+            },
+            {
+                "type": "range",
+                "id": "margin_bottom",
+                "label": "Margin bottom",
+                "min": 0,
+                "max": 120,
+                "step": 2,
+                "default": 0,
+                "unit": "px"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "video",
+                "name": "Video",
+                "limit": 4,
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "preview_img",
+                        "label": "Preview image"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "footer_arrow",
+                        "label": "Icon(arrow)"
+                    },
+                    {
+                        "type": "video",
+                        "id": "video",
+                        "label": "Video"
+                    },
+                    {
+                        "type": "text",
+                        "id": "video_text_url",
+                        "label": "Video URL",
+                        "info": "Optional. Will overwrite above setting. Usefull when we above video is not loading"
+                    },
+                    {
+                        "type": "text",
+                        "id": "story_quote",
+                        "label": "Story quote"
+                    },
+                    {
+                        "type": "text",
+                        "id": "story_tag",
+                        "label": "Story tag"
+                    },
+                    {
+                        "type": "text",
+                        "id": "footer_text",
+                        "label": "Footer text"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "DEV Video stories section",
+                "blocks": [
+                    {
+                        "type": "video"
+                    },
+                    {
+                        "type": "video"
+                    },
+                    {
+                        "type": "video"
+                    },
+                    {
+                        "type": "video"
+                    }
+                ]
+            }
+        ]
+    }
+{% endschema %}

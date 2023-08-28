@@ -1,0 +1,370 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "60787fb1-7eb4-4668-b030-dcd1960689bb": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Genuss & Zeitersparnis für echte Teeliebhaber",
+            "subtitle_color": "#a9a9c3"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "b54ea687-32a3-456b-960a-7e6954a47405": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Perfekt gebrühter Tee auf Knopfdruck<\/li><li>Für Teebeutel und losen Tee<\/li><li>2 in 1: Tee- und Wasserspender (bis zu 1,4 Liter)<\/li><li>Temperatur, Brühzeit und Menge frei einstellbar<\/li><li>Vollautomatische Reinigung<\/li><\/ul>",
+            "text_color": ""
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": true
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "button_text": "Join waitlist",
+            "button_link": "shopify:\/\/pages\/contact",
+            "button_background": "#8ba473",
+            "button_text_color": "#000000",
+            "show_payment_button": false,
+            "atc_button_background": "#1a2f33",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "#8ba473",
+            "payment_button_text_color": "#ffffff"
+          }
+        },
+        "eea29a2b-e713-449c-8224-7dc75a0b1513": {
+          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "credit-promotion-auto-size",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
+            "theme": "light",
+            "topPadding": "0",
+            "bottomPadding": "0"
+          }
+        },
+        "daa08efd-f675-4330-b2ab-a1e7c4112fe6": {
+          "type": "shipping_icons",
+          "settings": {
+            "shipping_img": "shopify:\/\/shop_images\/1st_df574a70-4f76-442f-8eaf-2d8ffd13e17e.svg",
+            "shipping_text": "Gratis Lieferung",
+            "shipping_img_2": "shopify:\/\/shop_images\/2nd_907215f6-d7a8-48d7-bf03-f2ec0e83271f.svg",
+            "shipping_text_2": "30 Tage Rückgabe",
+            "shipping_img_3": "shopify:\/\/shop_images\/3rd_7089df2f-8ffd-45a2-8550-e408fcf7cfd8.svg",
+            "shipping_text_3": "Ratenzahlung",
+            "shipping_text_4": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "60787fb1-7eb4-4668-b030-dcd1960689bb",
+        "description",
+        "b54ea687-32a3-456b-960a-7e6954a47405",
+        "variant_picker",
+        "payment_terms",
+        "price",
+        "separator",
+        "buy_buttons",
+        "eea29a2b-e713-449c-8224-7dc75a0b1513",
+        "daa08efd-f675-4330-b2ab-a1e7c4112fe6"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": false,
+        "desktop_media_width": 50,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 4,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "ac34fabf-e64f-486d-8a5d-3d2671943111": {
+      "type": "rich-text",
+      "blocks": {
+        "9a7adb8c-d1bf-4a66-95c5-5adb87ecd59b": {
+          "type": "heading",
+          "settings": {
+            "text": "Empfohlene Einstellungen",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "9a7adb8c-d1bf-4a66-95c5-5adb87ecd59b"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "a1d0ff97-acbc-4ea4-b000-6091bb9cb30a": {
+      "type": "text-with-icons",
+      "blocks": {
+        "afd5808c-95d1-4d44-afb8-dfab69035195": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/thermometer_2100230.svg",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "",
+            "content": "<h4>Temperatur<\/h4><h4>5min<\/h4>"
+          }
+        },
+        "template--16136819114145__a1d0ff97-acbc-4ea4-b000-6091bb9cb30a-item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/hot-chocolate_3347980.svg",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "",
+            "content": "<h4>Wassermenge<\/h4><h4>5min<\/h4>"
+          }
+        },
+        "template--16136819114145__a1d0ff97-acbc-4ea4-b000-6091bb9cb30a-item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-music",
+            "custom_icon": "shopify:\/\/shop_images\/hourglass_636545.svg",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "",
+            "content": "<h4>Brühzeit<\/h4><h4>5min<\/h4>"
+          }
+        },
+        "template--16136819114145__a1d0ff97-acbc-4ea4-b000-6091bb9cb30a-item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/spoon_921735.svg",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "",
+            "content": "<h4>Teemenge<\/h4><h4>5min<\/h4>"
+          }
+        }
+      },
+      "block_order": [
+        "afd5808c-95d1-4d44-afb8-dfab69035195",
+        "template--16136819114145__a1d0ff97-acbc-4ea4-b000-6091bb9cb30a-item-2",
+        "template--16136819114145__a1d0ff97-acbc-4ea4-b000-6091bb9cb30a-item-1",
+        "template--16136819114145__a1d0ff97-acbc-4ea4-b000-6091bb9cb30a-item-3"
+      ],
+      "settings": {
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "full_width": true,
+        "title": "",
+        "heading_tag": "h6",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "43c3ea3f-0a90-4545-861d-307b784a3a31": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--16021927919777__43c3ea3f-0a90-4545-861d-307b784a3a31-16785315760bd326f7-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BRU_tea_maker_founders_Bogdan_Krinitchko_and_Filip_Carlberg_cheers_2.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Gemacht von Teetrinkern fÜr Teetrinker",
+            "title": "",
+            "content": "<p>Hi, wir sind Filip und Bogdan! Gemeinsam haben wir vor 3 Jahren BRU gegründet. Als Züricher StartUp verfolgen wir das Ziel, die heimische Teezubereitung für jeden Tee-Liebhaber zu vereinfachen.<br\/><br\/>Entstanden ist der BRU Maker One <strong>aus unserer Leidenschaft für wirklich leckeren Tee.<\/strong> Auf der unsere Suche nach einer qualitativen und authentischen, aber gleichzeitig einfachen Art der Teezubereitung sind wir enttäuscht worden. Also haben wir uns mit dem BRU Maker unseren ganz persönlichen Genießer-Traum erfüllt.<br\/><br\/>Er ermöglicht hochwertigsten Teegenuss ganz nach deinem Geschmack ohne dabei Kapseln oder Pads verwenden zu müssen. <br\/><br\/>Als innovative <strong>Tee-Maschine ermöglicht der BRU Maker One jetzt den perfekten Tee auf Knopfdruck<\/strong> – und wir sind stolz sagen zu können, dass er bereits über 1500 Tee-Liebhaber erfreut.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16021927919777__43c3ea3f-0a90-4545-861d-307b784a3a31-16785315760bd326f7-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "main_heading": "",
+        "full_width": false,
+        "enable_parallax": true,
+        "padding_bottom": true,
+        "spacing": "small"
+      }
+    },
+    "5fbf8766-6d67-4a13-b5cd-d2f2977b032b": {
+      "type": "newsletter",
+      "blocks": {
+        "4c514332-61a9-4ace-9e77-615782a8f435": {
+          "type": "link",
+          "settings": {
+            "link": "<p><a href=\"#\" title=\"#\">Profitiere von tollen <\/a><a href=\"#\" title=\"#\">Angeboten.<\/a><\/p>"
+          }
+        },
+        "1e2d7215-affc-4023-b939-402932ac9924": {
+          "type": "link",
+          "settings": {
+            "link": "<p><a href=\"#\" title=\"#\">Erhalte Tipps und Tricks rund um die Teezubereitung. <\/a><\/p>"
+          }
+        },
+        "cff2563e-9365-43cc-9114-cf97b870b0da": {
+          "type": "link",
+          "settings": {
+            "link": "<p><a href=\"#\" title=\"#\">Bekomme exklusive Vorabinfos zu neuen Produkten.<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "4c514332-61a9-4ace-9e77-615782a8f435",
+        "1e2d7215-affc-4023-b939-402932ac9924",
+        "cff2563e-9365-43cc-9114-cf97b870b0da"
+      ],
+      "settings": {
+        "full_width": false,
+        "image": "shopify:\/\/shop_images\/Rectangle_66.jpg",
+        "show_icon": false,
+        "title": "",
+        "content": "",
+        "button_text": "Jetzt anmelden",
+        "subtext": "Mit deiner Anmeldung gibst du dein Einverständnis E-Mails von uns zu erhalten. Du kannst den Newsletter jederzeit abmelden.",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "6fd6597d-5983-4520-8585-9daed45b9328": {
+      "type": "image-grid",
+      "blocks": {
+        "template--16101598855329__6fd6597d-5983-4520-8585-9daed45b9328-1686920524669db49d-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/before_after_4.png",
+            "image_link": ""
+          }
+        },
+        "template--16101598855329__6fd6597d-5983-4520-8585-9daed45b9328-1686920524669db49d-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AEAABD4D-4AB6-4385-A8C5-1A66B33AADDE_1_105_c.jpg",
+            "image_link": ""
+          }
+        },
+        "template--16101598855329__6fd6597d-5983-4520-8585-9daed45b9328-1686920524669db49d-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20D0AD82-9226-4D96-9516-AC0E5D19C60E_1_105_c.jpg",
+            "image_link": ""
+          }
+        },
+        "template--16101598855329__6fd6597d-5983-4520-8585-9daed45b9328-1686920524669db49d-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_80_da0f7087-33d9-4ba9-abb4-81d3f3b250e4.png",
+            "image_link": ""
+          }
+        },
+        "template--16101598855329__6fd6597d-5983-4520-8585-9daed45b9328-1686920524669db49d-4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/before_after_3.png",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16101598855329__6fd6597d-5983-4520-8585-9daed45b9328-1686920524669db49d-0",
+        "template--16101598855329__6fd6597d-5983-4520-8585-9daed45b9328-1686920524669db49d-1",
+        "template--16101598855329__6fd6597d-5983-4520-8585-9daed45b9328-1686920524669db49d-2",
+        "template--16101598855329__6fd6597d-5983-4520-8585-9daed45b9328-1686920524669db49d-3",
+        "template--16101598855329__6fd6597d-5983-4520-8585-9daed45b9328-1686920524669db49d-4"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ac34fabf-e64f-486d-8a5d-3d2671943111",
+    "a1d0ff97-acbc-4ea4-b000-6091bb9cb30a",
+    "43c3ea3f-0a90-4545-861d-307b784a3a31",
+    "5fbf8766-6d67-4a13-b5cd-d2f2977b032b",
+    "6fd6597d-5983-4520-8585-9daed45b9328"
+  ]
+}

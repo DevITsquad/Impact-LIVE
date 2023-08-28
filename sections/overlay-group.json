@@ -1,0 +1,59 @@
+{
+  "type": "custom.overlay",
+  "name": "Overlay group",
+  "sections": {
+    "newsletter-popup": {
+      "type": "newsletter-popup",
+      "disabled": true,
+      "settings": {
+        "apparition_delay": 5,
+        "show_only_on_index": false,
+        "show_only_for_visitors": false,
+        "show_only_once": false,
+        "title": "Abonnieren Sie unseren Newsletter",
+        "button_text": "Abbonieren",
+        "subtext": "Abonniere unseren <strong>Newsletter<\/strong>, um die neuesten Updates, exclusive Angebote und Tipps&Tricks von BRU zu erhalten!"
+      }
+    },
+    "privacy-banner": {
+      "type": "privacy-banner",
+      "disabled": true,
+      "settings": {
+        "privacy_bar_title": "Cookie-Politik",
+        "privacy_bar_content": "<p>Wir verwenden Cookies und ähnliche Technologien, um unsere Website bestmöglich nutzen zu können. Weitere Informationen finden Sie in unserer Datenschutzrichtlinie.<\/p>"
+      }
+    },
+    "cart-drawer": {
+      "type": "cart-drawer",
+      "settings": {
+        "show_cart_note": false,
+        "show_shipping_text": true,
+        "show_view_cart_button": false,
+        "show_checkout_button": true,
+        "caption": "<p>Gute Wahl! Der BRU Maker ist bald bei dir<\/p>",
+        "below_price": "<p>Unverbindlich 30 Tage testen<\/p>",
+        "recommendations_title": "",
+        "products": [
+
+        ],
+        "product_card_background": "#f2f2f2",
+        "product_card_text_color": ""
+      }
+    },
+    "search-drawer": {
+      "type": "search-drawer",
+      "settings": {
+        "full_width": false,
+        "show_article_category": true,
+        "search_menu": "",
+        "search_menu_show_title": true
+      }
+    }
+  },
+  "order": [
+    "newsletter-popup",
+    "privacy-banner",
+    "cart-drawer",
+    "search-drawer"
+  ]
+}

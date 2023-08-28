@@ -1,0 +1,75 @@
+{{ 'image-grid.css' | asset_url | stylesheet_tag }}
+
+<style>
+    .image-wrapper__item {
+        width: calc(100% / {{section.blocks.size}});
+      flex: 1 1 200px;
+    }
+</style>
+
+<div class="image-wrapper">
+    {% for block in section.blocks %}
+        {% if block.settings.image_link %}
+            {% assign link = block.settings.image_link %}
+            {% else %}
+            {% assign link = '##' %}
+        {% endif %}
+      <div class="image-wrapper__item">
+        <a href="{{ link }}">
+          {{ block.settings.image
+            | image_url: width: block.settings.image.width
+            | image_tag: width: block.settings.image.width, 
+            height: block.settings.image.height, 
+            alt: '', loading: 'lazy' }}
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+
+{% schema %}
+    {
+        "name": "Image grid",
+        "tag": "section",
+        "blocks": [
+            {
+                "type": "image",
+                "name": "Image",
+                "limit": 5,
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "image",
+                        "label": "Image"
+                    },
+                    {
+                        "type": "url",
+                        "id": "image_link",
+                        "label": "Image link"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "Image grid",
+                "blocks": [
+                    {
+                        "type": "image"
+                    },
+                    {
+                        "type": "image"
+                    },
+                    {
+                        "type": "image"
+                    },
+                    {
+                        "type": "image"
+                    },
+                    {
+                        "type": "image"
+                    }
+                ]
+            }
+        ]
+    }
+{% endschema %}

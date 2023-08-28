@@ -1,0 +1,21 @@
+.rows-wrapper {
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+}
+.main-img {
+    width: 50%;
+}
+.content-rows {
+    width: 50%;
+}
+.row-header {
+    display: flex;
+}
+.row-title {
+    margin-left: 10px;
+}
+.row-content {
+    margin-left: 9%;
+}

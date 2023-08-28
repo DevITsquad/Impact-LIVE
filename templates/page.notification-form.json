@@ -1,0 +1,118 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "fb67ed8d-02b7-4e28-8c16-a872c545ecec": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16023139287201__fb67ed8d-02b7-4e28-8c16-a872c545ecec-1677001622dd822b23-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--16023139287201__fb67ed8d-02b7-4e28-8c16-a872c545ecec-1677001622dd822b23-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Lassen Sie sich benachrichtigen, sobald der BRU Maker One in Ihrem Land erhältlich ist!",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--16023139287201__fb67ed8d-02b7-4e28-8c16-a872c545ecec-1677001622dd822b23-2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16023139287201__fb67ed8d-02b7-4e28-8c16-a872c545ecec-1677001622dd822b23-0",
+        "template--16023139287201__fb67ed8d-02b7-4e28-8c16-a872c545ecec-1677001622dd822b23-1",
+        "template--16023139287201__fb67ed8d-02b7-4e28-8c16-a872c545ecec-1677001622dd822b23-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "8b40744f-0f51-4882-9ac0-ac580adf1c58": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--16023139287201__8b40744f-0f51-4882-9ac0-ac580adf1c58-1677003289f339a0df-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_Group_8.png",
+            "media_width": 30,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 40,
+            "subheading": "",
+            "title": "",
+            "content": "<p>Vielen Dank für Ihr Interesse an der BRU Maker One! Im Moment ist unsere Teemaschine nur in der Schweiz und in Deutschland erhältlich.<br\/><br\/>Aber wir arbeiten hart an der Ausweitung auf andere Länder. Wenn Sie also benachrichtigt werden möchten, sobald der BRU Maker One in Ihrem Land erhältlich ist, füllen Sie bitte das untenstehende Formular aus!<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#8ba473",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16023139287201__8b40744f-0f51-4882-9ac0-ac580adf1c58-1677003289f339a0df-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "167700372782b001e1": {
+      "type": "apps",
+      "blocks": {
+        "1640c883-570b-40ec-a607-adae0977f911": {
+          "type": "shopify:\/\/apps\/powerful-contact-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTA1NDMy\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "1640c883-570b-40ec-a607-adae0977f911"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "fb67ed8d-02b7-4e28-8c16-a872c545ecec",
+    "8b40744f-0f51-4882-9ac0-ac580adf1c58",
+    "167700372782b001e1"
+  ]
+}

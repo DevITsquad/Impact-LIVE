@@ -1,0 +1,228 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "207a663c-63be-420e-9338-4963545b6b95": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16023833936033__207a663c-63be-420e-9338-4963545b6b95-1677056339bac4389a-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--16023833936033__207a663c-63be-420e-9338-4963545b6b95-1677056339bac4389a-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Partnerschaft mit BRU",
+            "heading_tag": "h1"
+          }
+        },
+        "template--16023833936033__207a663c-63be-420e-9338-4963545b6b95-1677056339bac4389a-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wir sind auf der Suche nach interessanten Menschen und Unternehmen, mit denen wir zusammenarbeiten können. Grundsätzlich sind wir offen für jede Art der Zusammenarbeit, derzeit suchen wir vor allem nach Unternehmen und Einzelhändlern in der Schweiz, die unsere Teeautomaten in ihren Geschäften verkaufen. Zögern Sie nicht, setzen Sie sich jetzt mit uns in Verbindung!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16023833936033__207a663c-63be-420e-9338-4963545b6b95-1677056339bac4389a-0",
+        "template--16023833936033__207a663c-63be-420e-9338-4963545b6b95-1677056339bac4389a-1",
+        "template--16023833936033__207a663c-63be-420e-9338-4963545b6b95-1677056339bac4389a-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/BRU_smart_tea_brewer_collaborate_1.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 63
+      }
+    },
+    "d1e5ff82-04b2-4734-a16a-9e2ed8782f56": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16023833936033__d1e5ff82-04b2-4734-a16a-9e2ed8782f56-16770607006225a4a7-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--16023833936033__d1e5ff82-04b2-4734-a16a-9e2ed8782f56-16770607006225a4a7-1": {
+          "type": "heading",
+          "settings": {
+            "text": "BRU Dropshipping-Programm für Teeläden und Einzelhändler",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--16023833936033__d1e5ff82-04b2-4734-a16a-9e2ed8782f56-16770607006225a4a7-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Über das Dropshipping-Programm können Sie unseren einzigartigen Teeautomat „BRU Maker One“ vertreiben ohne dabei das Produkt vorher einzukaufen, oderLagerhaltung betreiben zu müssen. Sie bewerben das Produkt und verkaufen es direkt an Ihre Kunden, während wir uns um den Rest kümmern. Ihre Kunden werden einen besseren Teegenuss erleben und mehr Tee trinken, während Sie im Gegenzug eine Provision für jeden verkauften Teeautomat erhalten.<br\/>Momentan konzentriert sich unser Dropshipping-Programm auf den Deutschen und Schweizer Markt. Setzen Sie sich bei Interesse gern mit uns per Kontaktformular in Verbindung. Sobald wir in andere Länder expandieren, werden wir Sie kontaktieren.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16023833936033__d1e5ff82-04b2-4734-a16a-9e2ed8782f56-16770607006225a4a7-0",
+        "template--16023833936033__d1e5ff82-04b2-4734-a16a-9e2ed8782f56-16770607006225a4a7-1",
+        "template--16023833936033__d1e5ff82-04b2-4734-a16a-9e2ed8782f56-16770607006225a4a7-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "ef60d6a0-4e1e-409c-90de-f06c2062bf8b": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "template--16023833936033__ef60d6a0-4e1e-409c-90de-f06c2062bf8b-167705948148ed789f-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/running_silhouette_dropshipping_program_8cd4ad5e-a79e-4d86-956a-6014ab357ec8.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Erster Schritt",
+            "content": "<p><strong>Online-Shop<\/strong>: Nehmen Sieden BRU Maker One als Produkt in Ihren Online-Shop auf. Wir liefern digitale Inhalte und bieten Unterstützung bei der Integration.<br\/><strong>Offline-Shop<\/strong>: Nach der Registrierung erhalten Sie einen BRU Maker One, den Sie als Vorführgerät in Ihrem Geschäft verwenden können.<\/p>"
+          }
+        },
+        "template--16023833936033__ef60d6a0-4e1e-409c-90de-f06c2062bf8b-167705948148ed789f-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shopping_cart_dropshipping_program_42b1afae-bc9a-46aa-96fb-d866f7cc04d0.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Verkauf",
+            "content": "<p>Seien Sie unter den Ersten, die den BRU Maker One zum Verkauf anbieten.<br\/>Bestellung und Bezahlung erfolgt direkt über BRU.<\/p>"
+          }
+        },
+        "b34f2dd7-d84f-4041-9ed6-3f459a7feeda": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/delivery_truck_dropshipping_program.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Lieferung",
+            "content": "<p>Die Bestellungen werden direkt vom BRU-Lager an den Endkunden versendet.<br\/>Vergabe der Sendungsverfolgungsnummer und  Kundenbetreuung erfolgt durch BRU.<\/p>"
+          }
+        },
+        "4071dd51-b869-4d8d-af5b-75ce179846c4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/piggy_bank_dropshipping_program.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Auszahlung",
+            "content": "<p>Am Ende eines jeden Monats wird die vorher abgemachte Provision pro verkaufte Maschine ausbezahlt.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16023833936033__ef60d6a0-4e1e-409c-90de-f06c2062bf8b-167705948148ed789f-0",
+        "template--16023833936033__ef60d6a0-4e1e-409c-90de-f06c2062bf8b-167705948148ed789f-1",
+        "b34f2dd7-d84f-4041-9ed6-3f459a7feeda",
+        "4071dd51-b869-4d8d-af5b-75ce179846c4"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "f4f26b96-4189-4619-a863-07eefdaa3801": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16023833936033__f4f26b96-4189-4619-a863-07eefdaa3801-16770607006225a4a7-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--16023833936033__f4f26b96-4189-4619-a863-07eefdaa3801-16770607006225a4a7-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Weitere Kooperationsmöglichkeiten",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--16023833936033__f4f26b96-4189-4619-a863-07eefdaa3801-16770607006225a4a7-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Sind Sie an einer Zusammenarbeit mit BRU interessiert, jedoch passt das Dropshipping-Programm nicht zu Ihnen? Haben Sie einen anderen Vorschlag für eine Zusammenarbeit? Wir sind an Ihren Ideen interessiert. Lassen Sie es uns über das untenstehende Kontaktformular wissen!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16023833936033__f4f26b96-4189-4619-a863-07eefdaa3801-16770607006225a4a7-0",
+        "template--16023833936033__f4f26b96-4189-4619-a863-07eefdaa3801-16770607006225a4a7-1",
+        "template--16023833936033__f4f26b96-4189-4619-a863-07eefdaa3801-16770607006225a4a7-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ecf1df",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "16794792910652dbb7": {
+      "type": "apps",
+      "blocks": {
+        "1f99136c-6e0f-42c0-82bb-577db70edb3b": {
+          "type": "shopify:\/\/apps\/powerful-contact-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTA1MzE3\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "1f99136c-6e0f-42c0-82bb-577db70edb3b"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "207a663c-63be-420e-9338-4963545b6b95",
+    "d1e5ff82-04b2-4734-a16a-9e2ed8782f56",
+    "ef60d6a0-4e1e-409c-90de-f06c2062bf8b",
+    "f4f26b96-4189-4619-a863-07eefdaa3801",
+    "16794792910652dbb7"
+  ]
+}

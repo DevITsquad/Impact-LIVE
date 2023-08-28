@@ -1,0 +1,315 @@
+{%- assign newsletter_block = section.blocks | where: 'type', 'newsletter' | first -%}
+
+{%- if section.blocks.size > 3 -%}
+  <style>
+    @media screen and (min-width: 1000px) {
+      #shopify-section-{{ section.id }}{
+        {%- if newsletter_block != blank -%}
+          --footer-block-list-gap: var(--spacing-10);
+        {%- endif -%}
+
+        --footer-block-list-justify-content: space-between;
+      }
+    }
+  </style>
+{%- endif -%}
+
+<div class="footer">
+  <div class="container">
+    <div class="footer__wrapper">
+      {%- comment -%}
+      ------------------------------------------------------------------------------------------------------------------
+      BLOCK AREA
+      ------------------------------------------------------------------------------------------------------------------
+      {%- endcomment -%}
+
+      {%- if section.blocks.size > 0 -%}
+        <div class="footer__block-list empty:hidden">
+          {%- for block in section.blocks -%}
+            {%- case block.type -%}
+              {%- when 'text' -%}
+              {%- if block.settings.title != blank or block.settings.content != blank -%}
+                <div class="footer__block footer__block--text" {{ block.shopify_attributes }}>
+                  {%- if block.settings.title != blank -%}
+                    <p class="bold">{{ block.settings.title | escape }}</p>
+                  {%- endif -%}
+
+                  {%- if block.settings.content != blank -%}
+                    <div class="prose text-subdued">
+                      {{- block.settings.content -}}
+                    </div>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+
+              {%- when 'links' -%}
+              {%- if block.settings.richtext != blank -%}
+                <div class="footer__block footer__block--menu" {{ block.shopify_attributes }}>
+                  {%- if block.settings.show_menu_title -%}
+                    <p class="bold">{{ block.settings.title-link }}</p>
+                  {%- endif -%}
+                  <div class="footer__richtext inline-block link-faded break-all">{{ block.settings.richtext }}</div>
+                </div>
+              {%- else -%}
+                {%- if block.settings.menu != blank -%}
+                  <div class="footer__block footer__block--menu" {{ block.shopify_attributes }}>
+                    {%- if block.settings.show_menu_title -%}
+                      <p class="bold">{{ block.settings.title-link }}</p>
+                    {%- endif -%}
+
+                    <ul class="v-stack gap-3" role="list">
+                      {%- for link in block.settings.menu.links -%}
+                        <li>
+                          <a href="{{ link.url }}" class="inline-block link-faded break-all">{{ link.title }}</a>
+                        </li>
+                      {%- endfor -%}
+                    </ul>
+                  </div>
+                {%- endif -%}
+              {%- endif -%}
+              {%- when 'newsletter' -%}
+              <div class="footer__block footer__block--newsletter" {{ block.shopify_attributes }}>
+                {%- if block.settings.image != blank -%}
+                  {%- capture sizes -%}
+                    {{ block.settings.image_width }}px{%- endcapture -%}
+                  {%- capture widths -%}
+                    {{ block.settings.image_width }}, {{ block.settings.image_width | times: 2 | at_most: block.settings.image.width }}{%- endcapture -%}
+                  {%- capture style -%}max-width: {{ block.settings.image_width }}px{%- endcapture -%}
+                  {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', style: style, sizes: sizes, widths: widths -}}
+                {%- endif -%}
+
+                <div class="v-stack gap-6">
+                  {%- if block.settings.title != blank -%}
+                    <p class="{{ block.settings.heading_size }}">{{- block.settings.title | escape -}}</p>
+                  {%- endif -%}
+
+                  {%- if block.settings.content != blank -%}
+                    <div class="prose text-subdued">
+                      {{- block.settings.content -}}
+                    </div>
+                  {%- endif -%}
+
+                  {%- form 'customer', id: 'footer-newsletter', class: 'footer__newsletter-form form' -%}
+                    {%- if form.posted_successfully? -%}
+                      {%- capture success_message -%}
+                        {{ 'general.newsletter.subscribed_successfully' | t }}{%- endcapture -%}
+                      {%- render 'banner', content: success_message, status: 'success' -%}
+                    {%- else -%}
+                      {%- if form.errors -%}
+                        {%- capture error_message -%}
+                          {{ form.errors.translated_fields['email'] }} {{ form.errors.messages['email'] }}{%- endcapture -%}
+                        {%- render 'banner', content: error_message, status: 'error' -%}
+                      {%- endif -%}
+
+                      <input
+                        type="hidden"
+                        name="contact[tags]"
+                        value="newsletter">
+
+                      {%- capture label -%}
+                        {{ 'general.newsletter.email' | t }}{%- endcapture -%}
+                      {%- render 'input', name: 'contact[email]', label: label, type: 'email', required: true, autocomplete: 'email', enterkeyhint: 'send', self_submit: true -%}
+                    {%- endif -%}
+                  {%- endform -%}
+                </div>
+              </div>
+            {%- endcase -%}
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+
+      {%- comment -%}
+      ------------------------------------------------------------------------------------------------------------------
+      SECONDARY AREA
+      ------------------------------------------------------------------------------------------------------------------
+      {%- endcomment -%}
+
+      <div class="footer__aside empty:hidden">
+        {%- comment -%}
+        ----------------------------------------------------------------------------------------------------------------
+        SOCIAL MEDIA + LOCALIZATION
+        ----------------------------------------------------------------------------------------------------------------
+        {%- endcomment -%}
+
+        {%- if section.settings.show_social_media -%}
+          {%- capture social_media -%}
+            {%- render 'social-media' -%}{%- endcapture -%}
+        {%- endif -%}
+
+        {%- if section.settings.show_country_selector and localization.available_countries.size > 1 -%}
+          {%- assign country_selector = true -%}
+        {%- endif -%}
+
+        {%- if section.settings.show_locale_selector and localization.available_languages.size > 1 -%}
+          {%- assign locale_selector = true -%}
+        {%- endif -%}
+
+        {%- if social_media != blank or country_selector or locale_selector -%}
+          <div class="footer__aside-top">
+            {%- if section.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
+            <div class="footer__aside-top__payment">
+              <p class="footer__aside-top__payment-title bold">
+                Zahlungsarten
+              </p>
+                <div class="footer__payment-icons h-stack wrap gap-2">
+                  {% assign enabled_payment_types = 'visa,master,american_express,paypal,klarna' | remove: ' ' | split: ',' %}
+                  {%- for type in enabled_payment_types -%}
+                    {{- type | payment_type_svg_tag: class: 'icon icon--full-color' -}}
+                  {%- endfor -%}
+                </div>
+            </div>
+          {%- endif -%}
+
+            {% if section.settings.lieferung-title-1 or section.settings.lieferung-title-2 %}
+              <div class="footer__aside-top__links">
+                {% if section.settings.lieferung-title-1 == blank and section.settings.lieferung-title-2 == blank %}
+                  
+                {% else %}
+                <p class="footer__aside-top__links-title bold">
+                  Lieferung
+                </p>
+                {% endif %}
+                <nav>
+                  <a href="{{ section.settings.lieferung-link-1 }}" class="inline-block link-faded break-all">
+                    {{ section.settings.lieferung-title-1 }}
+                  </a>
+                  <a href="{{ section.settings.lieferung-link-2 }}" class="inline-block link-faded break-all">
+                    {{ section.settings.lieferung-title-2 }}
+                  </a>
+                </nav>
+              </div>
+            {% endif %}
+          </div>
+        {%- endif -%}
+
+        {%- comment -%}
+        ----------------------------------------------------------------------------------------------------------------
+        COPYRIGHT + PAYMENT METHODS
+        ----------------------------------------------------------------------------------------------------------------
+        {%- endcomment -%}
+
+        <div class="footer__aside-bottom">
+          {% if section.settings.show_social_media %}
+          <div class="footer__aside-bottom__media">
+            <p class="footer__aside-bottom__media-title bold">
+              Social Media
+            </p>
+            {{- social_media -}}
+          </div>
+          {% endif %}
+          {% if section.settings.bewertungen-image %}
+            <div class="footer__aside-bottom-image">
+              <p class="footer__aside-bottom-image bold">
+                Bewertungen
+              </p>
+              <a href="{{ section.settings.bewertungen-link }}">
+                {{ 
+                  section.settings.bewertungen-image
+                  | image_url: width: section.settings.bewertungen-image.width
+                  | image_tag: width: section.settings.bewertungen-image.width, 
+                  height: section.settings.bewertungen-image.height, loading: 'lazy'
+                  }}
+              </a>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <p class="footer__copyright-container text-sm">Copyright © {{ 'now' | date: '%Y' }} {{ shop.name }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Footer",
+    "class": "shopify-section--footer",
+    "tag": "footer",
+    "max_blocks": 5,
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_social_media",
+        "label": "Show social media",
+        "info": "To configure social media, go to your social media settings.",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "show_payment_icons",
+        "label": "Show payment icons",
+        "default": true
+      },
+      {
+        "type": "header",
+        "content": "Country/region selector",
+        "info": "To add a country/region, go to your [markets settings.](/admin/settings/markets)"
+      }, 
+      {
+        "type": "header",
+        "content": "Settings for 'Lieferung'"
+      }, {
+        "type": "text",
+        "id": "lieferung-title-1",
+        "label": "First title for 'Lieferung'",
+        "default": "Versand & Rückgabe"
+      }, {
+        "type": "url",
+        "id": "lieferung-link-1",
+        "label": "First link for 'Lieferung'"
+      }, {
+        "type": "text",
+        "id": "lieferung-title-2",
+        "label": "Second title for 'Lieferung'",
+        "default": "Garantieerklärung"
+      }, {
+        "type": "url",
+        "id": "lieferung-link-2",
+        "label": "Second link for 'Lieferung'"
+      }, {
+        "type": "header",
+        "content": "Settings for 'Bewertungen'"
+      }, {
+        "type": "url",
+        "id": "bewertungen-link",
+        "label": "Link for 'Bewertungen'"
+      }, {
+        "type": "image_picker",
+        "id": "bewertungen-image",
+        "label": "Image for 'Bewertungen'"
+      }
+    ],
+    "blocks": [
+       {
+        "type": "links",
+        "name": "Links",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title-link",
+            "label": "Title"
+          }, 
+          {
+            "type": "link_list",
+            "id": "menu",
+            "label": "Menu",
+            "info": "This menu won't show dropdown items.",
+            "default": "footer"
+          },
+          {
+            "type": "richtext",
+            "id": "richtext",
+            "label": "Richtext instead of menu"
+          },
+          {
+            "type": "checkbox",
+            "id": "show_menu_title",
+            "label": "Show menu title",
+            "default": true
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

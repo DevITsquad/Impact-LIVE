@@ -1,0 +1,29 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "allow_transparent_header": false,
+        "content": "<p>Geschichten aus unserem Arbeitsalltag bei BRU, Teewissen und mehr! Melden Sie sich für unseren Newsletter an, um Zugang zu unseren neuesten Nachrichten zu erhalten.<\/p>",
+        "show_newsletter_form": true,
+        "show_tags": false,
+        "banner_background": "#1a2f33",
+        "banner_text_color": "#ffffff",
+        "button_background": "",
+        "button_text_color": "",
+        "articles_per_page": 6,
+        "feature_first_article": true,
+        "feature_article_background": "#dfecd3",
+        "feature_article_text_color": "",
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

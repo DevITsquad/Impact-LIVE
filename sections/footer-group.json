@@ -1,0 +1,56 @@
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "links": {
+          "type": "links",
+          "settings": {
+            "title-link": "Allgemeines",
+            "menu": "footer",
+            "richtext": "",
+            "show_menu_title": true
+          }
+        },
+        "53510218-7abb-491b-83d7-ea45e4708b5a": {
+          "type": "links",
+          "settings": {
+            "title-link": "Kontakt",
+            "menu": "footer",
+            "richtext": "<p>BRU AG<br\/>Buckhauserstrasse 34<br\/>8048 Zürich<br\/><br\/>Tel: +41 79 793 41 71<br\/>Mail: support@bru-tea.com<\/p>",
+            "show_menu_title": true
+          }
+        },
+        "76ec9445-abc8-4879-9d8a-344cdc981c52": {
+          "type": "links",
+          "settings": {
+            "title-link": "Über uns",
+            "menu": "ber-das-unternehmen",
+            "richtext": "",
+            "show_menu_title": true
+          }
+        }
+      },
+      "block_order": [
+        "links",
+        "53510218-7abb-491b-83d7-ea45e4708b5a",
+        "76ec9445-abc8-4879-9d8a-344cdc981c52"
+      ],
+      "settings": {
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "lieferung-title-1": "",
+        "lieferung-link-1": "",
+        "lieferung-title-2": "",
+        "lieferung-link-2": "",
+        "bewertungen-link": "",
+        "bewertungen-image": "shopify:\/\/shop_images\/logo_1.svg"
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

@@ -1,0 +1,113 @@
+{{ 'new-announcement-bar.css' | asset_url | stylesheet_tag }}
+
+<section>
+    <div class="new-announcement-bar__container" style="background-color:{{section.settings.background_color}};">
+        <div class="new-announcement-bar__wrapper">
+            {% for block in section.blocks %}
+                <div class="new-announcement-bar__message">
+                    <div class="message__icon">
+                        <img width="45" height="45" src="{{ block.settings.message_icon | img_url: 'medium'}}" alt="message_icon" loading="lazy">
+                    </div>
+                    <div class="message__text" style="color: {{ section.settings.text_color }}">
+                        {{ block.settings.message_text }}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="slider__buttons">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </div>
+</section>
+
+<script>
+        if (window.matchMedia("(max-width: 1024px)").matches) {
+
+            let slideIndex = 1;
+            showSlides(slideIndex);
+        
+            function plusSlides(n) {
+            showSlides(slideIndex += n);
+            }
+        
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+            }
+            
+                function showSlides(n) {
+                    let i;
+                    let slides = document.getElementsByClassName("new-announcement-bar__message");
+        
+                    if (n > slides.length) {slideIndex = 1}
+                    if (n < 1) {slideIndex = slides.length}
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slides[slideIndex-1].style.display = "flex";
+                }
+        } else {
+            slides[i].style.display = "flex";
+        }
+        
+        
+
+</script>
+
+{% schema %}
+    {
+        "name": "New announcement bar",
+        "tag": "section",
+        "settings": [
+            {
+                "type": "color",
+                "id": "background_color",
+                "label": "Announcement bar background color"
+            },
+            {
+                "type": "color",
+                "id": "text_color",
+                "label": "Announcement bar text color"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "message",
+                "name": "Message",
+                "limit": 4,
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "message_text",
+                        "label": "Message text",
+                        "default": "Message text"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "message_icon",
+                        "label": "Message icon"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "New announcement bar",
+                "blocks": [
+                    {
+                        "type": "message"
+                    },
+                    {
+                        "type": "message"
+                    },
+                    {
+                        "type": "message"
+                    },
+                    {
+                        "type": "message"
+                    }
+                ]
+            }
+        ]
+    }
+{% endschema %}

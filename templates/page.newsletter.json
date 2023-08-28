@@ -1,0 +1,32 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "6adb269f-46e7-455f-81d2-3d451aae5e5c": {
+      "type": "newsletter",
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/BRU_Maker_One_tea_kettle_white_gold_laptop_for_newsletter_page_1.jpg",
+        "show_icon": true,
+        "title": "Newsletter",
+        "content": "<p>Abonniere unseren <strong>Newsletter<\/strong>, um die neuesten Updates, exclusive Angebote und Tipps&Tricks von BRU zu erhalten!<\/p>",
+        "button_text": "abbonieren",
+        "subtext": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "6adb269f-46e7-455f-81d2-3d451aae5e5c"
+  ]
+}
