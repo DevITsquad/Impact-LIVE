@@ -60,7 +60,6 @@
 
     const toggleModal = e => {
         if (e.target.closest('.video-stories__modal-close') || e.which == '27' || e.target.closest('.video-stories__modal')) {
-            console.log('click')
             main_video && main_video.pause();
             video_modal.classList.remove('active');
             document.body.style.overflow = 'unset';

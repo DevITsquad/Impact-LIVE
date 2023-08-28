@@ -3,9 +3,9 @@
 {%- assign text_position = section.settings.text_position -%}
 
 {%- comment -%}
-------------------------------------------------------------------------------------------------------------------------
-CSS
-------------------------------------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------------------------------
+  CSS
+  ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
 
 <style>
@@ -14,6 +14,33 @@ CSS
     --section-stack-main: {% if text_position == 'center' and section.settings.expand_image %}100%{% else %}66.6667%{% endif %};
 
     --before-after-initial-drag-position: {{ section.settings.drag_initial_position }}%;
+  }
+  #shopify-section-{{ section.id }} .new-color__subheading{
+    font-size:{{section.settings.subheading_desctop_text_size}}px;
+  }
+  #shopify-section-{{ section.id }} .new-color__h2{
+    font-size:{{section.settings.title_desctop_text_size}}px;
+  }
+  #shopify-section-{{ section.id }} .p:not(.new-color__subheading){
+    font-size:{{section.settings.content_desctop_text_size}}px;
+
+  }
+  @media screen and (max-width: 480px){
+    #shopify-section-{{ section.id }}{
+    padding-top:{{section.settings.padding_top_mobile}}px;
+    padding-bottom:{{section.settings.padding_bottom_mobile}}px;
+    }
+    #shopify-section-{{ section.id }} .new-color__subheading{
+
+      font-size:{{section.settings.subheading_mobile_text_size}}px;
+    }
+    #shopify-section-{{ section.id }} .new-color__h2{
+      font-size:{{section.settings.title_mobile_text_size}}px;
+    }
+    #shopify-section-{{ section.id }} .p:not(.new-color__subheading){
+      font-size:{{section.settings.content_mobile_text_size}}px;
+  
+    }
   }
   @media screen and (min-width: 1000px){
     .before-after__section {
@@ -53,9 +80,9 @@ CSS
 </style>
 
 {%- comment -%}
-------------------------------------------------------------------------------------------------------------------------
-LIQUID
-------------------------------------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------------------------------
+  LIQUID
+  ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
 
 <div {% render 'section-properties' %}>
@@ -82,13 +109,28 @@ LIQUID
 
     <div class="before-after__wrapper">
       <div {% render 'surface', class: 'before-after', text_color: section.settings.before_text_color %}>
-        <div {% render 'surface', class: 'before-after__before-image', text_color: section.settings.before_text_color %}>
+        <div
+          {% render 'surface', class: 'before-after__before-image', text_color: section.settings.before_text_color %}
+        >
           {%- capture sizes -%}(max-width: 999px) 100vw, {% if text_position == 'center' and section.settings.expand_image %}min({{ settings.page_width }}px, 100vw){% else %}1000px{% endif %}{%- endcapture -%}
 
           {%- if section.settings.before_image != blank -%}
-            {{- section.settings.before_image | image_url: width: section.settings.before_image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000', draggable: false, class: 'rounded' -}}
+            {{-
+              section.settings.before_image
+              | image_url: width: section.settings.before_image.width
+              | image_tag:
+                loading: 'lazy',
+                sizes: sizes,
+                widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000',
+                draggable: false,
+                class: 'rounded'
+            -}}
           {%- else -%}
-            {{- 'lifestyle-1' | placeholder_svg_tag: 'placeholder rounded' | replace: '<svg', '<svg preserveAspectRatio="xMinYMin slice"' -}}
+            {{-
+              'lifestyle-1'
+              | placeholder_svg_tag: 'placeholder rounded'
+              | replace: '<svg', '<svg preserveAspectRatio="xMinYMin slice"'
+            -}}
           {%- endif -%}
 
           {%- if section.settings.before_text != blank -%}
@@ -100,9 +142,22 @@ LIQUID
 
         <div {% render 'surface', class: 'before-after__after-image', text_color: section.settings.after_text_color %}>
           {%- if section.settings.after_image != blank -%}
-            {{- section.settings.after_image | image_url: width: section.settings.after_image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000', class: 'object-fill rounded', draggable: false -}}
+            {{-
+              section.settings.after_image
+              | image_url: width: section.settings.after_image.width
+              | image_tag:
+                loading: 'lazy',
+                sizes: sizes,
+                widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000',
+                class: 'object-fill rounded',
+                draggable: false
+            -}}
           {%- else -%}
-            {{- 'lifestyle-2' | placeholder_svg_tag: 'bg-text filter-invert rounded' | replace: '<svg', '<svg preserveAspectRatio="xMinYMin slice"' -}}
+            {{-
+              'lifestyle-2'
+              | placeholder_svg_tag: 'bg-text filter-invert rounded'
+              | replace: '<svg', '<svg preserveAspectRatio="xMinYMin slice"'
+            -}}
           {%- endif -%}
 
           {%- if section.settings.after_text != blank -%}
@@ -113,7 +168,10 @@ LIQUID
         </div>
 
         <div class="before-after__cursor-wrapper">
-          <split-cursor class="before-after__cursor" style="--background: {{ section.settings.drag_cursor_background.rgb }}">
+          <split-cursor
+            class="before-after__cursor"
+            style="--background: {{ section.settings.drag_cursor_background.rgb }}"
+          >
             <span class="sr-only">{{ 'general.accessibility.drag' | t }}</span>
 
             <svg role="presentation" focusable="false" width="28" height="35" viewBox="0 0 32 40">
@@ -137,6 +195,26 @@ LIQUID
   },
   "settings": [
     {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "padding top mobile",
+      "min": 0,
+      "max": 120,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "padding bottom mobile",
+      "min": 0,
+      "max": 120,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
+    {
       "type": "checkbox",
       "id": "full_width",
       "label": "Full width",
@@ -148,16 +226,77 @@ LIQUID
       "label": "Subheading"
     },
     {
+      "type": "range",
+      "id": "subheading_desctop_text_size",
+      "label": "Heading desctop text size",
+      "min": 10,
+      "max": 60,
+      "step": 1,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "subheading_mobile_text_size",
+      "label": "Heading mobile text size",
+      "min": 10,
+      "max": 60,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+
+    {
       "type": "text",
       "id": "title",
       "label": "Heading",
       "default": "Before/after"
     },
     {
+      "type": "range",
+      "id": "title_desctop_text_size",
+      "label": "Heading desctop text size",
+      "min": 10,
+      "max": 60,
+      "step": 1,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "title_mobile_text_size",
+      "label": "Heading mobile text size",
+      "min": 10,
+      "max": 60,
+      "step": 1,
+      "unit": "px",
+      "default": 20
+    },
+    {
       "type": "richtext",
       "id": "content",
       "label": "Content",
       "default": "<p>Showcase your product benefit by using before/after image comparison.</p>"
+    },
+    {
+      "type": "range",
+      "id": "content_desctop_text_size",
+      "label": "content desctop text size",
+      "min": 10,
+      "max": 60,
+      "step": 1,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "content_mobile_text_size",
+      "label": "content mobile text size",
+      "min": 10,
+      "max": 60,
+      "step": 1,
+      "unit": "px",
+      "default": 16
     },
     {
       "type": "image_picker",

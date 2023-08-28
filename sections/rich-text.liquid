@@ -22,7 +22,7 @@
 
           {%- when 'heading' -%}
             {%- if block.settings.text != blank -%}
-              <p class="{{ block.settings.heading_tag }} hyphenate" {{ block.shopify_attributes }}>
+              <p class="bold" {{ block.shopify_attributes }}>
                 {%- render 'styled-text', content: block.settings.text, text_color: block.settings.text_color, gradient: block.settings.gradient -%}
               </p>
             {%- endif -%}

@@ -6,6 +6,16 @@
   #shopify-section-{{ section.id }} {
     --section-stack-intro: {% if text_position == 'center' %}66.6667%{% else %}50%{% endif %};
     --section-stack-main: 50%;
+    margin-top:{{section.settings.margin_top}}px;
+    margin-bottom:{{section.settings.margin_bottom}}px;
+  }
+  @media screen and (max-width:767px){
+    #shopify-section-{{ section.id }} {
+      margin-top:{{section.settings.margin_top_mobile}}px;
+      margin-bottom:{{section.settings.margin_bottom_mobile}}px;
+    }
+
+
   }
   .new__accordion-content p {
     font-size: 16px;
@@ -47,7 +57,14 @@
 
     {%- if section.blocks.size > 0 -%}
       <div class="new__main section-stack__main">
-        <div {% render 'surface', class: 'accordion-box rounded', background: section.settings.accordion_background, text_color: section.settings.accordion_text_color, background_fallback: 'bg-secondary' %}>
+        <div
+          {% render 'surface',
+            class: 'accordion-box rounded',
+            background: section.settings.accordion_background,
+            text_color: section.settings.accordion_text_color,
+            background_fallback: 'bg-secondary'
+          %}
+        >
           {%- for block in section.blocks -%}
             {%- if block.settings.title != blank and block.settings.content != blank -%}
               {%- capture accordion_content -%}
@@ -93,6 +110,46 @@
     }
   ],
   "settings": [
+    {
+      "type": "range",
+      "id": "margin_top",
+      "label": "margin top",
+      "min": 0,
+      "max": 150,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_top_mobile",
+      "label": "margin top mobile",
+      "min": 0,
+      "max": 150,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "label": "margin bottom",
+      "min": 0,
+      "max": 150,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom_mobile",
+      "label": "margin bottom mobile",
+      "min": 0,
+      "max": 150,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
     {
       "type": "checkbox",
       "id": "full_width",

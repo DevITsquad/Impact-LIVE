@@ -73,6 +73,13 @@ CSS
     font-weight: 600;
     margin-block-start: 0!important;
   }
+
+  @media screen and (max-width:699px){
+    .custom_fixed__values__mobile{
+      padding:0 !important;
+      margin-top:-15px  !important;
+    }
+  }
 </style>
 
 {%- comment -%}
@@ -124,7 +131,7 @@ LIQUID
           {%- comment -%}---------------- CONTENT ----------------{%- endcomment -%}
           {%- capture content_class -%}{{ block.settings.mobile_text_position }} {{ block.settings.desktop_text_position }}{%- endcapture -%}
 
-          <div {% render 'surface', class: content_class, text_color: block.settings.text_color %}>
+          <div {% render 'surface', class: content_class, text_color: block.settings.text_color,isCalledClass:true%}>
             <div class="prose">
               {%- if block.settings.subheading_1 != blank -%}
                 {% if block.settings.allowed_iso_subheading_1 == blank or block.settings.allowed_iso_subheading_1 contains iso_country %}

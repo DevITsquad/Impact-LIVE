@@ -38,7 +38,12 @@ Supported variables
 {%- endunless -%}
 
 {%- if class != blank -%}
+  
+  {%- if isCalledClass -%}
+    class="{{ class | strip }} custom_fixed__values__mobile"
+  {%- else -%}
   class="{{ class | strip }}"
+  {%- endif -%}
 {%- endif -%}
 
 {%- if style != blank -%}

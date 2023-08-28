@@ -143,6 +143,7 @@
 .modal__video{
     /* width: 100%; */
     width: fit-content;
+    object-fit: cover;
 }
 .video-stories__modal-close {
     position: absolute;
@@ -197,7 +198,8 @@
         row-gap: 50px;
     }
     .video-stories__modal-container{
-        width: 90vw;
+        width: 95%;
+        height: 95%;
     }
     .video-stories__modal-close svg{
         width: 40px;
@@ -227,5 +229,11 @@
     }
     .content__item:nth-child(2n) .story__content{
         bottom: 10%;
+    }
+    .video-stories__wrapper{
+        margin-top:0;
+    }
+    .video-stories__modal-close{
+        top: 0px;
     }
 }

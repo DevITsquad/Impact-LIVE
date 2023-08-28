@@ -22,6 +22,9 @@
 </section>
 
 <script>
+
+
+    document.addEventListener("DOMContentLoaded",()=>{
         if (window.matchMedia("(max-width: 1024px)").matches) {
 
             let slideIndex = 1;
@@ -49,6 +52,8 @@
         } else {
             slides[i].style.display = "flex";
         }
+    })
+      
         
         
 

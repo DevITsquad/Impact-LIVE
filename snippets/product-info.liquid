@@ -39,6 +39,23 @@
   .product-info__variant-picker {
     margin-top: 20px;
   }
+  .product-info__text li{
+    text-decoration:none;
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    gap:10px;
+  }
+  .product-info__text li span{
+    font-size:50px;
+    max-height: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: -4px;
+}
+  
 </style>
 <safe-sticky class="product-info">
   {%- for block in section.blocks -%}
@@ -310,7 +327,7 @@
         {%- endfor -%}
       </ul>
       {%- when 'shipping_icons' -%}
-      <div class="product-info__shipping-icons">
+      <div style="margin-top:{{block.settings.margin_top}}px;margin-bottom:{{block.settings.margin_bottom}}px" class="product-info__shipping-icons">
         <div class="shipping-icon__item">
           <div class="shipping__icon-img">
             <img src="{{ block.settings.shipping_img | img_url: 'small' }}" alt="shipping_icon">

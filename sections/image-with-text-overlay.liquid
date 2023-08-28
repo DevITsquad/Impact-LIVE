@@ -39,6 +39,14 @@
       display: flex;
       justify-content: center;
     }
+  
+      .new_prose {
+        background-color: #ececec;
+        padding: 10px;
+        border-radius: 10px;
+      }
+     
+  
   }
 </style>
 
@@ -69,8 +77,17 @@
               </div>
           {% endcase %}
         {% endfor %}
-        <div class="prose">
+        <div class="new_prose">
           {%- for block in section.blocks -%}
+            <style>
+
+              .blockID--{{block.id}}--tittle{
+                font-size:{{block.settings.tittle_size}}px !important;
+              }
+              .blockID--{{block.id}}--content p{
+                font-size:{{block.settings.content_size}}px !important;
+              }
+            </style>
             {%- case block.type -%}
               {%- when 'subheading' -%}
                 {%- if block.settings.text != blank -%}
@@ -79,14 +96,14 @@
 
               {%- when 'heading' -%}
                 {%- if block.settings.text != blank -%}
-                  <p class="{{ block.settings.heading_tag }}" {% if settings.heading_apparition != 'none' %}reveal-on-scroll="true"{% endif %} {{ block.shopify_attributes }}>
+                  <p class="blockID--{{block.id}}--tittle" {% if settings.heading_apparition != 'none' %}reveal-on-scroll="true"{% endif %} {{ block.shopify_attributes }}>
                     {%- render 'styled-text', content: block.settings.text, apparition_effect: true -%}
                   </p>
                 {%- endif -%}
 
               {%- when 'richtext' -%}
                 {%- if block.settings.content != blank -%}
-                  <div style="font-weight:600;" {{ block.shopify_attributes }}>
+                  <div class='blockID--{{block.id}}--content' style="font-weight:600;" {{ block.shopify_attributes }}>
                     {{- block.settings.content -}}
                   </div>
                 {%- endif -%}
@@ -113,7 +130,6 @@
 {% style %}
   @media screen and (max-width: 768px) {
     .prose {
-      background-color: {{ section.settings.background_text_color }};
       padding: 10px;
       border-radius: 10px;
     }
@@ -348,40 +364,14 @@
           "default": "Heading"
         },
         {
-          "type": "select",
-          "id": "heading_tag",
-          "label": "Style",
-          "options": [
-            {
-              "value": "h0",
-              "label": "H0"
-            },
-            {
-              "value": "h1",
-              "label": "H1"
-            },
-            {
-              "value": "h2",
-              "label": "H2"
-            },
-            {
-              "value": "h3",
-              "label": "H3"
-            },
-            {
-              "value": "h4",
-              "label": "H4"
-            },
-            {
-              "value": "h5",
-              "label": "H5"
-            },
-            {
-              "value": "h6",
-              "label": "H6"
-            }
-          ],
-          "default": "h1"
+          "type": "range",
+          "id": "tittle_size",
+          "label": "content size",
+          "min": 10,
+          "max": 50,
+          "step": 1,
+          "unit": "px",
+          "default": 16
         }
       ]
     },
@@ -394,6 +384,16 @@
           "id": "content",
           "label": "Content",
           "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+        },  
+        {
+          "type": "range",
+          "id": "content_size",
+          "label": "content size",
+          "min": 10,
+          "max": 50,
+          "step": 1,
+          "unit": "px",
+          "default": 16
         }
       ]
     },
@@ -485,13 +485,6 @@
           "type": "subheading",
           "settings": {
             "text": "Subheading"
-          }
-        },
-        {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h1"
           }
         },
         {
