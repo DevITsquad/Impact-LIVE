@@ -129,9 +129,7 @@
         "template--16114935464097__f82d375a-a66b-4c9c-a4e5-1b1b5d005739-image-1"
       ],
       "settings": {
-        "main_heading": "",
         "full_width": false,
-        "enable_parallax": true,
         "spacing": "small"
       }
     },
@@ -165,9 +163,7 @@
         "template--16114935464097__763731d7-99d5-4185-8160-bd3223366b01-image-1"
       ],
       "settings": {
-        "main_heading": "",
         "full_width": false,
-        "enable_parallax": true,
         "spacing": "small"
       }
     },
@@ -201,9 +197,7 @@
         "template--16114935464097__196a65a5-8efc-4acb-90b9-a55ccb39d884-image-1"
       ],
       "settings": {
-        "main_heading": "",
         "full_width": false,
-        "enable_parallax": true,
         "spacing": "small"
       }
     },
@@ -237,9 +231,7 @@
         "template--16114935464097__ae419378-4d3f-43ec-b518-5dff150e9efe-image-1"
       ],
       "settings": {
-        "main_heading": "",
         "full_width": false,
-        "enable_parallax": true,
         "spacing": "small"
       }
     },
@@ -273,9 +265,7 @@
         "template--16114935464097__b683aaa5-efc8-485d-9265-cc932d10ac37-image-1"
       ],
       "settings": {
-        "main_heading": "",
         "full_width": false,
-        "enable_parallax": true,
         "spacing": "small"
       }
     },
@@ -309,9 +299,7 @@
         "template--16023188242593__d41c8a62-000b-4144-826f-6305b8b8249a-167705913267d623c9-0"
       ],
       "settings": {
-        "main_heading": "",
         "full_width": false,
-        "enable_parallax": true,
         "spacing": "small"
       }
     },
@@ -363,7 +351,6 @@
     },
     "2b9cd0c2-fd06-4a20-9722-5fc247efd011": {
       "type": "featured-product",
-      "disabled": true,
       "blocks": {
         "template--16023188242593__2b9cd0c2-fd06-4a20-9722-5fc247efd011-167706006945322d32-0": {
           "type": "vendor",
@@ -448,6 +435,7 @@
         "template--16023188242593__2b9cd0c2-fd06-4a20-9722-5fc247efd011-167706006945322d32-9",
         "template--16023188242593__2b9cd0c2-fd06-4a20-9722-5fc247efd011-167706006945322d32-10"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "product": "bru-maker-one",

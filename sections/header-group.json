@@ -47,7 +47,6 @@
     },
     "announcement-bar": {
       "type": "announcement-bar",
-      "disabled": true,
       "blocks": {
         "message": {
           "type": "message",
@@ -60,6 +59,7 @@
       "block_order": [
         "message"
       ],
+      "disabled": true,
       "settings": {
         "enable_sticky": false,
         "text_size": "text-xs",

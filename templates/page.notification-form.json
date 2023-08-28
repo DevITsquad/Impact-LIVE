@@ -77,7 +77,6 @@
       ],
       "settings": {
         "full_width": true,
-        "enable_parallax": true,
         "spacing": "small"
       }
     },
@@ -85,7 +84,7 @@
       "type": "apps",
       "blocks": {
         "1640c883-570b-40ec-a607-adae0977f911": {
-          "type": "shopify:\/\/apps\/powerful-contact-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
           "settings": {
             "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTA1NDMy\"><\/div>"
           }

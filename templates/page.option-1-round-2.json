@@ -50,7 +50,7 @@
       "type": "apps",
       "blocks": {
         "e28ca3b4-07cd-4341-9850-1fd963677582": {
-          "type": "shopify:\/\/apps\/powerful-contact-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
           "settings": {
             "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTExMDky\"><\/div>"
           }

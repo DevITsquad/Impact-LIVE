@@ -59,7 +59,6 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "button_text": "Join waitlist",
             "button_link": "shopify:\/\/pages\/contact",
             "button_background": "#8ba473",
             "button_text_color": "#000000",
@@ -260,10 +259,7 @@
       ],
       "disabled": true,
       "settings": {
-        "main_heading": "",
         "full_width": false,
-        "enable_parallax": true,
-        "padding_bottom": true,
         "spacing": "small"
       }
     },

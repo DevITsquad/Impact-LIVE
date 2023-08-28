@@ -112,7 +112,6 @@
       "blocks": {
         "aca0f9d4-64f0-4c64-bbdf-2100ef7c1602": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "icon": "picto-coupon",
             "custom_icon": "shopify:\/\/shop_images\/Bekannt_aus.svg",
@@ -207,7 +206,6 @@
       "settings": {
         "margin_top": 0,
         "margin_bottom": 0,
-        "custom_mobile_icon": "shopify:\/\/shop_images\/Bekannt_aus.svg",
         "full_width": true,
         "title": "",
         "heading_tag": "h5",
@@ -429,11 +427,8 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "Gemacht von Teetrinkern  für Teetrinker",
-            "subheading_mobile_text_size": 16,
             "title": "",
-            "title_mobile_text_size": 20,
             "content": "<p>Hi, wir sind Filip und Bogdan! Gemeinsam haben wir vor 3 Jahren BRU gegründet. Als Züricher StartUp verfolgen wir das Ziel, die heimische Teezubereitung für jeden Tee-Liebhaber zu vereinfachen.<br\/><br\/>Entstanden ist der BRU Maker One <strong>aus unserer Leidenschaft für wirklich leckeren Tee.<\/strong> Auf der unsere Suche nach einer qualitativen und authentischen, aber gleichzeitig einfachen Art der Teezubereitung sind wir enttäuscht worden. Also haben wir uns mit dem BRU Maker unseren ganz persönlichen Genießer-Traum erfüllt.<br\/><br\/>Er ermöglicht hochwertigsten Teegenuss ganz nach deinem Geschmack ohne dabei Kapseln oder Pads verwenden zu müssen. <br\/><br\/>Als innovative Tee-Maschine <strong>ermöglicht der BRU Maker One jetzt den perfekten Tee auf Knopfdruck <\/strong>– und wir sind stolz sagen zu können, dass er bereits über 3500 Tee-Liebhaber erfreut.<\/p>",
-            "content_mobile_text_size": 16,
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -449,10 +444,7 @@
         "template--16101598265505__5f94176c-c189-443a-a60f-a8773b69f98f-16879589270c5e346d-0"
       ],
       "settings": {
-        "main_heading": "",
         "full_width": false,
-        "enable_parallax": true,
-        "padding_bottom": true,
         "spacing": "small"
       }
     },
@@ -462,15 +454,13 @@
         "template--16101598265505__38a475b9-f5db-480b-a1a8-a396c088fc8e-1687959472f573bf19-1": {
           "type": "heading",
           "settings": {
-            "text": "Unsere Garantie für deine Zufriedenheit",
-            "tittle_size": 16
+            "text": "Unsere Garantie für deine Zufriedenheit"
           }
         },
         "template--16101598265505__38a475b9-f5db-480b-a1a8-a396c088fc8e-1687959472f573bf19-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Da uns deine volle Zufriedenheit am Herzen liegt, bieten wir <strong>neben der 2-jährigen Garantie auch eine 30 Tage Zufriedenheitsgarantie<\/strong>.<br\/>Wenn du innerhalb der ersten 30 Tage merkst, dass der BRU Maker nicht zu dir passt (was wir stark bezweifeln) kannst du ihn uns ganz einfach zurücksenden.<\/p>",
-            "content_size": 16
+            "content": "<p>Da uns deine volle Zufriedenheit am Herzen liegt, bieten wir <strong>neben der 2-jährigen Garantie auch eine 30 Tage Zufriedenheitsgarantie<\/strong>.<br\/>Wenn du innerhalb der ersten 30 Tage merkst, dass der BRU Maker nicht zu dir passt (was wir stark bezweifeln) kannst du ihn uns ganz einfach zurücksenden.<\/p>"
           }
         },
         "47b85b97-920b-4396-9257-a9be26c6e94c": {
@@ -648,11 +638,8 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "Tradition und Innovation vereint",
-            "subheading_mobile_text_size": 16,
             "title": "BRU Maker One –  Ein Muss für wahre Tee-Liebhaber",
-            "title_mobile_text_size": 20,
             "content": "<p>Bei BRU schätzen wir die Tradition, jeden Tee mit der optimalen Temperatur und Zeit aufzubrühen und haben diesen Vorgang ganz einfach automatisiert. <br\/><br\/>Die <strong>individuell einstellbare Wassertemperatur und Brühzeit<\/strong> ermöglichen dir authentischen und geschmackvollen Teegenuss.<\/p>",
-            "content_mobile_text_size": 16,
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -673,13 +660,9 @@
             "icon": "none",
             "custom_icon": "shopify:\/\/shop_images\/pdp_icon_7_1.svg",
             "icon_width": 64,
-            "second_custom_icon": "shopify:\/\/shop_images\/pdp_icon_1_1_1.svg",
             "subheading": "Teevielfalt statt Kapsel-Geschmack",
-            "subheading_mobile_text_size": 16,
             "title": "Das Nachhaltige Plus in deiner Küche",
-            "title_mobile_text_size": 20,
             "content": "<p>Der BRU Maker passt sich deinem individuellen Geschmack an. <br\/>Er funktioniert mit losem Blatt-Tee, Teebeuteln oder jeglicher Art von Kräutern. So bist du nie wieder an teure Marken oder Teekapseln aus Plastik gebunden.<\/p>",
-            "content_mobile_text_size": 16,
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -700,11 +683,8 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "Tee - heiss oder kalt",
-            "subheading_mobile_text_size": 16,
             "title": "Jederzeit perfekte Erfrischung",
-            "title_mobile_text_size": 20,
             "content": "<p>Gerade <strong>im Sommer<\/strong> ist <strong>ein frischer Eistee<\/strong> eine echte Bereicherung. Diesen jedoch selbst zu brühen, ist mit einigem Aufwand verbunden. Mit dem Bru Maker One wird dieser Luxus kinderleicht möglich. <\/p>",
-            "content_mobile_text_size": 16,
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -725,11 +705,8 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "Gesund und Fit mit Tee",
-            "subheading_mobile_text_size": 16,
             "title": "Wohltuend für Körper und Geist-",
-            "title_mobile_text_size": 20,
             "content": "<p>Doch es kommt auf die richtige Zubereitung an. Je nach Sorte kann er den morgendlichen Kaffee ersetzen, das Immunsystem stärken oder vor dem zu Bett gehen beruhigend wirken.<br\/><br\/>Dazu kommt es jedoch auf die richtige <strong>Temperatur und Brühzeit <\/strong>an – nur dann entfalten sich gesundheitsfördernde Wirkstoffe und Aromen im vollen Ausmaß. Und genau das ermöglicht dir der BRU Maker One ganz automatisch.<\/p>",
-            "content_mobile_text_size": 16,
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -748,10 +725,7 @@
         "09a2f637-2b5f-451b-876a-a01dd5204b60"
       ],
       "settings": {
-        "main_heading": "DER BRU MAKER ONE - VIEL MEHR ALS EINE TEEMASCHINE",
         "full_width": false,
-        "enable_parallax": true,
-        "padding_bottom": false,
         "spacing": "medium"
       }
     },
@@ -827,10 +801,6 @@
         "a0b371fd-3f1b-459c-bfa7-f1c3dc12211d"
       ],
       "settings": {
-        "margin_top": 0,
-        "margin_top_mobile": 0,
-        "margin_bottom": 0,
-        "margin_bottom_mobile": 0,
         "full_width": false,
         "subheading": "",
         "title": "Wir beantworten deine Fragen - FAQ",
@@ -920,10 +890,6 @@
         "7183661f-486b-4787-b154-9dac504cd26b"
       ],
       "settings": {
-        "margin_top": 0,
-        "margin_top_mobile": 0,
-        "margin_bottom": 0,
-        "margin_bottom_mobile": 0,
         "full_width": false,
         "subheading": "",
         "title": "",

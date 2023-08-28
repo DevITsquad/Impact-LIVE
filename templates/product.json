@@ -74,7 +74,6 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "button_text": "Join waitlist",
             "button_link": "shopify:\/\/pages\/contact",
             "button_background": "#8ba473",
             "button_text_color": "#000000",
@@ -179,8 +178,7 @@
         "template--16101598855329__cfac2b09-a5c8-4c82-9951-dd5d856a37ad-1687184843400fc858-1": {
           "type": "heading",
           "settings": {
-            "text": "Unsere Garantie für deine Zufriedenheit",
-            "heading_tag": "h2"
+            "text": "Unsere Garantie für deine Zufriedenheit"
           }
         },
         "template--16101598855329__cfac2b09-a5c8-4c82-9951-dd5d856a37ad-1687184843400fc858-2": {
@@ -382,10 +380,7 @@
         "template--16021927919777__554e92ce-baa1-44c9-8267-3c507f441f19-167692475089a5d378-0"
       ],
       "settings": {
-        "main_heading": "",
         "full_width": false,
-        "enable_parallax": true,
-        "padding_bottom": false,
         "spacing": "small"
       }
     },
@@ -466,10 +461,7 @@
         "935897ae-3b91-4cd7-b60f-4406a17adfd6"
       ],
       "settings": {
-        "main_heading": "",
         "full_width": false,
-        "enable_parallax": true,
-        "padding_bottom": true,
         "spacing": "small"
       }
     },
@@ -889,10 +881,7 @@
         "template--16021927919777__43c3ea3f-0a90-4545-861d-307b784a3a31-16785315760bd326f7-0"
       ],
       "settings": {
-        "main_heading": "",
         "full_width": false,
-        "enable_parallax": true,
-        "padding_bottom": true,
         "spacing": "small"
       }
     },

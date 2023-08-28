@@ -55,9 +55,6 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "allowed_iso": "",
-            "allowed_iso2": "",
-            "button_text": "",
             "button_link": "",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -188,7 +185,7 @@
       "type": "apps",
       "blocks": {
         "60542054-2d75-4eba-8cfd-e6a139b075ef": {
-          "type": "shopify:\/\/apps\/fera-product-reviews-app\/blocks\/product_reviews\/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
+          "type": "shopify:\/\/apps\/fera\/blocks\/product_reviews\/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
           "settings": {
             "heading": "Product Reviews",
             "layout": "list",
@@ -216,7 +213,6 @@
     },
     "2d9f5012-f1b1-4a1f-8a55-120711be2f48": {
       "type": "tabs",
-      "disabled": true,
       "blocks": {
         "template--16021927919777__2d9f5012-f1b1-4a1f-8a55-120711be2f48-1676904062e2dacbfc-0": {
           "type": "tab",
@@ -257,6 +253,7 @@
         "template--16021927919777__2d9f5012-f1b1-4a1f-8a55-120711be2f48-1676904062e2dacbfc-2",
         "0532235b-ec6c-4db3-ab56-55a3b529a380"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -329,7 +326,6 @@
       ],
       "settings": {
         "full_width": false,
-        "enable_parallax": true,
         "spacing": "small"
       }
     },
@@ -578,7 +574,6 @@
       ],
       "settings": {
         "full_width": false,
-        "enable_parallax": true,
         "spacing": "small"
       }
     }

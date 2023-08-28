@@ -19,8 +19,7 @@
         "template--16023833936033__207a663c-63be-420e-9338-4963545b6b95-1677056339bac4389a-1": {
           "type": "heading",
           "settings": {
-            "text": "Partnerschaft mit BRU",
-            "heading_tag": "h1"
+            "text": "Partnerschaft mit BRU"
           }
         },
         "template--16023833936033__207a663c-63be-420e-9338-4963545b6b95-1677056339bac4389a-2": {
@@ -193,7 +192,7 @@
       "type": "apps",
       "blocks": {
         "1f99136c-6e0f-42c0-82bb-577db70edb3b": {
-          "type": "shopify:\/\/apps\/powerful-contact-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
           "settings": {
             "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTA1MzE3\"><\/div>"
           }
