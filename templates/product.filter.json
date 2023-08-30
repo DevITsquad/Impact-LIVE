@@ -171,6 +171,45 @@
         "input_text_color": ""
       }
     },
+    "d45c8443-6b21-4e0c-aa83-cbf39f9880db": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16150436872353__d45c8443-6b21-4e0c-aa83-cbf39f9880db-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--16150436872353__d45c8443-6b21-4e0c-aa83-cbf39f9880db-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--16150436872353__d45c8443-6b21-4e0c-aa83-cbf39f9880db-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h4>Nie wieder lästiges Entkalken der Maschine. Die Verwendung von entkalktem Wasser für die Zubereitung von Tee verlängert die Lebensdauer deines BRU Maker One erheblich und gewährleistet eine optimale Wasserqualität deines Lieblingstees, damit sich der Geschmack und das Aroma von  Tee voll entfalten kann.<\/h4><h4>Diese Entkalkungspatrone ist so konzipiert, dass sie mit nur wenigen Handgriffen schnell und einfach ausgetauscht werden kann. Abhängig von der Wasserqualität empfehlen wir, die Patrone alle 2 Monate auszutauschen.<\/h4>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16150436872353__d45c8443-6b21-4e0c-aa83-cbf39f9880db-subheading-1",
+        "template--16150436872353__d45c8443-6b21-4e0c-aa83-cbf39f9880db-heading-1",
+        "template--16150436872353__d45c8443-6b21-4e0c-aa83-cbf39f9880db-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "f0352253-0784-4631-84e5-33ad66461763": {
       "type": "multi-column",
       "blocks": {
@@ -363,6 +402,7 @@
   },
   "order": [
     "main",
+    "d45c8443-6b21-4e0c-aa83-cbf39f9880db",
     "f0352253-0784-4631-84e5-33ad66461763",
     "5fbf8766-6d67-4a13-b5cd-d2f2977b032b",
     "6fd6597d-5983-4520-8585-9daed45b9328"
