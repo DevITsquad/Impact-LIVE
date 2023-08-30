@@ -228,28 +228,6 @@
         "text_color": ""
       }
     },
-    "248b2f0f-6792-4c4c-b4c0-421cdc74fcdc": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16150437626017__248b2f0f-6792-4c4c-b4c0-421cdc74fcdc-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Sag \"Lebewohl\" zum zuckersüßen Pfirsicheistee! Ab sofort genießt du puren Pfirsichgenuss – herrlich erfrischend und völlig zuckerfrei.<\/p><p>In nur rund 5 Minuten zieht er in heissem Wasser und bietet dir eine sofortige Erfrischung, wie du sie noch nie erlebt hast!<\/p><p>Einfach 5 Minuten ziehen lassen – für ein Geschmackserlebnis, das spritzig und unverfälscht ist. Du möchtest den Geschmack noch intensiver? Kein Problem, lass ihn einfach länger ziehen.<\/p><p>Natürlicher Genuss in seiner besten Form: Wir glauben an die Reinheit der Natur. Deshalb ist unser Pfirsich frei von künstlichen Zusätzen und bietet dir das volle Aroma sonnenverwöhnter Pfirsiche, die in jedem Schluck spürbar sind.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16150437626017__248b2f0f-6792-4c4c-b4c0-421cdc74fcdc-richtext-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "43c3ea3f-0a90-4545-861d-307b784a3a31": {
       "type": "media-with-text",
       "blocks": {
@@ -297,7 +275,7 @@
         "template--16150437626017__bd926681-46d9-4fa5-927a-074890b3dccb-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>Der einfachste Weg zur Erfrischung: <\/h2><h2>Den fertigen Tee auf Eis servieren<\/h2>"
+            "content": "<h2>Der einfachste Weg zur Erfrischung: <\/h2><h2>den Tee auf Eis servieren<\/h2>"
           }
         }
       },
@@ -344,6 +322,28 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
+      }
+    },
+    "248b2f0f-6792-4c4c-b4c0-421cdc74fcdc": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16150437626017__248b2f0f-6792-4c4c-b4c0-421cdc74fcdc-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Sag \"Lebewohl\" zum zuckersüßen Pfirsicheistee! Ab sofort genießt du puren Pfirsichgenuss – herrlich erfrischend und völlig zuckerfrei.<\/p><p>In nur rund 5 Minuten zieht er in heissem Wasser und bietet dir eine sofortige Erfrischung, wie du sie noch nie erlebt hast!<\/p><p>Einfach 5 Minuten ziehen lassen – für ein Geschmackserlebnis, das spritzig und unverfälscht ist. Du möchtest den Geschmack noch intensiver? Kein Problem, lass ihn einfach länger ziehen.<\/p><p>Natürlicher Genuss in seiner besten Form: Wir glauben an die Reinheit der Natur. Deshalb ist unser Pfirsich frei von künstlichen Zusätzen und bietet dir das volle Aroma sonnenverwöhnter Pfirsiche, die in jedem Schluck spürbar sind.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16150437626017__248b2f0f-6792-4c4c-b4c0-421cdc74fcdc-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "5fbf8766-6d67-4a13-b5cd-d2f2977b032b": {
@@ -442,10 +442,10 @@
     "main",
     "722e8c8c-776f-4700-9a5c-8d31697f383a",
     "a1d0ff97-acbc-4ea4-b000-6091bb9cb30a",
-    "248b2f0f-6792-4c4c-b4c0-421cdc74fcdc",
     "43c3ea3f-0a90-4545-861d-307b784a3a31",
     "bd926681-46d9-4fa5-927a-074890b3dccb",
     "ccc93ed6-3c35-4973-9c05-9bba89f5e0e0",
+    "248b2f0f-6792-4c4c-b4c0-421cdc74fcdc",
     "5fbf8766-6d67-4a13-b5cd-d2f2977b032b",
     "6fd6597d-5983-4520-8585-9daed45b9328"
   ]
