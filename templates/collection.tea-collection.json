@@ -25,8 +25,8 @@
       "settings": {
         "products_per_page": 24,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 2,
-        "filter_layout": "sidebar",
+        "products_per_row_desktop": 4,
+        "filter_layout": "horizontal",
         "show_sort_by": false,
         "show_filters": false,
         "show_filter_group_name": false,
