@@ -25,7 +25,7 @@
       "settings": {
         "products_per_page": 24,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
+        "products_per_row_desktop": 2,
         "filter_layout": "sidebar",
         "show_sort_by": false,
         "show_filters": false,
@@ -35,27 +35,10 @@
         "show_filter_values_count": false,
         "open_first_filter_group": false
       }
-    },
-    "dc1eb644-6d5b-4f04-9b18-860328bf7d67": {
-      "type": "newsletter",
-      "settings": {
-        "full_width": true,
-        "show_icon": true,
-        "title": "Newsletter",
-        "content": "<p>Write something about what your customers will receive by subscribing to your newsletter.<\/p>",
-        "button_text": "Subscribe",
-        "subtext": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
     }
   },
   "order": [
     "banner",
-    "main",
-    "dc1eb644-6d5b-4f04-9b18-860328bf7d67"
+    "main"
   ]
 }
