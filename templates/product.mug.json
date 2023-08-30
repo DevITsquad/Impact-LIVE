@@ -1045,6 +1045,7 @@
     },
     "3a77b741-96f6-4e16-b9f7-4355deb5ba9e": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "recommendations_count": 6,
         "products": [
