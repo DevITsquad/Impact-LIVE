@@ -12,7 +12,7 @@
         "60787fb1-7eb4-4668-b030-dcd1960689bb": {
           "type": "subtitle",
           "settings": {
-            "subtitle": "Frisch gefiltertes Wasser für ein intensives Aroma",
+            "subtitle": "Die perfekte Tasse für jeden Tee",
             "subtitle_color": "#a9a9c3"
           }
         },
@@ -26,7 +26,7 @@
         "b54ea687-32a3-456b-960a-7e6954a47405": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>Verstellbare Wasserfiltereinstellungen<\/li><li>Frisch gefiltertes Wasser für ein volleres Teearoma<\/li><li>Effizienterer Brühvorgang<\/li><li>Schützt das System gegen Kalkablagerungen<\/li><li>Verlängert die Lebensdauer des BRU Maker One<\/li><\/ul>",
+            "text": "<p>• Laborqualität Borosilikatglas<\/p><p>• Doppelwandige Isolation<\/p><p>• Ergonomischer Griff<\/p><p>• Perfekte Grösse<\/p><p>• Zeitloses Design<\/p>",
             "text_color": ""
           }
         },
@@ -47,6 +47,7 @@
         },
         "dbfb5038-a71c-4801-b584-45e9977018b3": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Modellbezeichnung: CA6702\/10<\/p>",
             "text_color": "#a9a9c3"
@@ -73,7 +74,6 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "button_text": "Join waitlist",
             "button_link": "shopify:\/\/pages\/contact",
             "button_background": "#8ba473",
             "button_text_color": "#000000",
@@ -92,13 +92,16 @@
             "locale_fallback": "de",
             "theme": "light",
             "topPadding": "0",
-            "bottomPadding": "0"
+            "bottomPadding": "0",
+            "messagePrefix": ""
           }
         },
         "daa08efd-f675-4330-b2ab-a1e7c4112fe6": {
           "type": "shipping_icons",
           "disabled": true,
           "settings": {
+            "margin_top": 20,
+            "margin_bottom": 20,
             "shipping_img": "shopify:\/\/shop_images\/1st_df574a70-4f76-442f-8eaf-2d8ffd13e17e.svg",
             "shipping_text": "Gratis Lieferung",
             "shipping_img_2": "shopify:\/\/shop_images\/2nd_907215f6-d7a8-48d7-bf03-f2ec0e83271f.svg",
@@ -167,6 +170,64 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "f1b9cfb0-cc45-4137-b54c-b2e1e1fba019": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16150437494945__f1b9cfb0-cc45-4137-b54c-b2e1e1fba019-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>Geniesse mit Stil<\/h2>"
+          }
+        },
+        "66413419-3dc6-42d9-91f9-26b99c6e52ff": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3>Die BRU-Tasse wurde im Rahmen der Entwicklung unserer innovativen Teemaschine geboren. <\/h3><h3>Ein Stück Geschichte, das unser Originallogo<br\/>trägt und einen Hauch von Sammlerstück-Qualität mitbringt. Ein Becher, der deine Genussmomente auf eine einzigartige Weise bereichert.<\/h3><h3>Sie fasst 350 ml und ist natürlich Spülmaschinenfest.<\/h3>"
+          }
+        },
+        "8013b64c-995b-485e-ba87-262babe2b57f": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16150437494945__f1b9cfb0-cc45-4137-b54c-b2e1e1fba019-richtext-1",
+        "66413419-3dc6-42d9-91f9-26b99c6e52ff",
+        "8013b64c-995b-485e-ba87-262babe2b57f"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "24cab830-3296-4377-9427-e34cce16ba9d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16150437494945__24cab830-3296-4377-9427-e34cce16ba9d-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16150437494945__24cab830-3296-4377-9427-e34cce16ba9d-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "bacec0a0-0699-4921-bdf1-9363b510623d": {
@@ -253,14 +314,15 @@
         "6ac4e508-198f-4272-b0fe-1a1c39fd44b0",
         "d7ec218f-d654-47e7-8e58-cee45f283110"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
         "gap": "medium",
         "text_alignment": "center",
         "subheading": "",
-        "title": "Optimale Wasserqualität",
-        "content": "<h3>Nie wieder lästiges Entkalken der Maschine. Die Verwendung von entkalktem Wasser für die Zubereitung von Tee verlängert die Lebensdauer deines BRU Maker One erheblich und gewährleistet eine optimale Wasserqualität deines Lieblingstees, damit sich der Geschmack und das Aroma von  Tee voll entfalten kann.<\/h3><h3><\/h3><h3><\/h3><p>Die Verwendung eines Wasserfilters verlängert nicht nur die Lebensdauer Ihrer Espressomaschine, sondern auch die Entkalkungsintervalle. Der hochwertige Wasserfilter BRITA INTENZA verfügt über eine innovative Filtertechnologie und einen Aromaring, mit dem Sie den Filterprozess für weiches bis hartes Wasser einstellen können.<\/p><p>Diese Entkalkungspatrone ist so konzipiert, dass sie mit nur wenigen Handgriffen schnell und einfach ausgetauscht werden kann. Abhängig von der Wasserqualität empfehlen wir, die Patrone alle 2 Monate auszutauschen.<\/p>",
+        "title": "Geniesse mit Stil",
+        "content": "<h3>Die BRU-Tasse wurde im Rahmen der Entwicklung unserer innovativen Teemaschine geboren. <\/h3><h3>Ein Stück Geschichte, das unser Originallogo<br\/>trägt und einen Hauch von Sammlerstück-Qualität mitbringt. Ein Becher, der deine Genussmomente auf eine einzigartige Weise bereichert.<\/h3><h3>Sie fasst 350 ml und ist natürlich Spülmaschinenfest.<\/h3>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -279,13 +341,14 @@
           "type": "heading",
           "settings": {
             "text": "Unsere Garantie für deine Zufriedenheit",
-            "heading_tag": "h2"
+            "tittle_size": 16
           }
         },
         "template--16101598855329__cfac2b09-a5c8-4c82-9951-dd5d856a37ad-1687184843400fc858-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Da uns deine volle Zufriedenheit am Herzen liegt, bieten wir <strong>neben der 2-jährigen Garantie auch eine 30 Tage Zufriedenheitsgarantie<\/strong>.<br\/>Wenn du innerhalb der ersten 30 Tage merkst, dass der BRU Maker nicht zu dir passt (was wir stark bezweifeln) kannst du ihn uns ganz einfach zurücksenden.<\/p>"
+            "content": "<p>Da uns deine volle Zufriedenheit am Herzen liegt, bieten wir <strong>neben der 2-jährigen Garantie auch eine 30 Tage Zufriedenheitsgarantie<\/strong>.<br\/>Wenn du innerhalb der ersten 30 Tage merkst, dass der BRU Maker nicht zu dir passt (was wir stark bezweifeln) kannst du ihn uns ganz einfach zurücksenden.<\/p>",
+            "content_size": 16
           }
         },
         "241428a0-a299-4a98-8aec-6d457a1e3804": {
@@ -410,8 +473,11 @@
             "icon": "none",
             "icon_width": 52,
             "subheading": "Warum eine Teemaschine?",
+            "subheading_mobile_text_size": 16,
             "title": "BRU Maker One – Ein Muss für alle  Teetrinker",
+            "title_mobile_text_size": 20,
             "content": "<p>Der BRU Maker ist so <strong>einfach wie eine Kapselmaschine zu bedienen, <\/strong>kann jedoch umweltfreundlich mit losem und Beuteltee verwendet werden.<br\/><\/p><p>Ob loser Tee, frische Kräuter, Beeren oder Teebeuteln – Die Zubereitung einer wahrhaft genussvollen und authentischen Tasse Tee ist jetzt in <strong>jedem Haushalt oder Büro möglich<\/strong>.<\/p>",
+            "content_mobile_text_size": 16,
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -439,10 +505,18 @@
       "type": "before-after-image",
       "disabled": true,
       "settings": {
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
         "full_width": true,
         "subheading": "Egal ob Tasse oder Kanne",
+        "subheading_desctop_text_size": 24,
+        "subheading_mobile_text_size": 16,
         "title": "Du bestimmst, wie viel du Brühen willst",
+        "title_desctop_text_size": 20,
+        "title_mobile_text_size": 20,
         "content": "<p>Während die Brühkammer 350 ml fasst, ermöglicht die Mehrfach-Brüh-Funktion <strong>bis zu 4 aufeinanderfolgende Brühvorgänge.<\/strong><\/p><p>So kannst du <strong>bis zu 1,4 Liter<\/strong> Tee in einem Durchgang automatisch zubereiten – genug, um mehrere Tee-Genießer zu erfreuen!<\/p>",
+        "content_desctop_text_size": 18,
+        "content_mobile_text_size": 16,
         "before_image": "shopify:\/\/shop_images\/before_after_7_a96f0131-f983-4cef-a9b2-3d76c25b52b4.png",
         "after_image": "shopify:\/\/shop_images\/before_after_8_d7925a1e-debe-46c6-a3a3-996e38f408c4.png",
         "expand_image": true,
@@ -473,8 +547,11 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "Kinderleichte Bedienung",
+            "subheading_mobile_text_size": 16,
             "title": "Damit dein Tee einfach immer gelingt",
+            "title_mobile_text_size": 20,
             "content": "<p>Die intuitive Benutzeroberfläche ermöglicht es dir, Tee ganz einfach <strong>auf Knopfdruck<\/strong> zuzubereiten. <\/p><p>Du kannst die <strong>Wassertemperatur, die Wassermenge und die Brühzeit <\/strong>präzise einstellen und steuern. Auf diese Weise wird dein Tee immer genau so schmecken, wie du es magst.<\/p>",
+            "content_mobile_text_size": 16,
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -495,8 +572,11 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "Steuerung per App",
+            "subheading_mobile_text_size": 16,
             "title": "Die smarte Art der Teezubereitung",
+            "title_mobile_text_size": 20,
             "content": "<p><br\/>Du liegst morgens im Bett, dein Wecker klingelt und du willst schon einmal deinen Tee aufbrühen? Starte den BRU Maker One <strong>einfach von deinem Smartphone aus<\/strong> oder stelle einen Timer ein.<\/p><p>Mit unserer App kannst du den BRU Maker One noch mehr personalisieren und zusätzliche Funktionen freischalten.<\/p><p><\/p><p><\/p><p><\/p>",
+            "content_mobile_text_size": 16,
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -604,9 +684,20 @@
           "type": "tab",
           "settings": {
             "title": "Ersatz für deinen Wasserkocher",
+            "align_title": "start",
+            "color_title": "",
+            "size_title": 23,
+            "size_title_mobile": 18,
+            "size_title_tablet": 16,
             "content": "<p>Kein Platz? Kein Problem! Der BRU Maker One kann auch als Heißwasserspender genutzt werden. <br\/>Er liefert heißes Wasser in der von dir gewünschten Temperatur und Menge. Wir sagen “Tschüss Wasserkocher”!<\/p>",
+            "align_content": "start",
+            "color_content": "",
+            "size_content": 16,
+            "size_content_tablet": 15,
+            "size_content_mobile": 13,
             "icon": "picto-coupon",
             "custom_icon": "shopify:\/\/shop_images\/pdp_icon_2_2.svg",
+            "align_icon": "start",
             "mobile_icon_width": 24,
             "icon_width": 60
           }
@@ -615,9 +706,20 @@
           "type": "tab",
           "settings": {
             "title": "Konstanter Geschmack",
+            "align_title": "start",
+            "color_title": "",
+            "size_title": 23,
+            "size_title_mobile": 18,
+            "size_title_tablet": 16,
             "content": "<p>Stelle die Wassertemperatur und Brühzeit individuell nach deinem Geschmack ein, oder wähle eine der Voreinstellung. Ob für grünen, schwarzen oder Kräutertee – wir garantieren immer gleichbleibenden Teegeschmack!<\/p>",
+            "align_content": "start",
+            "color_content": "",
+            "size_content": 16,
+            "size_content_tablet": 15,
+            "size_content_mobile": 13,
             "icon": "picto-coupon",
             "custom_icon": "shopify:\/\/shop_images\/pdp_icon_2_3_1.svg",
+            "align_icon": "start",
             "mobile_icon_width": 24,
             "icon_width": 52
           }
@@ -626,9 +728,20 @@
           "type": "tab",
           "settings": {
             "title": "Nachhaltiger Tee-Genuss",
+            "align_title": "start",
+            "color_title": "",
+            "size_title": 23,
+            "size_title_mobile": 18,
+            "size_title_tablet": 16,
             "content": "<p>Der BRU Maker spart Plastik, Energie und Wasser. Neben dem Verzicht auf Kapseln erhitzt unsere intelligente Teemaschine nur die benötigte Wassermenge. Jedes Jahr werden Tonnen von CO₂ und Wasser verschwendet, weil viele Menschen mehr Wasser aufheizen als eigentlich nötig. Nie wieder mit BRU!<\/p>",
+            "align_content": "start",
+            "color_content": "",
+            "size_content": 16,
+            "size_content_tablet": 15,
+            "size_content_mobile": 13,
             "icon": "picto-coupon",
             "custom_icon": "shopify:\/\/shop_images\/pdp_icon_2_4_1.svg",
+            "align_icon": "start",
             "mobile_icon_width": 24,
             "icon_width": 52
           }
@@ -637,9 +750,20 @@
           "type": "tab",
           "settings": {
             "title": "Von Heiß bis Eistee",
+            "align_title": "start",
+            "color_title": "",
+            "size_title": 23,
+            "size_title_mobile": 18,
+            "size_title_tablet": 16,
             "content": "<p>Falls du keinen heißen Tee magst, fügt der BRU Maker One automatisch etwas kaltes Wasser hinzu, sodass der Tee auf eine trinkbereite Temperatur runtergekühlt wird. Und auch eine Kanne frisch gebrühter Eistee kann morgens aufgesetzt werden, um am Nachmittag genussvolle Erfrischung zu bieten.<\/p>",
+            "align_content": "start",
+            "color_content": "",
+            "size_content": 16,
+            "size_content_tablet": 15,
+            "size_content_mobile": 13,
             "icon": "picto-coupon",
             "custom_icon": "shopify:\/\/shop_images\/pdp_icon_2_6.svg",
+            "align_icon": "start",
             "mobile_icon_width": 24,
             "icon_width": 56
           }
@@ -654,7 +778,8 @@
       "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_91.png",
-        "background_color": ""
+        "background_color": "",
+        "align_columns": "start"
       }
     },
     "a34ba5d8-7635-4c4d-9293-342cd584e0a2": {
@@ -761,6 +886,10 @@
       ],
       "disabled": true,
       "settings": {
+        "margin_top": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom": 0,
+        "margin_bottom_mobile": 0,
         "full_width": true,
         "subheading": "",
         "title": "Wir beantworten deine Fragen - FAQ",
@@ -851,6 +980,10 @@
       ],
       "disabled": true,
       "settings": {
+        "margin_top": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom": 0,
+        "margin_bottom_mobile": 0,
         "full_width": false,
         "subheading": "",
         "title": "",
@@ -882,8 +1015,11 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "Gemacht von Teetrinkern fÜr Teetrinker",
+            "subheading_mobile_text_size": 16,
             "title": "",
+            "title_mobile_text_size": 20,
             "content": "<p>Hi, wir sind Filip und Bogdan! Gemeinsam haben wir vor 3 Jahren BRU gegründet. Als Züricher StartUp verfolgen wir das Ziel, die heimische Teezubereitung für jeden Tee-Liebhaber zu vereinfachen.<br\/><br\/>Entstanden ist der BRU Maker One <strong>aus unserer Leidenschaft für wirklich leckeren Tee.<\/strong> Auf der unsere Suche nach einer qualitativen und authentischen, aber gleichzeitig einfachen Art der Teezubereitung sind wir enttäuscht worden. Also haben wir uns mit dem BRU Maker unseren ganz persönlichen Genießer-Traum erfüllt.<br\/><br\/>Er ermöglicht hochwertigsten Teegenuss ganz nach deinem Geschmack ohne dabei Kapseln oder Pads verwenden zu müssen. <br\/><br\/>Als innovative <strong>Tee-Maschine ermöglicht der BRU Maker One jetzt den perfekten Tee auf Knopfdruck<\/strong> – und wir sind stolz sagen zu können, dass er bereits über 1500 Tee-Liebhaber erfreut.<\/p>",
+            "content_mobile_text_size": 16,
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -1001,6 +1137,8 @@
   },
   "order": [
     "main",
+    "f1b9cfb0-cc45-4137-b54c-b2e1e1fba019",
+    "24cab830-3296-4377-9427-e34cce16ba9d",
     "bacec0a0-0699-4921-bdf1-9363b510623d",
     "cfac2b09-a5c8-4c82-9951-dd5d856a37ad",
     "cfcd5b7a-b52c-4bdc-a197-dea850fa5534",
