@@ -174,19 +174,10 @@
     "d45c8443-6b21-4e0c-aa83-cbf39f9880db": {
       "type": "rich-text",
       "blocks": {
-        "template--16150436872353__d45c8443-6b21-4e0c-aa83-cbf39f9880db-subheading-1": {
-          "type": "subheading",
+        "1e4e7f5e-b9b3-4d57-b86f-2344c1c62c65": {
+          "type": "richtext",
           "settings": {
-            "text": "Subheading"
-          }
-        },
-        "template--16150436872353__d45c8443-6b21-4e0c-aa83-cbf39f9880db-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Heading",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
+            "content": "<h2>Optimale Wasserqualität<\/h2>"
           }
         },
         "template--16150436872353__d45c8443-6b21-4e0c-aa83-cbf39f9880db-richtext-1": {
@@ -194,12 +185,40 @@
           "settings": {
             "content": "<h4>Nie wieder lästiges Entkalken der Maschine. Die Verwendung von entkalktem Wasser für die Zubereitung von Tee verlängert die Lebensdauer deines BRU Maker One erheblich und gewährleistet eine optimale Wasserqualität deines Lieblingstees, damit sich der Geschmack und das Aroma von  Tee voll entfalten kann.<\/h4><h4>Diese Entkalkungspatrone ist so konzipiert, dass sie mit nur wenigen Handgriffen schnell und einfach ausgetauscht werden kann. Abhängig von der Wasserqualität empfehlen wir, die Patrone alle 2 Monate auszutauschen.<\/h4>"
           }
+        },
+        "ff8f8777-a69f-405f-8a26-75e348a60e92": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
         }
       },
       "block_order": [
-        "template--16150436872353__d45c8443-6b21-4e0c-aa83-cbf39f9880db-subheading-1",
-        "template--16150436872353__d45c8443-6b21-4e0c-aa83-cbf39f9880db-heading-1",
-        "template--16150436872353__d45c8443-6b21-4e0c-aa83-cbf39f9880db-richtext-1"
+        "1e4e7f5e-b9b3-4d57-b86f-2344c1c62c65",
+        "template--16150436872353__d45c8443-6b21-4e0c-aa83-cbf39f9880db-richtext-1",
+        "ff8f8777-a69f-405f-8a26-75e348a60e92"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "91e18016-7db1-403f-bde2-40cf3e0dc642": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16150436872353__91e18016-7db1-403f-bde2-40cf3e0dc642-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16150436872353__91e18016-7db1-403f-bde2-40cf3e0dc642-richtext-1"
       ],
       "settings": {
         "full_width": true,
@@ -295,6 +314,7 @@
         "b4bb4fc0-e992-497e-a8d8-3fde845a09a9",
         "786cbc4e-b2ae-4dc8-9d10-4e31b4fe68ec"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
@@ -303,6 +323,28 @@
         "subheading": "",
         "title": "Optimale Wasserqualität",
         "content": "<h4>Nie wieder lästiges Entkalken der Maschine. Die Verwendung von entkalktem Wasser für die Zubereitung von Tee verlängert die Lebensdauer deines BRU Maker One erheblich und gewährleistet eine optimale Wasserqualität deines Lieblingstees, damit sich der Geschmack und das Aroma von  Tee voll entfalten kann.<\/h4><h4>Diese Entkalkungspatrone ist so konzipiert, dass sie mit nur wenigen Handgriffen schnell und einfach ausgetauscht werden kann. Abhängig von der Wasserqualität empfehlen wir, die Patrone alle 2 Monate auszutauschen.<\/h4>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "6b516eb0-f12c-49ca-a6e5-2d1b7911794c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16150436872353__6b516eb0-f12c-49ca-a6e5-2d1b7911794c-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16150436872353__6b516eb0-f12c-49ca-a6e5-2d1b7911794c-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -403,7 +445,9 @@
   "order": [
     "main",
     "d45c8443-6b21-4e0c-aa83-cbf39f9880db",
+    "91e18016-7db1-403f-bde2-40cf3e0dc642",
     "f0352253-0784-4631-84e5-33ad66461763",
+    "6b516eb0-f12c-49ca-a6e5-2d1b7911794c",
     "5fbf8766-6d67-4a13-b5cd-d2f2977b032b",
     "6fd6597d-5983-4520-8585-9daed45b9328"
   ]
