@@ -85,7 +85,6 @@
         },
         "daa08efd-f675-4330-b2ab-a1e7c4112fe6": {
           "type": "shipping_icons",
-          "disabled": true,
           "settings": {
             "margin_top": 20,
             "margin_bottom": 20,
