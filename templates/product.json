@@ -1016,6 +1016,33 @@
       ],
       "settings": {
       }
+    },
+    "aac59977-ea6b-405d-90a3-9e4de74748cd": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [
+          "bru-wasserfilterpatrone",
+          "bru-mug",
+          "bru-tropical-ice-tea",
+          "bru-fresh-peach"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 2,
+        "subheading": "",
+        "title": "Was dir auch gefallen könnte",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
@@ -1035,6 +1062,7 @@
     "6c849e9e-82b3-499d-90c2-14cb4b25c272",
     "43c3ea3f-0a90-4545-861d-307b784a3a31",
     "5fbf8766-6d67-4a13-b5cd-d2f2977b032b",
-    "6fd6597d-5983-4520-8585-9daed45b9328"
+    "6fd6597d-5983-4520-8585-9daed45b9328",
+    "aac59977-ea6b-405d-90a3-9e4de74748cd"
   ]
 }
