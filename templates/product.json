@@ -928,6 +928,7 @@
     },
     "aac59977-ea6b-405d-90a3-9e4de74748cd": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "recommendations_count": 6,
         "products": [
@@ -943,7 +944,38 @@
         "products_per_row_desktop": 2,
         "subheading": "",
         "title": "Was dir auch noch gefallen könnte",
+        "content": "<p>Was dir auch noch gefallen könnte<\/p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "ec5742ca-d86c-4404-8a84-4f274681bee0": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "",
+        "products": [
+          "bru-fresh-peach",
+          "bru-tropical-ice-tea",
+          "bru-mug",
+          "bru-wasserfilterpatrone"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Featured collection",
         "content": "",
+        "link_url": "",
+        "link_text": "View all",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -1062,6 +1094,7 @@
     "6c849e9e-82b3-499d-90c2-14cb4b25c272",
     "43c3ea3f-0a90-4545-861d-307b784a3a31",
     "aac59977-ea6b-405d-90a3-9e4de74748cd",
+    "ec5742ca-d86c-4404-8a84-4f274681bee0",
     "5fbf8766-6d67-4a13-b5cd-d2f2977b032b",
     "6fd6597d-5983-4520-8585-9daed45b9328"
   ]
