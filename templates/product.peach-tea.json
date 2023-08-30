@@ -347,6 +347,33 @@
         "text_color": ""
       }
     },
+    "7f032a40-ed0b-40e7-99b6-1a6b20888020": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [
+          "bru-mug",
+          "bru-wasserfilterpatrone",
+          "bru-maker-one",
+          "bru-tropical-ice-tea"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 2,
+        "subheading": "",
+        "title": "Was dir auch noch gefallen könnte",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "5fbf8766-6d67-4a13-b5cd-d2f2977b032b": {
       "type": "newsletter",
       "blocks": {
@@ -447,6 +474,7 @@
     "bd926681-46d9-4fa5-927a-074890b3dccb",
     "ccc93ed6-3c35-4973-9c05-9bba89f5e0e0",
     "248b2f0f-6792-4c4c-b4c0-421cdc74fcdc",
+    "7f032a40-ed0b-40e7-99b6-1a6b20888020",
     "5fbf8766-6d67-4a13-b5cd-d2f2977b032b",
     "6fd6597d-5983-4520-8585-9daed45b9328"
   ]
