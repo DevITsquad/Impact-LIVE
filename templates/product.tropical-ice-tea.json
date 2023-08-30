@@ -26,7 +26,7 @@
         "b54ea687-32a3-456b-960a-7e6954a47405": {
           "type": "text",
           "settings": {
-            "text": "<p>Erlebe die Revolution des Pfirsichgenusses: unser Fresh Peach Tee mit fruchtigem und frischem Geschmack von Pfirsich, Apfel, Karotten und Spearmint.<\/p><p>Kann auch auf Eis serviert werden<\/p><h3><strong>150g <\/strong><\/h3>",
+            "text": "<p>Verwandele deinenTeemoment in eine fruchtige Party  mit unserer aromatisierten Früchte-Eisteemischung!<\/p><p>Am besten auf Eis servieren<\/p><h3><strong>150g <\/strong><\/h3>",
             "text_color": ""
           }
         },
@@ -130,18 +130,15 @@
     "ac34fabf-e64f-486d-8a5d-3d2671943111": {
       "type": "rich-text",
       "blocks": {
-        "9a7adb8c-d1bf-4a66-95c5-5adb87ecd59b": {
-          "type": "heading",
+        "c66fb766-5812-49d2-8152-503670ce126e": {
+          "type": "richtext",
           "settings": {
-            "text": "Empfohlene Einstellungen",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
+            "content": "<h1>Empfohlene Einstellungen<\/h1>"
           }
         }
       },
       "block_order": [
-        "9a7adb8c-d1bf-4a66-95c5-5adb87ecd59b"
+        "c66fb766-5812-49d2-8152-503670ce126e"
       ],
       "settings": {
         "full_width": true,
@@ -165,8 +162,8 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "",
-            "content": "<h4>Temperatur<\/h4><h4>5min<\/h4>"
+            "title": "95°C",
+            "content": "<h4>Temperatur<\/h4>"
           }
         },
         "template--16136819114145__a1d0ff97-acbc-4ea4-b000-6091bb9cb30a-item-2": {
@@ -179,8 +176,8 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "",
-            "content": "<h4>Wassermenge<\/h4><h4>5min<\/h4>"
+            "title": "5min",
+            "content": "<h4>Wassermenge<\/h4>"
           }
         },
         "template--16136819114145__a1d0ff97-acbc-4ea4-b000-6091bb9cb30a-item-1": {
@@ -193,8 +190,8 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "",
-            "content": "<h4>Brühzeit<\/h4><h4>5min<\/h4>"
+            "title": "5min",
+            "content": "<h4>Brühzeit<\/h4>"
           }
         },
         "template--16136819114145__a1d0ff97-acbc-4ea4-b000-6091bb9cb30a-item-3": {
@@ -207,8 +204,8 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "",
-            "content": "<h4>Teemenge<\/h4><h4>5min<\/h4>"
+            "title": "2 Teelöffel (3g)",
+            "content": "<h4>Teemenge<\/h4>"
           }
         }
       },
