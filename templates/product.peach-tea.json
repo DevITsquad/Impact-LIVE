@@ -320,8 +320,8 @@
         "video": "shopify:\/\/files\/videos\/Ice-T (1).mp4",
         "external_video_url": "",
         "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 20
       }
     },
     "248b2f0f-6792-4c4c-b4c0-421cdc74fcdc": {
