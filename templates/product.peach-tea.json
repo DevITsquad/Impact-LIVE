@@ -90,10 +90,8 @@
             "margin_bottom": 20,
             "shipping_img": "shopify:\/\/shop_images\/1st_df574a70-4f76-442f-8eaf-2d8ffd13e17e.svg",
             "shipping_text": "Gratis Lieferung",
-            "shipping_img_2": "shopify:\/\/shop_images\/2nd_907215f6-d7a8-48d7-bf03-f2ec0e83271f.svg",
-            "shipping_text_2": "30 Tage Rückgabe",
-            "shipping_img_3": "shopify:\/\/shop_images\/3rd_7089df2f-8ffd-45a2-8550-e408fcf7cfd8.svg",
-            "shipping_text_3": "Ratenzahlung",
+            "shipping_text_2": "",
+            "shipping_text_3": "",
             "shipping_text_4": ""
           }
         }
