@@ -26,7 +26,7 @@
         "b54ea687-32a3-456b-960a-7e6954a47405": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>Perfekt gebrühter Tee auf Knopfdruck<\/li><li>Für Teebeutel und losen Tee<\/li><li>2 in 1: Tee- und Wasserspender (bis zu 1,4 Liter)<\/li><li>Temperatur, Brühzeit und Menge frei einstellbar<\/li><li>Vollautomatische Reinigung<\/li><\/ul>",
+            "text": "<p>Erlebe die Revolution des Pfirsichgenusses: unser Fresh Peach Tee mit fruchtigem und frischem Geschmack von Pfirsich, Apfel, Karotten und Spearmint.<\/p><p>Kann auch auf Eis serviert werden<\/p><h3><strong>150 g<\/strong><\/h3>",
             "text_color": ""
           }
         },
@@ -59,7 +59,6 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "button_text": "Join waitlist",
             "button_link": "shopify:\/\/pages\/contact",
             "button_background": "#8ba473",
             "button_text_color": "#000000",
@@ -78,12 +77,15 @@
             "locale_fallback": "",
             "theme": "light",
             "topPadding": "0",
-            "bottomPadding": "0"
+            "bottomPadding": "0",
+            "messagePrefix": ""
           }
         },
         "daa08efd-f675-4330-b2ab-a1e7c4112fe6": {
           "type": "shipping_icons",
           "settings": {
+            "margin_top": 20,
+            "margin_bottom": 20,
             "shipping_img": "shopify:\/\/shop_images\/1st_df574a70-4f76-442f-8eaf-2d8ffd13e17e.svg",
             "shipping_text": "Gratis Lieferung",
             "shipping_img_2": "shopify:\/\/shop_images\/2nd_907215f6-d7a8-48d7-bf03-f2ec0e83271f.svg",
@@ -125,21 +127,18 @@
         "input_text_color": ""
       }
     },
-    "ac34fabf-e64f-486d-8a5d-3d2671943111": {
+    "722e8c8c-776f-4700-9a5c-8d31697f383a": {
       "type": "rich-text",
       "blocks": {
-        "9a7adb8c-d1bf-4a66-95c5-5adb87ecd59b": {
-          "type": "heading",
+        "template--16150437626017__722e8c8c-776f-4700-9a5c-8d31697f383a-richtext-1": {
+          "type": "richtext",
           "settings": {
-            "text": "Empfohlene Einstellungen",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
+            "content": "<h1>Empfohlene Einstellungen<\/h1>"
           }
         }
       },
       "block_order": [
-        "9a7adb8c-d1bf-4a66-95c5-5adb87ecd59b"
+        "template--16150437626017__722e8c8c-776f-4700-9a5c-8d31697f383a-richtext-1"
       ],
       "settings": {
         "full_width": true,
@@ -159,12 +158,12 @@
             "icon": "picto-coupon",
             "custom_icon": "shopify:\/\/shop_images\/thermometer_2100230.svg",
             "mobile_icon_width": 24,
-            "icon_width": 32,
+            "icon_width": 24,
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "",
-            "content": "<h4>Temperatur<\/h4><h4>5min<\/h4>"
+            "title": "95°C",
+            "content": "<h2>Temperatur<\/h2>"
           }
         },
         "template--16136819114145__a1d0ff97-acbc-4ea4-b000-6091bb9cb30a-item-2": {
@@ -177,8 +176,8 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "",
-            "content": "<h4>Wassermenge<\/h4><h4>5min<\/h4>"
+            "title": "250 ml",
+            "content": "<h4>Wassermenge<\/h4>"
           }
         },
         "template--16136819114145__a1d0ff97-acbc-4ea4-b000-6091bb9cb30a-item-1": {
@@ -191,8 +190,8 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "",
-            "content": "<h4>Brühzeit<\/h4><h4>5min<\/h4>"
+            "title": "5 min",
+            "content": "<h4>Brühzeit<\/h4>"
           }
         },
         "template--16136819114145__a1d0ff97-acbc-4ea4-b000-6091bb9cb30a-item-3": {
@@ -205,8 +204,8 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "",
-            "content": "<h4>Teemenge<\/h4><h4>5min<\/h4>"
+            "title": "2 Teelöffel (3g)",
+            "content": "<h4>Teemenge<\/h4>"
           }
         }
       },
@@ -242,8 +241,11 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "Gemacht von Teetrinkern fÜr Teetrinker",
+            "subheading_mobile_text_size": 16,
             "title": "",
+            "title_mobile_text_size": 20,
             "content": "<p>Hi, wir sind Filip und Bogdan! Gemeinsam haben wir vor 3 Jahren BRU gegründet. Als Züricher StartUp verfolgen wir das Ziel, die heimische Teezubereitung für jeden Tee-Liebhaber zu vereinfachen.<br\/><br\/>Entstanden ist der BRU Maker One <strong>aus unserer Leidenschaft für wirklich leckeren Tee.<\/strong> Auf der unsere Suche nach einer qualitativen und authentischen, aber gleichzeitig einfachen Art der Teezubereitung sind wir enttäuscht worden. Also haben wir uns mit dem BRU Maker unseren ganz persönlichen Genießer-Traum erfüllt.<br\/><br\/>Er ermöglicht hochwertigsten Teegenuss ganz nach deinem Geschmack ohne dabei Kapseln oder Pads verwenden zu müssen. <br\/><br\/>Als innovative <strong>Tee-Maschine ermöglicht der BRU Maker One jetzt den perfekten Tee auf Knopfdruck<\/strong> – und wir sind stolz sagen zu können, dass er bereits über 1500 Tee-Liebhaber erfreut.<\/p>",
+            "content_mobile_text_size": 16,
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -361,7 +363,7 @@
   },
   "order": [
     "main",
-    "ac34fabf-e64f-486d-8a5d-3d2671943111",
+    "722e8c8c-776f-4700-9a5c-8d31697f383a",
     "a1d0ff97-acbc-4ea4-b000-6091bb9cb30a",
     "43c3ea3f-0a90-4545-861d-307b784a3a31",
     "5fbf8766-6d67-4a13-b5cd-d2f2977b032b",
