@@ -12,7 +12,7 @@
         "60787fb1-7eb4-4668-b030-dcd1960689bb": {
           "type": "subtitle",
           "settings": {
-            "subtitle": "Genuss & Zeitersparnis für echte Teeliebhaber",
+            "subtitle": "Natürlich süss und lecker",
             "subtitle_color": "#a9a9c3"
           }
         },
@@ -113,14 +113,14 @@
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": false,
-        "desktop_media_width": 50,
+        "desktop_media_width": 35,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
         "mobile_carousel_control": "thumbnails",
         "enable_video_autoplay": false,
         "enable_video_looping": true,
         "enable_image_zoom": false,
-        "max_image_zoom_level": 4,
+        "max_image_zoom_level": 1.5,
         "background": "",
         "background_gradient": "",
         "text_color": "",
