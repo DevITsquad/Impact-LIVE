@@ -10,21 +10,6 @@
     "6d84c90f-8929-4969-b487-df9dbafe167f": {
       "type": "rich-text",
       "blocks": {
-        "template--16025675563169__6d84c90f-8929-4969-b487-df9dbafe167f-1677229439e777dbbc-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "FAQ's"
-          }
-        },
-        "template--16025675563169__6d84c90f-8929-4969-b487-df9dbafe167f-1677229439e777dbbc-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Wie können wir helfen?",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
         "template--16025675563169__6d84c90f-8929-4969-b487-df9dbafe167f-1677229439e777dbbc-2": {
           "type": "richtext",
           "disabled": true,
@@ -55,14 +40,19 @@
             "background": "",
             "text_color": ""
           }
+        },
+        "119cae96-6566-4835-a773-640e0adc36bd": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1>Wie können wir dir helfen?<\/h1>"
+          }
         }
       },
       "block_order": [
-        "template--16025675563169__6d84c90f-8929-4969-b487-df9dbafe167f-1677229439e777dbbc-0",
-        "template--16025675563169__6d84c90f-8929-4969-b487-df9dbafe167f-1677229439e777dbbc-1",
         "template--16025675563169__6d84c90f-8929-4969-b487-df9dbafe167f-1677229439e777dbbc-2",
         "2ba697bb-731d-46e2-bbd8-27ee2b5be6ec",
-        "9dbc41b2-644d-4f35-80dc-9af0ac96fc9c"
+        "9dbc41b2-644d-4f35-80dc-9af0ac96fc9c",
+        "119cae96-6566-4835-a773-640e0adc36bd"
       ],
       "settings": {
         "full_width": true,
