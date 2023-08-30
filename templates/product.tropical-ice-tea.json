@@ -261,7 +261,7 @@
         "template--16150437462177__0993018a-7473-4671-9015-306663b3009c-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Video",
+            "text": "",
             "heading_tag": "h1"
           }
         }
@@ -279,8 +279,8 @@
         "video": "shopify:\/\/files\/videos\/Ice-T (1).mp4",
         "external_video_url": "",
         "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 20
       }
     },
     "43c3ea3f-0a90-4545-861d-307b784a3a31": {
