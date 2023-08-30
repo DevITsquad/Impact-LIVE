@@ -350,6 +350,33 @@
         "text_color": ""
       }
     },
+    "f4e494d9-bb00-4c1f-b203-12571891c7a7": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [
+          "bru-maker-one",
+          "bru-mug",
+          "bru-tropical-ice-tea",
+          "bru-fresh-peach"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 2,
+        "subheading": "",
+        "title": "Was dir auch noch gefallen könnte",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "5fbf8766-6d67-4a13-b5cd-d2f2977b032b": {
       "type": "newsletter",
       "blocks": {
@@ -448,6 +475,7 @@
     "91e18016-7db1-403f-bde2-40cf3e0dc642",
     "f0352253-0784-4631-84e5-33ad66461763",
     "6b516eb0-f12c-49ca-a6e5-2d1b7911794c",
+    "f4e494d9-bb00-4c1f-b203-12571891c7a7",
     "5fbf8766-6d67-4a13-b5cd-d2f2977b032b",
     "6fd6597d-5983-4520-8585-9daed45b9328"
   ]
