@@ -349,6 +349,33 @@
         "spacing": "small"
       }
     },
+    "638d4442-fbd4-4977-b166-9fae565113a9": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [
+          "bru-fresh-peach",
+          "bru-mug",
+          "bru-wasserfilterpatrone",
+          "bru-maker-one"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 2,
+        "subheading": "",
+        "title": "Was dir auch noch gefallen könnte",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "5fbf8766-6d67-4a13-b5cd-d2f2977b032b": {
       "type": "newsletter",
       "blocks": {
@@ -449,6 +476,7 @@
     "0993018a-7473-4671-9015-306663b3009c",
     "290fe33d-ee4c-44a2-9d55-3a9291d6a412",
     "43c3ea3f-0a90-4545-861d-307b784a3a31",
+    "638d4442-fbd4-4977-b166-9fae565113a9",
     "5fbf8766-6d67-4a13-b5cd-d2f2977b032b",
     "6fd6597d-5983-4520-8585-9daed45b9328"
   ]
