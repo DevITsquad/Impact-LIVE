@@ -74,7 +74,6 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "button_text": "Join waitlist",
             "button_link": "shopify:\/\/pages\/contact",
             "button_background": "#8ba473",
             "button_text_color": "#000000",
@@ -100,6 +99,8 @@
         "daa08efd-f675-4330-b2ab-a1e7c4112fe6": {
           "type": "shipping_icons",
           "settings": {
+            "margin_top": 20,
+            "margin_bottom": 20,
             "shipping_img": "shopify:\/\/shop_images\/1st_df574a70-4f76-442f-8eaf-2d8ffd13e17e.svg",
             "shipping_text": "Gratis Lieferung",
             "shipping_img_2": "shopify:\/\/shop_images\/2nd_907215f6-d7a8-48d7-bf03-f2ec0e83271f.svg",
@@ -180,13 +181,14 @@
           "type": "heading",
           "settings": {
             "text": "Unsere Garantie für deine Zufriedenheit",
-            "heading_tag": "h2"
+            "tittle_size": 16
           }
         },
         "template--16101598855329__cfac2b09-a5c8-4c82-9951-dd5d856a37ad-1687184843400fc858-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Da uns deine volle Zufriedenheit am Herzen liegt, bieten wir <strong>neben der 2-jährigen Garantie auch eine 30 Tage Zufriedenheitsgarantie<\/strong>.<br\/>Wenn du innerhalb der ersten 30 Tage merkst, dass der BRU Maker nicht zu dir passt (was wir stark bezweifeln) kannst du ihn uns ganz einfach zurücksenden.<\/p>"
+            "content": "<p>Da uns deine volle Zufriedenheit am Herzen liegt, bieten wir <strong>neben der 2-jährigen Garantie auch eine 30 Tage Zufriedenheitsgarantie<\/strong>.<br\/>Wenn du innerhalb der ersten 30 Tage merkst, dass der BRU Maker nicht zu dir passt (was wir stark bezweifeln) kannst du ihn uns ganz einfach zurücksenden.<\/p>",
+            "content_size": 16
           }
         },
         "241428a0-a299-4a98-8aec-6d457a1e3804": {
@@ -365,8 +367,11 @@
             "icon": "none",
             "icon_width": 52,
             "subheading": "Warum eine Teemaschine?",
+            "subheading_mobile_text_size": 16,
             "title": "BRU Maker One – Ein Muss für alle  Teetrinker",
+            "title_mobile_text_size": 20,
             "content": "<p>Der BRU Maker ist so <strong>einfach wie eine Kapselmaschine zu bedienen, <\/strong>kann jedoch umweltfreundlich mit losem und Beuteltee verwendet werden.<br\/><\/p><p>Ob loser Tee, frische Kräuter, Beeren oder Teebeuteln – Die Zubereitung einer wahrhaft genussvollen und authentischen Tasse Tee ist jetzt in <strong>jedem Haushalt oder Büro möglich<\/strong>.<\/p>",
+            "content_mobile_text_size": 16,
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -392,10 +397,18 @@
     "6be2b4bb-8373-474a-93ea-518abb2c2453": {
       "type": "before-after-image",
       "settings": {
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
         "full_width": true,
         "subheading": "Egal ob Tasse oder Kanne",
+        "subheading_desctop_text_size": 24,
+        "subheading_mobile_text_size": 16,
         "title": "Du bestimmst, wie viel du Brühen willst",
+        "title_desctop_text_size": 20,
+        "title_mobile_text_size": 20,
         "content": "<p>Während die Brühkammer 350 ml fasst, ermöglicht die Mehrfach-Brüh-Funktion <strong>bis zu 4 aufeinanderfolgende Brühvorgänge.<\/strong><\/p><p>So kannst du <strong>bis zu 1,4 Liter<\/strong> Tee in einem Durchgang automatisch zubereiten – genug, um mehrere Tee-Genießer zu erfreuen!<\/p>",
+        "content_desctop_text_size": 18,
+        "content_mobile_text_size": 16,
         "before_image": "shopify:\/\/shop_images\/before_after_7_a96f0131-f983-4cef-a9b2-3d76c25b52b4.png",
         "after_image": "shopify:\/\/shop_images\/before_after_8_d7925a1e-debe-46c6-a3a3-996e38f408c4.png",
         "expand_image": true,
@@ -426,8 +439,11 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "Kinderleichte Bedienung",
+            "subheading_mobile_text_size": 16,
             "title": "Damit dein Tee einfach immer gelingt",
+            "title_mobile_text_size": 20,
             "content": "<p>Die intuitive Benutzeroberfläche ermöglicht es dir, Tee ganz einfach <strong>auf Knopfdruck<\/strong> zuzubereiten. <\/p><p>Du kannst die <strong>Wassertemperatur, die Wassermenge und die Brühzeit <\/strong>präzise einstellen und steuern. Auf diese Weise wird dein Tee immer genau so schmecken, wie du es magst.<\/p>",
+            "content_mobile_text_size": 16,
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -448,8 +464,11 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "Steuerung per App",
+            "subheading_mobile_text_size": 16,
             "title": "Die smarte Art der Teezubereitung",
+            "title_mobile_text_size": 20,
             "content": "<p><br\/>Du liegst morgens im Bett, dein Wecker klingelt und du willst schon einmal deinen Tee aufbrühen? Starte den BRU Maker One <strong>einfach von deinem Smartphone aus<\/strong> oder stelle einen Timer ein.<\/p><p>Mit unserer App kannst du den BRU Maker One noch mehr personalisieren und zusätzliche Funktionen freischalten.<\/p><p><\/p><p><\/p><p><\/p>",
+            "content_mobile_text_size": 16,
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -752,6 +771,10 @@
         "8e5a5dc2-0275-43db-8d4e-1eeb76778155"
       ],
       "settings": {
+        "margin_top": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom": 0,
+        "margin_bottom_mobile": 0,
         "full_width": true,
         "subheading": "",
         "title": "Wir beantworten deine Fragen - FAQ",
@@ -841,6 +864,10 @@
         "57d46964-82eb-4fe5-9b08-75cb1a7e1699"
       ],
       "settings": {
+        "margin_top": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom": 0,
+        "margin_bottom_mobile": 0,
         "full_width": false,
         "subheading": "",
         "title": "",
@@ -872,8 +899,11 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "Gemacht von Teetrinkern für Teetrinker",
+            "subheading_mobile_text_size": 16,
             "title": "",
-            "content": "<p>Hi, wir sind Filip und Bogdan! <\/p><p>Gemeinsam haben wir vor 3 Jahren BRU gegründet. Als junges StartUp verfolgen wir das Ziel, die Teezubereitung maximal zu vereinfachen. <\/p><p>Entstanden ist der BRU Maker One <strong>aus unserer Leidenschaft für wirklich leckeren Tee.<\/strong> Auf der unsere Suche nach der ultimativen Teemaschine fanden wir kein Produkt, dass wirklich gut funktioniere, weshalb wir uns dazu entschieden haben, die Sache selbst in die Hand zu nehmen. <\/p><p><strong>Als innovative Teemaschine ermöglicht der BRU Maker One jetzt den perfekten Tee auf Knopfdruck – und funktioniert ganz ohne Kapseln. <\/strong><\/p><p>Tausende Teetrinker und Teebikerinnen erfreuen sich täglich über einen leckeren und gesunden Tee - zubereitet mit dem BRU Maker One... und uns freut es auch<\/p>",
+            "title_mobile_text_size": 20,
+            "content": "<h5>Hi, wir sind Filip und Bogdan! <\/h5><h5>Gemeinsam haben wir vor 3 Jahren BRU gegründet. Als junges StartUp verfolgen wir das Ziel, die Teezubereitung maximal zu vereinfachen. <\/h5><h5>Entstanden ist der BRU Maker One <strong>aus unserer Leidenschaft für wirklich leckeren Tee.<\/strong> Auf der unsere Suche nach der ultimativen Teemaschine fanden wir kein Produkt, dass wirklich gut funktioniere, weshalb wir uns dazu entschieden haben, die Sache selbst in die Hand zu nehmen. <\/h5><h5><strong>Als innovative Teemaschine ermöglicht der BRU Maker One jetzt den perfekten Tee auf Knopfdruck – und funktioniert ganz ohne Kapseln. <\/strong><\/h5><h5>Tausende Teetrinker und Teebikerinnen erfreuen sich täglich über einen leckeren und gesunden Tee - zubereitet mit dem BRU Maker One... und uns freut es auch<\/h5>",
+            "content_mobile_text_size": 16,
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
