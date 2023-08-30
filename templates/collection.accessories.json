@@ -23,10 +23,10 @@
     "main": {
       "type": "main-collection",
       "settings": {
-        "products_per_page": 24,
+        "products_per_page": 18,
         "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
-        "filter_layout": "sidebar",
+        "products_per_row_desktop": 4,
+        "filter_layout": "horizontal",
         "show_sort_by": false,
         "show_filters": false,
         "show_filter_group_name": false,
@@ -38,6 +38,7 @@
     },
     "dc1eb644-6d5b-4f04-9b18-860328bf7d67": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "show_icon": true,
