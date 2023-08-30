@@ -352,6 +352,7 @@
     },
     "f4e494d9-bb00-4c1f-b203-12571891c7a7": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "recommendations_count": 6,
         "products": [
