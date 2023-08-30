@@ -165,7 +165,7 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "95°C",
+            "title": "90°C",
             "content": "<h2>Temperatur<\/h2>"
           }
         },
@@ -193,7 +193,7 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "4 min",
+            "title": "5 min",
             "content": "<h4>Brühzeit<\/h4>"
           }
         },
@@ -207,7 +207,7 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "2 Teelöffel (7g)",
+            "title": "1 ½ Teelöffel (6g)",
             "content": "<h4>Teemenge<\/h4>"
           }
         }
