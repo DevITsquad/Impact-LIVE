@@ -1050,13 +1050,14 @@
         "products": [
           "bru-fresh-peach",
           "bru-tropical-ice-tea",
-          "bru-maker-one"
+          "bru-maker-one",
+          "bru-wasserfilterpatrone"
         ],
-        "full_width": true,
+        "full_width": false,
         "stack_products": true,
         "show_progress_bar": false,
         "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
+        "products_per_row_desktop": 2,
         "subheading": "",
         "title": "Was dir auch gefallen könnte",
         "content": "",
