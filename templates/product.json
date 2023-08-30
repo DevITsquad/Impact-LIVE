@@ -932,7 +932,7 @@
       "settings": {
         "recommendations_count": 6,
         "products": [
-          "bru-wasserfilterpatrone",
+          "bru-wasserfilter",
           "bru-mug",
           "bru-tropical-ice-tea",
           "bru-fresh-peach"
@@ -963,7 +963,7 @@
           "bru-fresh-peach",
           "bru-tropical-ice-tea",
           "bru-mug",
-          "bru-wasserfilterpatrone"
+          "bru-wasserfilter"
         ],
         "full_width": true,
         "stack_products": true,
